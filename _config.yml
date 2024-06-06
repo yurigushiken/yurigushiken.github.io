@@ -55,8 +55,3 @@ exclude:
 # include:
 #   - ".htaccess"
 
-# Navigation
-header_pages:
-  - index.md
-  - about.md
-  - projects.md
