@@ -1,15 +1,11 @@
 ---
 layout: post
-title:  "Anki"
-date:   2023-04-06 00:09:00 -0400
-categories: language hobby
+title:  "Learning Thai with Anki"
+date:   2024-06-06 00:00:00 -0400
+categories: language learning
 ---
-<!-- wp:paragraph -->
-<p>I am a self-taught at the Thai lanuage. I used a spaced-repetition flashcard program called Anki to make over 2000 unique flashcards to help me. I was also inspired by fomer Singaporean Prime Minister and adult language learner Lee Kwan Yew and his book "Keeping My Mandarin Alive", who started learned Mandarin at the age of 32. </p>
-<!-- /wp:paragraph -->
 
-<!-- wp:gallery {"linkTo":"none"} -->
-<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":39,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://yurigushiken.com/wp-content/uploads/2023/06/Screenshot-2023-04-27-001123-ts1682529133.png" alt="" class="wp-image-39"/></figure>
-<!-- /wp:image --></figure>
-<!-- /wp:gallery -->
+I am self-taught at the Thai language. I used a spaced-repetition flashcard program called Anki to make over 2000 unique flashcards to help me. I was also inspired by former Singaporean Prime Minister and adult language learner Lee Kwan Yew and his book "Keeping My Mandarin Alive", who started learning Mandarin at the age of 32.
+
+![Anki Flashcards 1](/media/anki1.jpg)
+![Anki Flashcards 2](/media/anki2.jpg)
