@@ -5,7 +5,7 @@ date:   2022-01-11 00:00:00 -0400
 categories: python app
 ---
 
-You can find the repository for the Voice to Notion app [here](https://github.com/yurigushiken/voice-to-notion).
+You can find the GitHub repository for the Voice to Notion app [here](https://github.com/yurigushiken/voice-to-notion).
 
 <p>Video demonstration:</p>
 <a href="https://www.youtube.com/watch?v=-nVTJpQAbs0" target="_blank">
