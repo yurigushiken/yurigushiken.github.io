@@ -7,5 +7,5 @@ categories: language learning
 
 I am self-taught at the Thai language. I used a spaced-repetition flashcard program called Anki to make over 2000 unique flashcards to help me. I was also inspired by former Singaporean Prime Minister and adult language learner Lee Kwan Yew and his book "Keeping My Mandarin Alive", who started learning Mandarin at the age of 32.
 
-![Anki Flashcards 1](/media/anki1.jpg)
-![Anki Flashcards 2](/media/anki2.jpg)
+![Anki Flashcards 1](/media/anki1.png)
+![Anki Flashcards 2](/media/anki2.png)
