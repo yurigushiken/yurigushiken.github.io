@@ -11,7 +11,7 @@ I used a paid version of ElevenLabs to create my voice based on a one-minute sam
 ### Example Video
 [![Bertrand Russell Quote](https://img.youtube.com/vi/HBasbV8Yyjo/0.jpg)](https://www.youtube.com/watch?v=HBasbV8Yyjo)
 
-These software were developed in the last few months.
+These software were developed in the last few months (June, 2023).
 
 ### Software Used
 - [ElevenLabs](https://beta.elevenlabs.io/)
