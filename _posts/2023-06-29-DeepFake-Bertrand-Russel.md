@@ -16,3 +16,4 @@ These software were developed in the last few months.
 ### Software Used
 - [ElevenLabs](https://beta.elevenlabs.io/)
 - [Lalamu](https://lalamu.studio/)
+
