@@ -10,3 +10,4 @@ I created a Voice-to-Notion app with Python that transcribes voice files and inp
 ![Voice to Notion App](/media/vtn1.png)
 
 Click [here](https://www.youtube.com/watch?v=-nVTJpQAbs0) to watch the YouTube video.
+
