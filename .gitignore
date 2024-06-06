@@ -1,0 +1,19 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore the Gemfile.lock
+/Gemfile.lock
+
+# Ignore temp files and directories.
+/_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor/
+
+# Ignore node_modules if you use any node-based tools
+node_modules/
+
+# Ignore other OS-specific and editor-specific files
+.DS_Store
+Thumbs.db
