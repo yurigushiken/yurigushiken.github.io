@@ -21,10 +21,10 @@
 title: Yuri's Professional Site
 email: mischagushiken@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-This is the professional site of Yuri Gushiken. Here you will find information about my educational and professional career, projects and blog posts.
+  This is the professional site of Yuri Gushiken. Here you will find information about my educational and professional career, projects, and blog posts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yurigushiken.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  yurigushiken
+github_username: yurigushiken
 
 # Build settings
 theme: minima
