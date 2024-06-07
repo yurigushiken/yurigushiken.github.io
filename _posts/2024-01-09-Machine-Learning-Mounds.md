@@ -9,6 +9,11 @@ categories: blog-posts current-projects experimentation
 
 # Machine Learning Mound Mapping
 
+Work in progress
+-June 2024 update:
+Expanding coverage to entire USA
+-February 2024 update:
+-Arkansas mounds identified
 
 **Click to try the demo: [https://yurigushiken.com/moundmapperdemo/](https://yurigushiken.com/moundmapperdemo/)**
 
