@@ -181,3 +181,4 @@ Zelikman, E., Wu, Y., Mu, J., & Goodman, N. D. (2022). STaR: Bootstrapping Reaso
 You can download the full paper here:
 
 - [MSTU4133_Final_YuriGushiken-submit-copy.pdf](/media/MSTU4133_Final_YuriGushiken-submit-copy.pdf)
+
