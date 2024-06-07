@@ -9,13 +9,14 @@ categories: technology research
 
 Posted on March 19, 2024
 
-This is a technology demonstration (many local servers + external APIs) of using Silly Tavern UI to chat with a character designed after myself called “Yuuri” (two “u” to distinguish from myself “Yuri”).
+This is a technology demonstration (many local servers + external APIs). Talking to a self-clone.
 
-I have questions on the possibilities for cognitive science and psychology research. Potential areas to explore include the impact on self-perception, learning and retention, confidence and self-efficacy, therapy and mental health applications, and advancements in human-computer interaction.
+Exploring possibilities for using one's own voiice in cognitive science and psychology research. Does hearing one's own voice change perception of received message?
 
-These are just ideas and speculations.
+Potential areas to explore include the impact on self-perception, learning and retention, confidence and self-efficacy, therapy and mental health applications, and advancements in human-computer interaction.
 
-This project brings together many technologies: SillyTavern, XTTS API server, SillyTavern-Extras server, OpenAI Whisper, and Claude 3 Haiku, connected through multiple servers and environments
+
+This demo brings together many technologies: SillyTavern, XTTS API server, SillyTavern-Extras server, OpenAI Whisper, and Claude 3 Haiku, connected through multiple servers and environments
 
 - SillyTavern: [https://github.com/SillyTavern](https://github.com/SillyTavern)
 - XTTS API server: [https://github.com/daswer123/xtts-api-server](https://github.com/daswer123/xtts-api-server)
