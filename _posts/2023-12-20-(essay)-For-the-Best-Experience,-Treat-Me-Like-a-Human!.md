@@ -1,25 +1,10 @@
 ---
 layout: post
-title: "Final Paper – MSTU-4133: Computers and Cognition"
+title: "(essay) For the Best Experience, Treat Me Like a Human!"
 date: 2023-12-20 00:00:00 -0400
 categories: education cognition AI
 ---
 
-**Final Paper – MSTU-4133: Computers and Cognition**
-
-Posted on December 20, 2023
-
-**For the Best Experience, Treat Me Like a Human!**
-
-Yuri Gushiken | mkg2145@tc.columbia.edu
-
-Teachers College, Columbia University
-
-MSTU-4133: Cognition and Computers
-
-Dr. Rachel Um
-
-20 December 2023
 
 ---
 
@@ -94,6 +79,23 @@ The implications of this conclusion emphasize key philosophical and ethical ques
 ## Abstract
 
 Research in artificial intelligence consistently shows that applying knowledge of human cognition to AI systems enhances their performance. This is an iterative process – as we further embed aspects of human cognition into AI systems, they become more human, opening avenues for more applications. For this reason, I propose that the best way to interact with and think of AI systems is as if they are human beings. I begin by analyzing the human-like characteristics already embedded in language models to better understand why they respond to human cognitive approaches. I then examine aspects of human cognition – emotional engagement, step-by-step reasoning, and iterative decision-making processes – and the direct application of these concepts in large language models (LLMs), as well as the positive results. These studies serve as empirical evidence supporting human treatment of AI systems.
+
+**Final Paper – MSTU-4133: Computers and Cognition**
+
+Posted on December 20, 2023
+
+**For the Best Experience, Treat Me Like a Human!**
+
+Yuri Gushiken | mkg2145@tc.columbia.edu
+
+Teachers College, Columbia University
+
+MSTU-4133: Cognition and Computers
+
+Dr. Rachel Um
+
+20 December 2023
+
 
 ## References
 
