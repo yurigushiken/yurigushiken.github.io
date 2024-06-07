@@ -97,6 +97,11 @@ To most effectively use human-centric AI systems, we should think of and interac
 The implications of this conclusion emphasize key philosophical and ethical questions about artificial intelligence in society. Regardless how these debates unfold in the future, thinking of and treating AIs like humans delivers positive results today. In fact, you are not likely to get far as an AI researcher if you don’t. And as a chatbot user, you would be wise to include such statements as “Let’s think step by step” and “This is very important to my career” to your prompts so as to not be comparatively disadvantaged.
 
 
+Abstract
+
+Research in artificial intelligence consistently shows that applying knowledge of human cognition to AI systems enhances their performance. This is an iterative process – as we further embed aspects of human cognition into AI systems, they become more human, opening avenues for more applications. For this reason, I propose that the best way to interact with and think of AI systems is as if they are human beings. I begin by analyzing the human-like characteristics already embedded in language models to better understand why they respond to human cognitive approaches. I then examine aspects of human cognition – emotional engagement, step-by-step reasoning, and iterative decision-making processes – and the direct application of these concepts in large language models (LLMs), as well as the positive results. These studies serve as empirical evidence supporting human treatment of AI systems.
+
+
 References
 
 Altman, S., & Murati, M. (2023, October 21). OpenAI CEO Sam Altman and CTO Mira Murati on the Future of AI and ChatGPT | WSJ Tech Live 2023 [Video]. YouTube. https://www.youtube.com/watch?v=byYlC2cagLw
