@@ -5,6 +5,12 @@ date: 2023-11-12 00:00:00 -0400
 categories: coding design experimentation
 ---
 
+---
+
+*Exploring technologies to use for final project for A&HA-4084 at Teachers College*
+
+---
+
 Demonstration of GPT Vision and DeepFace. GPT Vision released by Open AI early November 2023. DeepFace from Facebook, 2021.
 
 I started with Roboflow’s GPT Vision application and modified it to include DeepFace.
