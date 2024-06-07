@@ -10,7 +10,7 @@ My name is Yuri. I study education technology at Teachers College, Columbia Univ
 
 This website serves as a supplement to my resume.
 
-# Inline Resume
+# Resume
 
 <iframe src="/media/mgushiken%20resume%202023-06-06.pdf" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
 
