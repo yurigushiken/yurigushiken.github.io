@@ -9,7 +9,6 @@ categories: blog-posts current-projects experimentation
 
 # Machine Learning Mound Mapping
 
-Work in progress
 -June 2024 update:
 Expanding coverage to entire USA
 -February 2024 update:
