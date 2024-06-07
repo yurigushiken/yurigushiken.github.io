@@ -52,13 +52,22 @@ To make the JSON file, we assemble our image generator by connecting nodes withi
 ![Early Results](/media/generates-moons-in-place.png)
 *early results*
 
-![Workflow – Moon over horizon](/media/YouCut_20231219_215001809.mp4)
+<video width="640" height="360" controls>
+  <source src="/media/YouCut_20231219_215001809.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 *Workflow – Moon over horizon*
 
-![Workflow – A being in the universe](/media/YouCut_20231219_222700984_1.mp4)
+<video width="640" height="360" controls>
+  <source src="/media/YouCut_20231219_222700984_1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 *Workflow – A being in the universe*
 
-![Workflow – Two planets in a cloudy universe](/media/YouCut_20231219_223437317.mp4)
+<video width="640" height="360" controls>
+  <source src="/media/YouCut_20231219_223437317.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 *Workflow – Two planets in a cloudy universe*
 
 ## Inspiration – release of SDXL Turbo
@@ -98,19 +107,34 @@ I was inspired and enabled to generate images in near-real-time by the release o
 
 ## Demonstrations
 
-![Early Test – ‘app_camera.py’](/media/app_camera-screen-recording.mp4)
+<video width="640" height="360" controls>
+  <source src="/media/app_camera-screen-recording.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 *Early test – ‘app_camera.py’*
 
-![A Friend Using the App](/media/20231211_185308.mp4)
+<video width="640" height="360" controls>
+  <source src="/media/20231211_185308.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 *A friend using the app*
 
-![A Professor Using the App](/media/20231212_155001_1.mp4)
+<video width="640" height="360" controls>
+  <source src="/media/20231212_155001_1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 *A professor using the app*
 
-![Testing the App in Class](/media/20231212_175902.mp4)
+<video width="640" height="360" controls>
+  <source src="/media/20231212_175902.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 *Testing the app in class*
 
-![Using the App with Friends in Social Work Library](/media/20231219_201021_1.mp4)
+<video width="640" height="360" controls>
+  <source src="/media/20231219_201021_1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 *Using the app with friends in Social Work library*
 
 ## Links
