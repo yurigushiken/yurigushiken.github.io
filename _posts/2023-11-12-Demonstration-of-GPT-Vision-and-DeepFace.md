@@ -9,11 +9,11 @@ Demonstration of GPT Vision and DeepFace. GPT Vision released by Open AI early N
 
 I started with Roboflow’s GPT Vision application and modified it to include DeepFace.
 
-GPT Vision: https://platform.openai.com/docs/guides/vision
+GPT Vision: [https://platform.openai.com/docs/guides/vision](https://platform.openai.com/docs/guides/vision)
 
-DeepFace: https://github.com/serengil/deepface
+DeepFace: [https://github.com/serengil/deepface](https://github.com/serengil/deepface)
 
-Original Roboflow’s GPT Vision: https://github.com/roboflow/awesome-openai-vision-api-experiments
+Original Roboflow’s GPT Vision: [https://github.com/roboflow/awesome-openai-vision-api-experiments](https://github.com/roboflow/awesome-openai-vision-api-experiments)
 
 ### Image Gallery
 
@@ -31,6 +31,7 @@ Original Roboflow’s GPT Vision: https://github.com/roboflow/awesome-openai-vis
 
 ### Code Section
 
+```python
 import base64
 import os
 import uuid
@@ -41,7 +42,6 @@ import numpy as np
 import requests
 from deepface import DeepFace 
 from datetime import datetime
-
 
 MARKDOWN = """
 # WebcamGPT 💬 + 📸
@@ -58,9 +58,6 @@ AVATARS = (
 IMAGE_CACHE_DIRECTORY = "data"
 API_URL = "https://api.openai.com/v1/chat/completions"
 
-
-
-
 def get_next_file_number(directory):
     highest_num = -1
     for filename in os.listdir(directory):
@@ -71,13 +68,9 @@ def get_next_file_number(directory):
                 highest_num = max(highest_num, int(num_part))
     return f"{highest_num + 1:04d}"
 
-
-
-
 def preprocess_image(image: np.ndarray) -> np.ndarray:
     image = np.fliplr(image)
     return cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
-
 
 def encode_image_to_base64(image: np.ndarray) -> str:
     success, buffer = cv2.imencode('.jpg', image)
@@ -86,7 +79,6 @@ def encode_image_to_base64(image: np.ndarray) -> str:
 
     encoded_image = base64.b64encode(buffer).decode('utf-8')
     return encoded_image
-
 
 def compose_payload(image: np.ndarray, prompt: str) -> dict:
     base64_image = encode_image_to_base64(image)
@@ -112,13 +104,11 @@ def compose_payload(image: np.ndarray, prompt: str) -> dict:
         "max_tokens": 300
     }
 
-
 def compose_headers(api_key: str) -> dict:
     return {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {api_key}"
     }
-
 
 def prompt_image(api_key: str, image: np.ndarray, prompt: str) -> str:
     headers = compose_headers(api_key=api_key)
@@ -128,7 +118,6 @@ def prompt_image(api_key: str, image: np.ndarray, prompt: str) -> str:
     if 'error' in response:
         raise ValueError(response['error']['message'])
     return response['choices'][0]['message']['content']
-
 
 def generate_analysis_text(analysis_results, chatbot_response):
     analysis_text = "GPT Vision Analysis:\n"
@@ -154,9 +143,6 @@ def generate_analysis_text(analysis_results, chatbot_response):
         analysis_text += first_result["Error"]
 
     return analysis_text
-
-
-
 
 def cache_analysis_results(analysis_text):
     file_num = get_next_file_number(IMAGE_CACHE_DIRECTORY)
@@ -188,13 +174,6 @@ def cache_image(image: np.ndarray) -> str:
     image_path = os.path.join(IMAGE_CACHE_DIRECTORY, image_filename)
     cv2.imwrite(image_path, image)
     return image_path
-
-
-
-
-
-
-
 
 def respond(api_key: str, image: np.ndarray, prompt: str, chat_history):
     if not api_key:
@@ -229,11 +208,6 @@ def respond(api_key: str, image: np.ndarray, prompt: str, chat_history):
     chat_history.append((prompt, response))
     
     return "", chat_history
-
-
-
-
-
 
 with gr.Blocks() as demo:
     gr.Markdown(MARKDOWN)
