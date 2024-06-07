@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "(essay) For the Best Experience, Treat Me Like a Human!"
+title: "(essay) On Anthropomoprhization"
 date: 2023-12-20 00:00:00 -0400
 categories: education cognition AI
 ---
 
 
 ---
+For the Best Experience, Treat Me Like A Human
 
 ## Introduction
 
