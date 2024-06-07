@@ -15,6 +15,8 @@ DeepFace: [https://github.com/serengil/deepface](https://github.com/serengil/dee
 
 Original Roboflow’s GPT Vision: [https://github.com/roboflow/awesome-openai-vision-api-experiments](https://github.com/roboflow/awesome-openai-vision-api-experiments)
 
+Awesome OpenAI Vision API Experiments: [https://github.com/roboflow/awesome-openai-vision-api-experiments](https://github.com/roboflow/awesome-openai-vision-api-experiments)
+
 ### Image Gallery
 
 #### Image 1
