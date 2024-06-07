@@ -31,6 +31,9 @@ Awesome OpenAI Vision API Experiments: [https://github.com/roboflow/awesome-open
 #### Image 4
 ![Image 4](/media/Screenshot-2023-11-12-203510-2048x1219.png)
 
+#### Missing Image
+![Stock Image](/media/stock-2.jpg)
+
 ### Code Section
 
 <div style="background: #f4f4f4; padding: 20px; border-radius: 8px;">
@@ -221,7 +224,7 @@ with gr.Blocks() as demo:
             api_key_textbox = gr.Textbox(
                 label="OpenAI API KEY", type="password")
             chatbot = gr.Chatbot(
-                height=500, bubble_full_width=False, avatar_images=AVATARS)
+                height=500, bubble_full_width=False, avatar images=AVATARS)
             message_textbox = gr.Textbox()
             clear_button = gr.ClearButton([message_textbox, chatbot])
 
