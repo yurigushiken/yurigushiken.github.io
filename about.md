@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About / Resume
-permalink: /about /
+permalink: /about/
 ---
 
 # About
@@ -15,3 +15,7 @@ This website serves as a supplement to my resume.
 <iframe src="/media/mgushiken%20resume%202023-06-06.pdf" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
 
 ![Self Image](/media/self01.png)
+
+## My YouTube Playlist
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLdym82qNzw3zK36Au0ewN0loFJYAITpjB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
