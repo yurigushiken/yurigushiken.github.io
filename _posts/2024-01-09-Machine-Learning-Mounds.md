@@ -5,7 +5,7 @@ date: 2024-01-09 20:17:03 +0000
 categories: blog-posts current-projects experimentation
 ---
 
-![Featured Image](/media/Screenshot-2024-01-09-035219.png)
+
 
 # Machine Learning Mound Mapping
 
@@ -13,14 +13,15 @@ Posted on January 9, 2024 | Updated on March 19, 2024
 
 **Click to try the demo: [https://yurigushiken.com/moundmapperdemo/](https://yurigushiken.com/moundmapperdemo/)**
 
-———————————————————————————————
-
-## ~ Site UNDER CONSTRUCTION ~
-
-——————————————————————
-
-begin site
-
-—————————————-
+![Featured Image](/media/Screenshot-2024-01-09-035219.png)
 
 ## Problem: The origins
+
+![Featured Image](/media/SmartSelect_20240126_012429_Adobe-Acrobat)
+
+This project is designed to serve as a tool for researchers, hobbyists, urban/rural planners, and community members, marking the location of each mound in the USA. It aims to raise awareness of the mound problem, while aiding in research in the study of their origin.
+This tool allows researchers to:
+Study mounds from new perspectives
+Perform statistical analysis on data
+Use mounds data in various spatial formats
+Use mounds data in various software
