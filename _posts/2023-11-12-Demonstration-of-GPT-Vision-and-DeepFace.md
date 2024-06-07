@@ -31,7 +31,7 @@ Awesome OpenAI Vision API Experiments: [https://github.com/roboflow/awesome-open
 #### Image 4
 ![Image 4](/media/Screenshot-2023-11-12-203510-2048x1219.png)
 
-#### Missing Image
+#### DeepFace marketing image
 ![Stock Image](/media/stock-2.jpg)
 
 ### Code Section
