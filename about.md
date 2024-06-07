@@ -12,4 +12,4 @@ This website serves as a supplement to my resume.
 
 ## Inline Resume
 
-[View my resume](https://1drv.ms/w/s!Al-Si52IyVvUgt5qty6E58LatDwDpA)
+<iframe src="https://onedrive.live.com/embed?cid=XXXXX&resid=XXXXX&authkey=XXXXX&em=2" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
