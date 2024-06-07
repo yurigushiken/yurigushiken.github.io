@@ -16,6 +16,4 @@ This website serves as a supplement to my resume.
 
 ![Self Image](/media/self01.png)
 
-## My YouTube Playlist
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLdym82qNzw3zK36Au0ewN0loFJYAITpjB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
