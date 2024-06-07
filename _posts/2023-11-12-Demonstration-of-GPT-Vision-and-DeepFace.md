@@ -31,7 +31,9 @@ Original Roboflow’s GPT Vision: [https://github.com/roboflow/awesome-openai-vi
 
 ### Code Section
 
-```python
+<div style="background: #f4f4f4; padding: 20px; border-radius: 8px;">
+<pre style="background: #f4f4f4; padding: 20px; border-radius: 8px;">
+<code>
 import base64
 import os
 import uuid
@@ -228,3 +230,6 @@ with gr.Blocks() as demo:
     )
 
 demo.launch(debug=False, show_error=True)
+</code>
+</pre>
+</div>
