@@ -5,6 +5,12 @@ date: 2023-12-16 00:00:00 -0400
 categories: coding design experimentation
 ---
 
+---
+
+*This blog post is submission for final project for A&HA-4084 at Teachers College*
+
+---
+
 This is a pose prompter machine. It displays a generated image that is prompted by a text prompt and a user’s pose in front of a webcam. It is a combination of real-time hand tracking with automated image generation. It is a novel way of prompting for AI image generation. The system operates in two components: ‘app_camera.py’ and ‘index-camera.html’ are focused on real-time hand tracking, while ‘app.py’ and ‘index.html’ send and receive data from the image generator. The flagship workflow is a moon above a beach horizon with aurora borealis.
 
 I used several applications and platforms to make this project:
@@ -112,12 +118,6 @@ I was inspired and enabled to generate images in near-real-time by the release o
   Your browser does not support the video tag.
 </video>
 *Early test – ‘app_camera.py’*
-
-<video width="640" height="360" controls>
-  <source src="/media/20231211_185308.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-*A friend using the app*
 
 <video width="640" height="360" controls>
   <source src="/media/20231212_155001_1.mp4" type="video/mp4">
