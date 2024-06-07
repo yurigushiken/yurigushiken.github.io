@@ -26,7 +26,7 @@ This demo brings together many technologies: SillyTavern, XTTS API server, Silly
 - OpenRouter.ai: [https://openrouter.ai/](https://openrouter.ai/)
 - SerpaAPI: [https://serpapi.com/](https://serpapi.com/)
 
-Please see my demonstration video:
+Please see and hear my demonstration video:
 
 [![Silly Tavern Demonstration Video](https://img.youtube.com/vi/LTZUoXLnzCA/0.jpg)](https://www.youtube.com/watch?v=LTZUoXLnzCA)
 
