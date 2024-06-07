@@ -174,6 +174,7 @@ Zelikman, E., Wu, Y., Mu, J., & Goodman, N. D. (2022). STaR: Bootstrapping Reaso
 [1] In pursuit of more efficient computer systems, AI also contributes to cognitive science. See “Toward a real-time decoding of images from brain activity” by Meta: https://ai.meta.com/blog/brain-ai-image-decoding-meg-magnetoencephalography/
 
 [2] The PHI-2 model, distinct in its use of solely synthetic data for training, offers an alternative approach to traditional human-generated data sets. See https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/
+
 ---
 
 You can download the full paper here:

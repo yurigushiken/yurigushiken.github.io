@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pose Prompter – Final Project"
+title: "(Final Project) Pose Prompter"
 date: 2023-12-16 00:00:00 -0400
 categories: coding design experimentation
 ---
