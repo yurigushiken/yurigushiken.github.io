@@ -34,7 +34,7 @@ Awesome OpenAI Vision API Experiments: [https://github.com/roboflow/awesome-open
 #### DeepFace marketing image
 ![Stock Image](/media/stock-2.jpg)
 
-### Code Section
+### Adaptation of Roboflow Code
 
 <div style="background: #f4f4f4; padding: 20px; border-radius: 8px;">
 <pre style="background: #f4f4f4; padding: 20px; border-radius: 8px;">
