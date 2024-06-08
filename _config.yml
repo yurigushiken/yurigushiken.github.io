@@ -55,3 +55,6 @@ exclude:
 # include:
 #   - ".htaccess"
 
+# Custom includes
+includes:
+  - header
