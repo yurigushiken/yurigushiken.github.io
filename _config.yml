@@ -26,6 +26,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yurigushiken.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: yurigushiken
 
+# Navigation settings
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "GitHub"
+    url: "https://github.com/yurigushiken"
+
 # Build settings
 theme: minima
 plugins:
@@ -54,4 +63,3 @@ exclude:
 #
 # include:
 #   - ".htaccess"
-
