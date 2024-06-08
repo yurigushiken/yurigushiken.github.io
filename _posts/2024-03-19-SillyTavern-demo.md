@@ -30,4 +30,3 @@ Please see and hear my demonstration video:
 
 [![Silly Tavern Demonstration Video](https://img.youtube.com/vi/LTZUoXLnzCA/0.jpg)](https://www.youtube.com/watch?v=LTZUoXLnzCA)
 
-![Silly Tavern Screenshot](../media/st01.png)
