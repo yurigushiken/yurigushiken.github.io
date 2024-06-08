@@ -18,4 +18,5 @@ This website serves as a supplement to my resume.
 
 # My YouTube Playlist
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=CV1kkPd_8VAkNKRX&amp;list=PLdym82qNzw3xuwzkPcVujs6au_WiRRZKN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-7a81e420-1b37-41c0-bb81-6f1da0b945a4" data-elfsight-app-lazy></div>
