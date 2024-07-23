@@ -7,6 +7,8 @@ categories: Assignment
 
 **Live Multimodal Reflection**
 
+![Screenshot](https://yurigushiken.github.io/repositoryname/media/Screenshot-2024-07-22-205551.png)
+
 [click here](https://mypath-1.onrender.com/)
 
 **Course Information:**
