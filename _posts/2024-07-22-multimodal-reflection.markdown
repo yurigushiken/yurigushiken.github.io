@@ -5,6 +5,10 @@ date: 2024-07-22 01:05:54 -0400
 categories: Assignment
 ---
 
+**Live Multimodal Reflection**
+[![Screenshot 2024-07-22 205551](https://mypath-1.onrender.com/media/Screenshot%202024-07-22%20205551.png)](https://mypath-1.onrender.com/)
+[click here](https://mypath-1.onrender.com/)
+
 **Course Information:**
 
 - **Course**: C&T 4001 | Summer 2024 - Inclusive Instructional Approaches for Diverse Learners
