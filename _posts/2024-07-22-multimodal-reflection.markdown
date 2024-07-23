@@ -6,7 +6,7 @@ categories: Assignment
 ---
 
 **Live Multimodal Reflection**
-[![Screenshot-2024-07-22-205551](https://yourgithubusername.github.io/repositoryname/media/Screenshot%202024-07-22%20205551.png)](https://mypath-1.onrender.com/)
+[![Screenshot 2024-07-22 205551](https://yourgithubusername.github.io/repositoryname/media/Screenshot%202024-07-22%20205551.png)](https://mypath-1.onrender.com/)
 [click here](https://mypath-1.onrender.com/)
 
 **Course Information:**
