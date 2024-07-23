@@ -11,7 +11,8 @@ categories: Assignment
 - **Instructor**: Maddie Neufeld, Instructor, Elementary Inclusive Education Program
 
 ---
-**Multimodal Reflection, Part 1, due 7/23**
+
+**Assignment: Multimodal Reflection, Part 1, due 7/23**
 - Consider how your thinking so far in this course emerged/shifted/developed in relation to inclusive education and disability
 - Reflect on this in relation to course content through two modalities (one should be language based -- written or spoken) 
 - Some ideas for possible modalities: performance, video, audio, creative writing, visual art, food, music, slides, sculpture, games...something else! 
@@ -19,17 +20,18 @@ categories: Assignment
 - Be prepared to present your work in class 
 
 ---
+
 **Assignment: Multimodal Reflection**
 
 Posted on July 22, 2024
 
-**Assignment:**
+**"MyPath"**
 
-I used a combination of a visual maze and artificial intelligence models and prompting to generate a canvas that illustrates the journey and experiences of a student with a disability in an inclusive classroom.
+I used a combination of a visual maze, artificial intelligence text and image outputs, and prompting to generate a canvas that illustrates the journey and experiences of a student with a disability in an inclusive classroom.
 
-**Process:**
+**Services used:**
 
-I used Render.com to host my application. I use Eden AI's API for image generation and GPT-4o Mini for blurb generation. I coded the maze visualization and interaction with the help of GPT-4o. The prompt writing is my own.
+I used [Render.com](https://render.com/) to host my application. I used Eden AI's [API for image generation](https://app.edenai.run/admin/api-settings/features-preferences) and [GPT-4o Mini for blurb generation](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/). I coded the maze visualization and interaction with the help of GPT-4o. The prompt writing is my own.
 
 **Image Generation:**
 
