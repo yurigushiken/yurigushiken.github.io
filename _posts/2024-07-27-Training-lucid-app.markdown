@@ -7,9 +7,11 @@ categories: course completion update
 
 ![Course Completion Screenshot](/media/Screenshot%202024-07-27%20144122.png)
 
-"Mind mapping is a skill that helps us engage in the right thinking processes to build the knowledge.""
+"Mind mapping is a skill that helps us engage in the right thinking processes to build the knowledge."
 
-I completed the "Diagramming Foundations" course offered by Lucid. 
+"Reducing a necessary words forces you to synthesize and summarize."
+
+I completed the "Diagramming Foundations" course offered by Lucid. These skills are to help me synthesize information I learn and practice for using these techniques with learners.
 
 
 
