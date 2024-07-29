@@ -7,7 +7,7 @@ categories: course completion update
 
 ![Course Completion Screenshot](/media/Screenshot%202024-07-26%20165703.png)
 
-I completed the "AI Agentic Design Patterns with AutoGen" course offered by DeepLearning.AI. This comprehensive course covered multi-agent conversation, sequential chats, and planning with AI.
+I completed the "AI Agentic Design Patterns with AutoGen" course offered by DeepLearning.AI. This comprehensive course covered multi-agent conversation, sequential chats, and planning  with AI.
 
 This course provided a fundamental understanding of working with AI agents, focusing on raw usage rather than automation, to understand the fundamentals of AI agents.
 

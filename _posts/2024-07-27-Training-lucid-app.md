@@ -11,7 +11,7 @@ categories: course completion update
 
 "Reducing a necessary words forces you to synthesize and summarize."
 
-I completed the "Diagramming Foundations" course offered by Lucid. These skills are to help me synthesize information I learn and practice for using these techniques with learners.
+I completed the "Diagramming Foundations" course offered by Lucid. These skills are to help me synthesize information I learn and practice for using these techniques with learners..
 
 
 
