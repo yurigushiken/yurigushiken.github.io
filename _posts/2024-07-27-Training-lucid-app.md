@@ -16,3 +16,5 @@ I completed the "Diagramming Foundations" course offered by Lucid. These skills 
 ![Course Completion Screenshot](/media/Screenshot%202024-07-27%20144122.png){:style="width:40%;"}
 
 For more details about the course, you can check it out [here](https://training.lucid.co/path/diagramming-foundations).
+
+![MindmappingPlato's Republic Book 1](/media/Screenshot%202024-07-29%20190405.png)
