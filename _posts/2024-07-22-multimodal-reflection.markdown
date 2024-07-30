@@ -10,6 +10,7 @@ categories: Assignment
 ![Screenshot](https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/Screenshot%202024-07-22%20205551.png)
 
 [click here](https://mypath-1.onrender.com/)
+[GitHub Repository](https://github.com/yurigushiken/mypath)
 
 **Course Information:**
 
