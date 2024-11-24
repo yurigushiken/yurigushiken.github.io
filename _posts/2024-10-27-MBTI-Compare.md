@@ -2,7 +2,7 @@
 layout: post
 title: "Exploring the MBTI Comparison App"
 date: 2024-10-27 16:00:00 -0400
-categories:
+categories: Personality Research
 ---
 
 ![MBTI Comparison App Screenshot](/media/Screenshot%202024-10-27%20134337.png)
