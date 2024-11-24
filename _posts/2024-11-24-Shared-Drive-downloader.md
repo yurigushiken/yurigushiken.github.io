@@ -7,6 +7,9 @@ categories: Automation Tools
 
 ![Google Drive Backup Script in Action](/media/backup-script-demo.png)
 
+![Running the backup script](https://raw.githubusercontent.com/yurigushiken/google-shared-drive-exporter/refs/heads/main/images/YouCut_20241115_174925804_1.gif)
+
+
 While working at the [Language and Cognitive Lab](https://www.tc.columbia.edu/lcl/) at Teachers College, I discovered a significant gap in Google Workspace: there's no native way to backup Shared Drives. No export option, no Takeout support. Manual downloads fail with large files, special characters in names, and Windows path length limits.
 
 I developed a [Python script](https://github.com/yurigushiken/google-shared-drive-exporter) to address these limitations. The tool:
