@@ -5,7 +5,8 @@ date: 2025-01-04 12:00:00 -0400
 categories: Automation Tools
 ---
 
-<!-- Side-by-side images and arrow -->
+## Automating Thousands of Frames with Infant Eye-Tracking Coding Machine
+
 <div style="display: flex; align-items: center; justify-content: center; gap: 30px; margin-bottom: 2rem;">
   <!-- Original version (smaller) -->
   <div style="text-align: center;">
@@ -35,17 +36,15 @@ categories: Automation Tools
   </div>
 </div>
 
-<!-- Eye-tracking datasheet image -->
-<div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_datasheet.jpg"
+<!-- Eye-tracking datasheet image (updated link) -->
+<div style="text-align: center; margin-top: 2rem;">
+  <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_datasheet.png"
        alt="Infant Eye-Tracking datasheet"
        style="max-width: 500px;" />
   <p><strong>participant datasheet, 1 of 72</strong></p>
 </div>
 
-We begin with 75 participant video files (~300 minutes/540k frames) and end with coded/labeled video files and datasheets.
-
-
+We begin with ~75 participant video files (~300 minutes / 540k frames) that would take many hours to code by hand. This ML-powered and rule-based verified workflow automates the process outputting labeled video files and accompanying datasheets.
 
 
 ---
