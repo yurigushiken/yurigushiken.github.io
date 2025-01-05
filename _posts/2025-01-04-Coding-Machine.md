@@ -5,48 +5,24 @@ date: 2025-01-04 12:00:00 -0400
 categories: Automation Tools
 ---
 
-<div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
-  <!-- First image + caption + link -->
-  <div style="text-align: center;">
-    <!-- Make sure to use the raw GitHub URL -->
-    <img src="https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_event-representations-original-video-gif.gif"
-         width="390"
-         alt="Infant Event Representations Original" />
-    <br />
-    <strong>Infant Event Representations Original</strong>
-    <br />
-    <a href="https://youtu.be/M90Rbu8EGZc" target="_blank">YouTube Video of original</a>
-  </div>
+![Infant Event Representations Original](https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_event-representations-original-video-gif.gif "Infant Event Representations Original")  
+**Infant Event Representations Original**  
+[YouTube Video of original](https://youtu.be/M90Rbu8EGZc)
 
-  <!-- Arrow -->
-  <div style="margin: 0 10px; font-size: 36px; color: black; display: flex; align-items: center;">
-    &#8594;
-  </div>
+→
 
-  <!-- Second image + caption + link -->
-  <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_event-representations-v2-gif.gif"
-         width="330"
-         alt="Infant Event Representations V2" />
-    <br />
-    <strong>Infant Event Representations V2</strong>
-    <br />
-    <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of V2</a>
-  </div>
-</div>
+![Infant Event Representations V2](https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_event-representations-v2-gif.gif "Infant Event Representations V2")  
+**Infant Event Representations V2**  
+[YouTube Video of V2](https://youtu.be/45lbqvLpGYQ)
 
-<br />
+---
 
-<div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_eye-tracking_datasheet.jpg"
-       width="520"
-       alt="Infant Eye-Tracking datasheet" />
-  <br />
-  <strong>participant datasheet, 1 of 72</strong>
-</div>
+![Infant Eye-Tracking datasheet](https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_eye-tracking_datasheet.jpg "Infant Eye-Tracking datasheet")  
+**participant datasheet, 1 of 72**
 
-We began with older video data (collected ~2003).  
-We coded the video for...
+
+We begin with 75 participant video files (~300 minutes/540k frames) and end with coded/labeled video files and datasheets.
+
 
 ---
 
