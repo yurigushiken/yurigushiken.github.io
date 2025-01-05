@@ -47,9 +47,10 @@ categories: Automation Tools
 <br />
 
 <div style="text-align: center;">
-  <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_datasheet.jpg"
-       width="520"
-       alt="Infant Eye-Tracking datasheet" />
+<img src="https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_eye-tracking_datasheet.jpg"
+     width="520"
+     alt="Infant Eye-Tracking datasheet" />
+
   <br />
   <strong>participant datasheet, 1 of 72</strong>
 </div>
