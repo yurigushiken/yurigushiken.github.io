@@ -6,7 +6,7 @@ categories: Automation Tools
 ---
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
-  <!-- First image + caption + lindk -->
+  <!-- First image + caption + link -->
   <div style="text-align: center;">
     <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v0.jpg" width="260" alt="Infant Eye-Tracking v0" />
     <br />
@@ -28,32 +28,12 @@ categories: Automation Tools
     <br />
     <a href="https://youtu.be/IVCymlJNT1A" target="_blank">YouTube Video of v1</a>
   </div>
-  <!-- Second image + caption + link -->
-  <div style="text-align: center;">
-    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v1.jpg" width="220" alt="Infant Eye-Tracking v1" />
-    <br />
-    <strong>Infant Eye-Tracking coding machine V1</strong>
-    <br />
-    <a href="https://youtu.be/IVCymlJNT1A" target="_blank">YouTube Video of v1</a>
-  </div>
 
   <!-- Arrow -->
   <div style="margin: 0 10px; font-size: 24px; color: black; display: flex; align-items: center;">
     &#8594;
   </div>
-  <!-- Arrow -->
-  <div style="margin: 0 10px; font-size: 24px; color: black; display: flex; align-items: center;">
-    &#8594;
-  </div>
 
-  <!-- Third image + caption + link -->
-  <div style="text-align: center;">
-    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v2.jpg" width="220" alt="Infant Eye-Tracking v2" />
-    <br />
-    <strong>Infant Eye-Tracking coding machine V2</strong>
-    <br />
-    <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of v2</a>
-  </div>
   <!-- Third image + caption + link -->
   <div style="text-align: center;">
     <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v2.jpg" width="220" alt="Infant Eye-Tracking v2" />
@@ -63,6 +43,8 @@ categories: Automation Tools
     <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of v2</a>
   </div>
 </div>
+
+<br />
 
 <div style="text-align: center;">
   <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_datasheet.jpg"
@@ -72,6 +54,8 @@ categories: Automation Tools
   <strong>participant datasheet, 1 of 72</strong>
 </div>
 
+We began with older video data (collected ~2003).  
+We coded the video for...
 
 ---
 
