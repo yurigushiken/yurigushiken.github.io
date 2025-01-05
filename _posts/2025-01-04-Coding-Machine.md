@@ -6,7 +6,7 @@ categories: Automation Tools
 ---
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
-  <!-- First image + caption + link -->
+  <!-- First image + caption + lindk -->
   <div style="text-align: center;">
     <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v0.jpg" width="260" alt="Infant Eye-Tracking v0" />
     <br />
