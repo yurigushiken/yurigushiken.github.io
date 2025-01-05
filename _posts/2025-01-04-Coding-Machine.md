@@ -8,39 +8,29 @@ categories: Automation Tools
 <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
   <!-- First image + caption + link -->
   <div style="text-align: center;">
-    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v0.jpg" width="260" alt="Infant Eye-Tracking v0" />
+    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_event-representations-original-video-gif.gif"
+         width="390"
+         alt="Infant Event Representations Original" />
     <br />
-    <strong>Infant Eye-Tracking original</strong>
+    <strong>Infant Event Representations Original</strong>
     <br />
-    <a href="https://youtu.be/M90Rbu8EGZc" target="_blank">YouTube Video of v0</a>
+    <a href="https://youtu.be/M90Rbu8EGZc" target="_blank">YouTube Video of original</a>
   </div>
 
   <!-- Arrow -->
-  <div style="margin: 0 10px; font-size: 24px; color: black; display: flex; align-items: center;">
+  <div style="margin: 0 10px; font-size: 36px; color: black; display: flex; align-items: center;">
     &#8594;
   </div>
 
   <!-- Second image + caption + link -->
   <div style="text-align: center;">
-    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v1.jpg" width="220" alt="Infant Eye-Tracking v1" />
+    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_event-representations-v2-gif.gif"
+         width="330"
+         alt="Infant Event Representations V2" />
     <br />
-    <strong>Infant Eye-Tracking coding machine V1</strong>
+    <strong>Infant Event Representations V2</strong>
     <br />
-    <a href="https://youtu.be/IVCymlJNT1A" target="_blank">YouTube Video of v1</a>
-  </div>
-
-  <!-- Arrow -->
-  <div style="margin: 0 10px; font-size: 24px; color: black; display: flex; align-items: center;">
-    &#8594;
-  </div>
-
-  <!-- Third image + caption + link -->
-  <div style="text-align: center;">
-    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v2.jpg" width="220" alt="Infant Eye-Tracking v2" />
-    <br />
-    <strong>Infant Eye-Tracking coding machine V2</strong>
-    <br />
-    <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of v2</a>
+    <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of V2</a>
   </div>
 </div>
 
