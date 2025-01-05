@@ -28,7 +28,19 @@ categories: Automation Tools
     <br />
     <a href="https://youtu.be/IVCymlJNT1A" target="_blank">YouTube Video of v1</a>
   </div>
+  <!-- Second image + caption + link -->
+  <div style="text-align: center;">
+    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v1.jpg" width="220" alt="Infant Eye-Tracking v1" />
+    <br />
+    <strong>Infant Eye-Tracking coding machine V1</strong>
+    <br />
+    <a href="https://youtu.be/IVCymlJNT1A" target="_blank">YouTube Video of v1</a>
+  </div>
 
+  <!-- Arrow -->
+  <div style="margin: 0 10px; font-size: 24px; color: black; display: flex; align-items: center;">
+    &#8594;
+  </div>
   <!-- Arrow -->
   <div style="margin: 0 10px; font-size: 24px; color: black; display: flex; align-items: center;">
     &#8594;
@@ -42,10 +54,24 @@ categories: Automation Tools
     <br />
     <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of v2</a>
   </div>
+  <!-- Third image + caption + link -->
+  <div style="text-align: center;">
+    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v2.jpg" width="220" alt="Infant Eye-Tracking v2" />
+    <br />
+    <strong>Infant Eye-Tracking coding machine V2</strong>
+    <br />
+    <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of v2</a>
+  </div>
 </div>
 
-We began with older video data (collected ~2003).  
-We coded the video for...
+<div style="text-align: center;">
+  <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_datasheet.jpg"
+       width="520"
+       alt="Infant Eye-Tracking datasheet" />
+  <br />
+  <strong>participant datasheet, 1 of 72</strong>
+</div>
+
 
 ---
 
