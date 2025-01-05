@@ -6,11 +6,11 @@ categories: Automation Tools
 ---
 
 <div style="display: flex; align-items: center;">
-  <img src="media/infant_eye-tracking_v0.jpg" width="220" alt="Infant Eye-Tracking v0" />
+  <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_v0.jpg" width="220" alt="Infant Eye-Tracking v0" />
   <span style="margin: 0 10px; font-size: 24px;">&#x2192;</span>
-  <img src="media/infant_eye-tracking_v1.jpg" width="220" alt="Infant Eye-Tracking v1" />
+  <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_v1.jpg" width="220" alt="Infant Eye-Tracking v1" />
   <span style="margin: 0 10px; font-size: 24px;">&#x2192;</span>
-  <img src="media/infant_eye-tracking_v2.jpg" width="220" alt="Infant Eye-Tracking v2" />
+  <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_v2.jpg" width="220" alt="Infant Eye-Tracking v2" />
 </div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M90Rbu8EGZc" frameborder="0" allowfullscreen></iframe>  
