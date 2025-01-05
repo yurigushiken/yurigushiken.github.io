@@ -22,12 +22,10 @@ _Infant Eye-Tracking coding machine V1_
 <iframe width="560" height="315" src="https://www.youtube.com/embed/45lbqvLpGYQ" frameborder="0" allowfullscreen></iframe>  
 _Infant Eye-Tracking original video (clip)_
 
-We began with older video data (collected ~2003).  
-We coded the video for...
 
 ---
 
-## How the Project Achieves Its Objective
+## How the Project Works
 
 **Video Preprocessing:**  
 Standardize and extract frames with `0_1024resizer.py`, ensuring all later steps handle a consistent format.
