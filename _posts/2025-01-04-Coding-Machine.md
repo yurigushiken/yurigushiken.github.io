@@ -8,7 +8,8 @@ categories: Automation Tools
 <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
   <!-- First image + caption + link -->
   <div style="text-align: center;">
-    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_event-representations-original-video-gif.gif"
+    <!-- Make sure to use the raw GitHub URL -->
+    <img src="https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_event-representations-original-video-gif.gif"
          width="390"
          alt="Infant Event Representations Original" />
     <br />
@@ -24,7 +25,7 @@ categories: Automation Tools
 
   <!-- Second image + caption + link -->
   <div style="text-align: center;">
-    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_event-representations-v2-gif.gif"
+    <img src="https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_event-representations-v2-gif.gif"
          width="330"
          alt="Infant Event Representations V2" />
     <br />
@@ -37,10 +38,9 @@ categories: Automation Tools
 <br />
 
 <div style="text-align: center;">
-<img src="https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_eye-tracking_datasheet.jpg"
-     width="520"
-     alt="Infant Eye-Tracking datasheet" />
-
+  <img src="https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_eye-tracking_datasheet.jpg"
+       width="520"
+       alt="Infant Eye-Tracking datasheet" />
   <br />
   <strong>participant datasheet, 1 of 72</strong>
 </div>
