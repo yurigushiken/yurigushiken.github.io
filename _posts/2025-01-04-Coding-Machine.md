@@ -5,22 +5,46 @@ date: 2025-01-04 12:00:00 -0400
 categories: Automation Tools
 ---
 
-![Infant Event Representations Original](https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-original-video-gif.gif)
-**Infant Event Representations Original**  
-[YouTube Video of original](https://youtu.be/M90Rbu8EGZc)
+<!-- Side-by-side images and arrow -->
+<div style="display: flex; align-items: center; justify-content: center; gap: 30px; margin-bottom: 2rem;">
+  <!-- Original version (smaller) -->
+  <div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-original-video-gif.gif"
+         alt="Infant Event Representations Original"
+         style="width: 300px;" />
+    <p>
+      <strong>Infant Event Representations Original</strong><br />
+      <a href="https://youtu.be/M90Rbu8EGZc" target="_blank">YouTube Video of original</a>
+    </p>
+  </div>
 
-→
+  <!-- Large arrow in the center -->
+  <div style="font-size: 3rem; display: flex; align-items: center; color: #fff;">
+    <span style="color: inherit;">&#8594;</span>
+  </div>
 
-![Infant Event Representations V2](https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-v2-gif.gif)
-**Infant Event Representations V2**  
-[YouTube Video of V2](https://youtu.be/45lbqvLpGYQ)
+  <!-- V2 version (bigger: ~1.3 times the width of the original) -->
+  <div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-v2-gif.gif"
+         alt="Infant Event Representations V2"
+         style="width: 390px;" />
+    <p>
+      <strong>Infant Event Representations V2</strong><br />
+      <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of V2</a>
+    </p>
+  </div>
+</div>
 
----
-
-![Infant Eye-Tracking datasheet](https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_datasheet.jpg)
-**participant datasheet, 1 of 72**
+<!-- Eye-tracking datasheet image -->
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_datasheet.jpg"
+       alt="Infant Eye-Tracking datasheet"
+       style="max-width: 500px;" />
+  <p><strong>participant datasheet, 1 of 72</strong></p>
+</div>
 
 We begin with 75 participant video files (~300 minutes/540k frames) and end with coded/labeled video files and datasheets.
+
 
 
 
