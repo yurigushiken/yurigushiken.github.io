@@ -5,28 +5,47 @@ date: 2025-01-04 12:00:00 -0400
 categories: Automation Tools
 ---
 
-<div style="display: flex; align-items: center; justify-content: center;">
-  <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_v0.jpg" width="220" alt="Infant Eye-Tracking v0" />
-  <span style="margin: 0 10px; font-size: 24px;">&#x2192;</span>
-  <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_v1.jpg" width="220" alt="Infant Eye-Tracking v1" />
-  <span style="margin: 0 10px; font-size: 24px;">&#x2192;</span>
-  <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_v2.jpg" width="220" alt="Infant Eye-Tracking v2" />
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+  <!-- First image + caption + link -->
+  <div style="text-align: center;">
+    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v0.jpg" width="220" alt="Infant Eye-Tracking v0" />
+    <br />
+    <strong>Infant Eye-Tracking original</strong>
+    <br />
+    <a href="https://youtu.be/M90Rbu8EGZc" target="_blank">YouTube Video of v0</a>
+  </div>
+
+  <!-- Arrow -->
+  <div style="margin: 0 10px; font-size: 24px; color: black; display: flex; align-items: center;">
+    &#8594;
+  </div>
+
+  <!-- Second image + caption + link -->
+  <div style="text-align: center;">
+    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v1.jpg" width="220" alt="Infant Eye-Tracking v1" />
+    <br />
+    <strong>Infant Eye-Tracking coding machine V1</strong>
+    <br />
+    <a href="https://youtu.be/IVCymlJNT1A" target="_blank">YouTube Video of v1</a>
+  </div>
+
+  <!-- Arrow -->
+  <div style="margin: 0 10px; font-size: 24px; color: black; display: flex; align-items: center;">
+    &#8594;
+  </div>
+
+  <!-- Third image + caption + link -->
+  <div style="text-align: center;">
+    <img src="https://github.com/yurigushiken/ML-video-coding-workflow/raw/main/media/infant_eye-tracking_v2.jpg" width="220" alt="Infant Eye-Tracking v2" />
+    <br />
+    <strong>Infant Eye-Tracking coding machine V2</strong>
+    <br />
+    <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of v2</a>
+  </div>
 </div>
 
-<div style="text-align: center; margin: 20px 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/M90Rbu8EGZc" frameborder="0" allowfullscreen></iframe>  
-  <p><em>Infant Eye-Tracking coding machine V2</em></p>
-</div>
-
-<div style="text-align: center; margin: 20px 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/IVCymlJNT1A" frameborder="0" allowfullscreen></iframe>  
-  <p><em>Infant Eye-Tracking coding machine V1</em></p>
-</div>
-
-<div style="text-align: center; margin: 20px 0;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/45lbqvLpGYQ" frameborder="0" allowfullscreen></iframe>  
-  <p><em>Infant Eye-Tracking original video (clip)</em></p>
-</div>
+We began with older video data (collected ~2003).  
+We coded the video for...
 
 ---
 
@@ -153,7 +172,7 @@ Below is a step-by-step look at each script in the workflow:
 **Process:**
 - Reads the final CSV data (participant metadata, “What/Where,” corrected events, etc.).
 - Overlays text on each annotated frame (e.g., event names, participant type, frame number).
-- Compiles all overlayed frames into a single .mp4 video.
+- Compiles all overlaid frames into a single .mp4 video.
 
 **Outcome:** A clear, polished video that shows the original frames, detection overlays, and relevant text information for each participant. This is the ultimate deliverable for visual presentation.
 
