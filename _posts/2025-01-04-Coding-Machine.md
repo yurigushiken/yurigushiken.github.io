@@ -5,23 +5,23 @@ date: 2025-01-04 12:00:00 -0400
 categories: Automation Tools
 ---
 
-![Infant Event Representations Original](https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_event-representations-original-video-gif.gif "Infant Event Representations Original")  
+![Infant Event Representations Original](https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-original-video-gif.gif)
 **Infant Event Representations Original**  
 [YouTube Video of original](https://youtu.be/M90Rbu8EGZc)
 
 →
 
-![Infant Event Representations V2](https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_event-representations-v2-gif.gif "Infant Event Representations V2")  
+![Infant Event Representations V2](https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-v2-gif.gif)
 **Infant Event Representations V2**  
 [YouTube Video of V2](https://youtu.be/45lbqvLpGYQ)
 
 ---
 
-![Infant Eye-Tracking datasheet](https://raw.githubusercontent.com/yurigushiken/ML-video-coding-workflow/main/media/infant_eye-tracking_datasheet.jpg "Infant Eye-Tracking datasheet")  
+![Infant Eye-Tracking datasheet](https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_datasheet.jpg)
 **participant datasheet, 1 of 72**
 
-
 We begin with 75 participant video files (~300 minutes/540k frames) and end with coded/labeled video files and datasheets.
+
 
 
 ---
