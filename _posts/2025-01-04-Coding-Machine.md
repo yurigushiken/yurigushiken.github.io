@@ -44,7 +44,11 @@ categories: Automation Tools
   <p><strong>participant datasheet, 1 of 72</strong></p>
 </div>
 
+<<<<<<< HEAD
 We begin with ~75 participant video files (~300 minutes / 540k frames) that would take forever to code by hand. Our automated workflow expedites this process, generating labeled video files and accompanying datasheets.
+=======
+We begin with ~75 participant video files (~300 minutes / 540k frames) that would take many hours to code by hand. This ML-powered and rule-based verified workflow automates the process outputting labeled video files and accompanying datasheets.
+>>>>>>> 3c0085a (refactor: Clarify description of automated workflow in Coding Machine post)
 
 
 ---
