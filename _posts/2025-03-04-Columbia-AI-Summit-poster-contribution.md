@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Columbia AI Summit - poster contribution"
-date: 2024-03-04 14:00:00 -0400
+date: 2025-03-04 14:00:00 -0400
 categories: academic research
 ---
 
