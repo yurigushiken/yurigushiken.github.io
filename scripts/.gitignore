@@ -1,8 +1,0 @@
-# Ignore temporary script files
-*.tmp
-*_temp.ps1
-*_backup.ps1
-
-# Ignore script logs
-*.log
-logs/ 

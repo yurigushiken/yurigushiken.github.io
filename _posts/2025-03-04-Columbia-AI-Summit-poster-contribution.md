@@ -18,8 +18,8 @@ categories: academic research
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 2rem;">
   <div style="width: 32%; text-align: center;">
-    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/columbiaAIsummeit-20250304_144451.jpg"
-         alt="Columbia AI Summit 1"
+    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/columbiaAIsummeit-20250304_133837.jpg"
+         alt="Columbia AI Summit 3"
          style="width: 100%; height: auto;" />
   </div>
   <div style="width: 32%; text-align: center;">
@@ -28,8 +28,8 @@ categories: academic research
          style="width: 100%; height: auto;" />
   </div>
   <div style="width: 32%; text-align: center;">
-    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/columbiaAIsummeit-20250304_133837.jpg"
-         alt="Columbia AI Summit 3"
+    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/columbiaAIsummeit-20250304_144451.jpg"
+         alt="Columbia AI Summit 1"
          style="width: 100%; height: auto;" />
   </div>
 </div>
