@@ -16,9 +16,27 @@ categories: academic research
   </p>
 </div>
 
+<div style="display: flex; justify-content: space-between; margin-bottom: 2rem;">
+  <div style="width: 32%; text-align: center;">
+    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/columbiaAIsummeit-20250304_144451.jpg"
+         alt="Columbia AI Summit 1"
+         style="width: 100%; height: auto;" />
+  </div>
+  <div style="width: 32%; text-align: center;">
+    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/columbiaAIsummeit-20250304_123812.jpg"
+         alt="Columbia AI Summit 2"
+         style="width: 100%; height: auto;" />
+  </div>
+  <div style="width: 32%; text-align: center;">
+    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/columbiaAIsummeit-20250304_133837.jpg"
+         alt="Columbia AI Summit 3"
+         style="width: 100%; height: auto;" />
+  </div>
+</div>
+
 ## Eye-Track-ML: A Machine Learning Pipeline for Automated Frame-by-Frame Coding of Eye-Tracking Videos
 
-The Columbia AI Summit provided a valuable platform to showcase our research on automated eye-tracking analysis. Our poster presentation highlighted the Eye-Track-ML pipeline, an innovative solution to the labor-intensive challenge of manually coding eye-tracking videos in developmental research. Traditional methods often require researchers to painstakingly annotate each frame, a process that becomes prohibitively time-consuming when analyzing the hundreds of thousands of frames in typical studies. This bottleneck has frequently led researchers to omit object coding entirely, limiting the depth and scope of insights that can be drawn from eye-tracking data.
+My research partner, Yuexin Li, and I presented our work at 2025 The Columbia AI Summit. Our poster presentation highlighted the Eye-Track-ML pipeline, an innovative solution to the labor-intensive challenge of manually coding eye-tracking videos in developmental research. Traditional methods often require researchers to painstakingly annotate each frame, a process that becomes prohibitively time-consuming when analyzing the hundreds of thousands of frames in typical studies. This bottleneck has frequently led researchers to omit object coding entirely, limiting the depth and scope of insights that can be drawn from eye-tracking data.
 
 Our methodology emerged from a need to code approximately 600,000 frames of eye-tracking data from 71 videos (totaling over 6 hours), requiring precise identification of what participants were looking at in each frame. Drawing on our experience with computer vision models, we developed an automated pipeline combining YOLOv11 for object detection and event classification with SAM2.1 for precise object segmentation. The pipeline processes participant videos through five stages: frame extraction, event classification, object detection (with optional segmentation), gaze mapping using rule-based logic, and consolidation into structured CSV datasheets. We trained these models on 600 diverse frames, with additional training on challenging scenes like hugging where multiple objects appear in close proximity.
 
