@@ -42,8 +42,8 @@ Our pipeline involves six sequential steps: breaking videos into frames, classif
 
 Despite the high accuracy of our automated approach, we found that human verification remains necessary for detecting subtle patterns and edge cases. However, our system establishes a strong baseline for consistency, requiring human verifiers to correct only about 6% of data points. This is a dramatic reduction in manual labor. potentially transforming how eye-tracking studies are conducted in cognitive neuroscience research.
 
-https://docs.ultralytics.com/
-https://github.com/facebookresearch/segment-anything
-https://blog.roboflow.com/yolov11-how-to-train-custom-data/
-https://blog.roboflow.com/fine-tune-sam-2-1/
+[YOLO documentation](https://docs.ultralytics.com/)
+[Segment Anything Model (SAM) repository](https://github.com/facebookresearch/segment-anything)
+[How to train YOLOv11 on custom data](https://blog.roboflow.com/yolov11-how-to-train-custom-data/)
+[Fine-tuning SAM 2.1](https://blog.roboflow.com/fine-tune-sam-2-1/)
  
