@@ -25,4 +25,4 @@ Our lesson addresses NYS Computer Science and Digital Fluency Standards, particu
 
 The most valuable learning moment came when testing the "never seen" images, addressing standard 4-6.CT.3 (visualizing data to highlight relationships). Students were curious why certain artistic styles were easier for the machine to identify than others, and developed hypotheses about feature recognition. Student enthusiasm was contagious - students were excited for class knowing they were going to train an AI model, and they have already asked when they can build their next AI project!
 
-More information about the NYS Computer Science and Digital Fluency Standards for grades 4-6 can be found [here](https://www.nysed.gov/sites/default/files/programs/standards-instruction/computer-science-digital-fluency-standards-4-6.pdf). 
+For more information about the NYS Computer Science and Digital Fluency Standards for grades 4-6 please see [here](https://www.nysed.gov/sites/default/files/programs/standards-instruction/computer-science-digital-fluency-standards-4-6.pdf). 
