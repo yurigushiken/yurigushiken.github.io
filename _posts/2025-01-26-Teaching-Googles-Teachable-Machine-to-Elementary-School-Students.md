@@ -6,14 +6,14 @@ categories: teaching
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/friendsai-20250113_113847%20(1).jpg"
+  <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/friendsai-20250113_113847%20%281%29.jpg"
        alt="Students working with Teachable Machine"
        style="max-width: 100%; height: auto; margin-bottom: 1rem;" />
   <div style="display: flex; justify-content: space-between;">
     <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/friendsai-20250113_114749.jpg"
          alt="Students collaborating on AI project"
          style="width: 49%; height: auto;" />
-    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/friendsai-20250113_115215%20(1).jpg"
+    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/friendsai-20250113_115215%20%281%29.jpg"
          alt="Student presentation on Teachable Machine"
          style="width: 49%; height: auto;" />
   </div>
