@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LCN Video Comparison: Multi-Video Synchronization Tool"
-date: 2025-03-22 10:00:00 -0400
+date: 2023-03-22 10:00:00 -0400
 categories: tools development
 ---
 
