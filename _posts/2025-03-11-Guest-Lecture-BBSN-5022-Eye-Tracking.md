@@ -11,8 +11,4 @@ We presented the challenges of traditional manual coding methods and how our aut
 
 Please see the slides from our guest lecture [here](https://docs.google.com/presentation/d/19dn7Ofb3AKbYZue11uwxMFQ5_q7ibumn98WbwpployI/edit?usp=sharing). 
 
-<div style="text-align: center; margin-bottom: 2rem;">
-  <a href="https://docs.google.com/presentation/d/19dn7Ofb3AKbYZue11uwxMFQ5_q7ibumn98WbwpployI/edit?usp=sharing">
-    <img src="/media/Screenshot%202025-03-21%20201549.png" alt="Slideshow Cover of Guest Lecture" style="max-width:100%; height:auto;">
-  </a>
-</div> 
+[![Slideshow Cover of Guest Lecture](/media/Screenshot%202025-03-21%20201549.png)](https://docs.google.com/presentation/d/19dn7Ofb3AKbYZue11uwxMFQ5_q7ibumn98WbwpployI/edit?usp=sharing) 
