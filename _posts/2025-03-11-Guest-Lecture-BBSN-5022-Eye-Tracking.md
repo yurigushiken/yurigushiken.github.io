@@ -13,5 +13,5 @@ We presented the challenges of traditional manual coding methods and how our aut
 
 Please see the slides from our guest lecture [here](https://docs.google.com/presentation/d/19dn7Ofb3AKbYZue11uwxMFQ5_q7ibumn98WbwpployI/edit?usp=sharing). 
 
-![Lecture Capture](/media/VideoCapture_20250321-220031.jpg)
+<img src="/media/VideoCapture_20250321-220031.jpg" alt="Lecture Capture" width="66.7%" />
 
