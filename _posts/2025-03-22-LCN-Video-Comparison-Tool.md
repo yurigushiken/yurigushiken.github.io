@@ -7,7 +7,7 @@ categories: tools development
 
 ![LCN Video Comparison Tool Screenshot](/media/eir-data-visualization.png)
 
-We developed a specialized data visualization tool for the Language and Cognition Lab at Columbia University. The [LCN Video Comparison Tool](https://yurigushiken.github.io/LCN-video-viewer/) helps researchers compare multiple experimental videos simultaneously with frame-by-frame precision.
+We developed a specialized data visualization tool for the Language and Cognition Lab at Teachers College, Columbia University. The [LCN Video Comparison Tool](https://yurigushiken.github.io/LCN-video-viewer/) helps researchers compare multiple experimental videos simultaneously with frame-by-frame precision.
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/LjDz26i2shU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
