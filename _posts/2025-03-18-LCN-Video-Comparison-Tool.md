@@ -5,7 +5,7 @@ date: 2025-03-18 10:00:00 -0400
 categories: tools development
 ---
 
-This is a double-post for progress in our Infant Event Representations study at the Language and Cognitive Neuroscience Lab, at Teachers College.
+This is a **double post** for progress in our Infant Event Representations study at the [Language and Cognitive Neuroscience Lab](https://www.tc.columbia.edu/lcl/), at Teachers College.
 
 We (1) created heatmaps that represent all participant gazepoints (2) and developed a specialized data visualization website for the Language and Cognition Lab at Columbia University. The [LCN Video Comparison Tool](https://yurigushiken.github.io/LCN-video-viewer/) helps researchers compare multiple experimental videos simultaneously with frame-by-frame precision.
 
@@ -13,7 +13,7 @@ We (1) created heatmaps that represent all participant gazepoints (2) and develo
 *(1) Heatmap video, 11-month old participants, GW event*
 
 ![LCN Video Comparison Tool Screenshot](/media/eir-data-visualization.png)
-**Data representation tool: [link](https://yurigushiken.github.io/LCN-video-viewer/)**
+*Data representation tool: [link](https://yurigushiken.github.io/LCN-video-viewer/)*
 
 The tool solves a common research problem: comparing participants' responses side by side. Frame-precise synchronization reveals subtle behavioral patterns that would otherwise remain hidden in sequential viewing.
 
