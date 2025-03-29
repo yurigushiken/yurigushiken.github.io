@@ -1,3 +1,6 @@
+﻿---
+---
+
 @import "minima";
 
 // Dark theme overrides
@@ -67,68 +70,68 @@ a:hover {
 
 // Define specific tag colors
 .tag-research {
-  background-color: #8bc34a;  // light green
+  background-color: #8bc34a;
 }
 
 .tag-eye-tracking {
-  background-color: #42a5f5;  // blue
+  background-color: #42a5f5;
 }
 
 .tag-data-analysis {
-  background-color: #ab47bc;  // purple
+  background-color: #ab47bc;
 }
 
 .tag-infant-event-representations {
-  background-color: #ff9800;  // orange
+  background-color: #ff9800;
 }
 
 .tag-tool {
-  background-color: #f44336;  // red
+  background-color: #f44336;
 }
 
 .tag-development {
-  background-color: #26a69a;  // teal
+  background-color: #26a69a;
 }
 
 .tag-presentation {
-  background-color: #fdd835;  // yellow
+  background-color: #fdd835;
 }
 
 .tag-education {
-  background-color: #fdd835;  // yellow
+  background-color: #fdd835;
 }
 
 .tag-technology {
-  background-color: #7e57c2;  // deep purple
+  background-color: #7e57c2;
 }
 
 .tag-ai {
-  background-color: #ec407a;  // pink
+  background-color: #ec407a;
 }
 
 .tag-design {
-  background-color: #66bb6a;  // green
+  background-color: #66bb6a;
 }
 
 .tag-project {
-  background-color: #ff7043;  // deep orange
+  background-color: #ff7043;
 }
 
 .tag-code {
-  background-color: #5c6bc0;  // indigo
+  background-color: #5c6bc0;
 }
 
 .tag-academic {
-  background-color: #9c27b0;  // purple
+  background-color: #9c27b0;
 }
 
 .tag-teaching {
-  background-color: #00bcd4;  // cyan
+  background-color: #00bcd4;
 }
 
 // Default tag color for unspecified tags
 .tag-default {
-  background-color: #78909c;  // blue grey
+  background-color: #78909c;
 }
 
 // Dark mode code highlighting
@@ -142,14 +145,14 @@ pre, code {
   border: none;
 }
   
-.highlight .c, .highlight .c1, .highlight .cm { color: #546e7a; } 
-.highlight .k, .highlight .kd, .highlight .kn, .highlight .kt { color: #7986cb; } 
-.highlight .o { color: #89ddff; } 
-.highlight .s, .highlight .s1, .highlight .s2, .highlight .sr, .highlight .sb { color: #c3e88d; } 
-.highlight .na, .highlight .nb, .highlight .bp { color: #82aaff; } 
-.highlight .mi, .highlight .mf, .highlight .mh, .highlight .mo { color: #f78c6c; } 
-.highlight .nt { color: #ff5370; } 
-.highlight .nf { color: #ffcb6b; } 
+.highlight .c, .highlight .c1, .highlight .cm { color: #546e7a; }
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kt { color: #7986cb; }
+.highlight .o { color: #89ddff; }
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sr, .highlight .sb { color: #c3e88d; }
+.highlight .na, .highlight .nb, .highlight .bp { color: #82aaff; }
+.highlight .mi, .highlight .mf, .highlight .mh, .highlight .mo { color: #f78c6c; }
+.highlight .nt { color: #ff5370; }
+.highlight .nf { color: #ffcb6b; }
 
 // Dark mode tables
 table {
