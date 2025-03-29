@@ -12,7 +12,7 @@ This website serves as a supplement to my CV.
 
 # CV
 
-<iframe src="/media/gushiken-cv.pdf" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
+<iframe src="/media/gushiken-cv-draft.pdf" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
 
 ![Self Image](/media/self01.png)
 
