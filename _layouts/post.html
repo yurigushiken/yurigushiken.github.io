@@ -20,7 +20,7 @@ layout: default
         Tags: 
         {% for tag in page.tags %}
           {% assign tag_slug = tag | downcase | replace: ' ', '-' | replace: '"', '' %}
-          {% if tag_slug == "research" or tag_slug == "eye-tracking" or tag_slug == "data-analysis" or tag_slug == "infant-event-representations" or tag_slug == "tool" or tag_slug == "development" or tag_slug == "education" or tag_slug == "technology" or tag_slug == "ai" or tag_slug == "design" or tag_slug == "project" or tag_slug == "code" %}
+          {% if tag_slug == "research" or tag_slug == "eye-tracking" or tag_slug == "data-analysis" or tag_slug == "infant-event-representations" or tag_slug == "tool" or tag_slug == "development" or tag_slug == "education" or tag_slug == "technology" or tag_slug == "ai" or tag_slug == "design" or tag_slug == "project" or tag_slug == "code" or tag_slug == "presentation" or tag_slug == "academic" or tag_slug == "teaching" %}
             <span class="post-tag tag-{{ tag_slug }}">{{ tag }}</span>{% unless forloop.last %} {% endunless %}
           {% else %}
             <span class="post-tag tag-default">{{ tag }}</span>{% unless forloop.last %} {% endunless %}
