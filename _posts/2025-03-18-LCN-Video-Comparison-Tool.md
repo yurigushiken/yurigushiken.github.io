@@ -3,6 +3,7 @@ layout: post
 title: "LCN Video Comparison: Multi-Video Synchronization Tool"
 date: 2025-03-18 10:00:00 -0400
 categories: tools development
+tags: [research, infant-event-representations, eye-tracking, data-analysis, tool]
 ---
 
 This is a **double post** for progress in our Infant Event Representations study at the [Language and Cognitive Neuroscience Lab](https://www.tc.columbia.edu/lcl/), at Teachers College.
