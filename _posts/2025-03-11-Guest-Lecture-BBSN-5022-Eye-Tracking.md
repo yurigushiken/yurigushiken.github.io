@@ -3,7 +3,6 @@ layout: post
 title: "Guest Lecture in BBSN 5022: Eye-Tracking & Dynamic Data Analysis"
 date: 2025-03-11 10:00:00 -0400
 categories: academic teaching
-tags: [eye-tracking, presentation, research, infant-event-representations]
 ---
 
 [![Slideshow Cover of Guest Lecture](/media/Screenshot%202025-03-21%20201549.png)](https://docs.google.com/presentation/d/19dn7Ofb3AKbYZue11uwxMFQ5_q7ibumn98WbwpployI/edit?usp=sharing) 

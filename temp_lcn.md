@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "LCN Video Comparison: Multi-Video Synchronization Tool"
 date: 2025-03-18 10:00:00 -0400
@@ -18,7 +18,7 @@ We (1) created heatmaps that represent all participant gazepoints (2) and develo
 The tool solves a common research problem: comparing participants' responses side by side. Frame-precise synchronization reveals subtle behavioral patterns that would otherwise remain hidden in sequential viewing.
 
 Capabilities:
-- Customizable grid layouts (1×1, 1×2, 2×2, 2×3)
+- Customizable grid layouts (1Ã—1, 1Ã—2, 2Ã—2, 2Ã—3)
 - Synchronized playback of multiple videos
 - Frame-by-frame navigation (1/30th of a second precision)
 - Leader video designation that others follow
