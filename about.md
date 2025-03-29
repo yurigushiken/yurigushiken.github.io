@@ -6,13 +6,13 @@ permalink: /about/
 
 # About
 
-My name is Yuri. I study education technology at Teachers College, Columbia University, New York City.
+I'm a researcher and developer at the Language and Cognitive Neuroscience Lab at Columbia University, where I develop tools and methodologies for analyzing eye-tracking data and infant cognitive development. My work focuses on creating computational solutions that enhance research capabilities through automation and visualization.
 
-This website serves as a supplement to my resume.
+Currently, I'm integrating machine learning and computer vision into developmental psychology research workflows, with projects including automated eye-tracking analysis systems and frame-precise video synchronization tools for experimental data visualization.
 
 # Resume
 
-<iframe src="/media/mgushiken%20resume%202023-06-06.pdf" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
+<iframe src="/media/gushiken-cv.pdf" width="100%" height="800px" frameborder="0" scrolling="yes"></iframe>
 
 ![Self Image](/media/self01.png)
 
