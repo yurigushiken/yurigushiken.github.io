@@ -1,56 +1,60 @@
+---
+---
 @import "minima";
 
 .post-tag {
   display: inline-block;
-  background-color: #f1f1f1;
-  color: #555;
-  padding: 2px 8px;
-  margin: 2px;
-  border-radius: 12px;
+  padding: 3px 8px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  border-radius: 4px;
   font-size: 0.8em;
   text-decoration: none;
-  font-weight: 500;
+  color: white;
+  background-color: #666;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .post-tag:hover {
-  background-color: #e0e0e0;
   text-decoration: none;
+  background-color: #444;
+  color: white;
 }
 
-.post-tags {
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-// Define specific tag colors
+/* Tag-specific colors */
 .post-tag[data-tag="research"] {
-  background-color: #8bc34a;  // light green
+  background-color: #3498db;
 }
 
 .post-tag[data-tag="eye-tracking"] {
-  background-color: #42a5f5;  // blue
+  background-color: #9b59b6;
 }
 
 .post-tag[data-tag="data-analysis"] {
-  background-color: #ab47bc;  // purple
+  background-color: #2ecc71;
 }
 
 .post-tag[data-tag="infant-event-representations"] {
-  background-color: #ff9800;  // orange
+  background-color: #e74c3c;
 }
 
 .post-tag[data-tag="tool"] {
-  background-color: #f44336;  // red
+  background-color: #f39c12;
 }
 
 .post-tag[data-tag="presentation"] {
-  background-color: #fdd835;  // yellow
+  background-color: #1abc9c;
 }
 
 .post-tag[data-tag="academic"] {
-  background-color: #9c27b0;  // purple
+  background-color: #34495e;
 }
 
 .post-tag[data-tag="teaching"] {
-  background-color: #00bcd4;  // cyan
-} 
+  background-color: #7f8c8d;
+}
+
+.post-tag[data-tag="eye-track-ml"] {
+  background-color: #8e44ad;
+}
+
