@@ -1,5 +1,6 @@
 {% if page.tags.size > 0 or post.tags.size > 0 %}
   <div class="post-tags">
+    <span>Tags: </span>
     {% if page.tags.size > 0 %}
       {% for tag in page.tags %}
         <a class="post-tag" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
