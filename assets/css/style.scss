@@ -20,4 +20,37 @@
 .post-tags {
   margin-top: 5px;
   margin-bottom: 10px;
+}
+
+// Define specific tag colors
+.post-tag[data-tag="research"] {
+  background-color: #8bc34a;  // light green
+}
+
+.post-tag[data-tag="eye-tracking"] {
+  background-color: #42a5f5;  // blue
+}
+
+.post-tag[data-tag="data-analysis"] {
+  background-color: #ab47bc;  // purple
+}
+
+.post-tag[data-tag="infant-event-representations"] {
+  background-color: #ff9800;  // orange
+}
+
+.post-tag[data-tag="tool"] {
+  background-color: #f44336;  // red
+}
+
+.post-tag[data-tag="presentation"] {
+  background-color: #fdd835;  // yellow
+}
+
+.post-tag[data-tag="academic"] {
+  background-color: #9c27b0;  // purple
+}
+
+.post-tag[data-tag="teaching"] {
+  background-color: #00bcd4;  // cyan
 } 
