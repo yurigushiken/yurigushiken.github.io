@@ -1,5 +1,172 @@
 ---
 ---
 
----
----
+@import "minima";
+
+// Dark theme overrides
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+a, a:visited {
+  color: #90caf9;
+}
+
+a:hover {
+  color: #42a5f5;
+  text-decoration: underline;
+}
+
+.site-header {
+  border-top-color: #424242;
+  border-bottom-color: #424242;
+  background-color: #1e1e1e;
+}
+
+.site-title, .site-title:visited {
+  color: #e0e0e0;
+}
+
+.site-nav .page-link {
+  color: #e0e0e0;
+}
+
+.footer-col-wrapper {
+  color: #9e9e9e;
+}
+
+.site-footer {
+  border-top-color: #424242;
+}
+
+.post-meta {
+  color: #9e9e9e;
+}
+
+.post-link {
+  color: #90caf9;
+}
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4 {
+  color: #e0e0e0;
+}
+
+// Tag styling
+.post-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 2px 2px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: 500;
+  color: #121212;
+}
+
+.post-tags {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+// Define specific tag colors
+.tag-research {
+  background-color: #8bc34a;  // light green
+}
+
+.tag-eye-tracking {
+  background-color: #42a5f5;  // blue
+}
+
+.tag-data-analysis {
+  background-color: #ab47bc;  // purple
+}
+
+.tag-infant-event-representations {
+  background-color: #ff9800;  // orange
+}
+
+.tag-tool {
+  background-color: #f44336;  // red
+}
+
+.tag-development {
+  background-color: #26a69a;  // teal
+}
+
+.tag-education {
+  background-color: #fdd835;  // yellow
+}
+
+.tag-technology {
+  background-color: #7e57c2;  // deep purple
+}
+
+.tag-ai {
+  background-color: #ec407a;  // pink
+}
+
+.tag-design {
+  background-color: #66bb6a;  // green
+}
+
+.tag-project {
+  background-color: #ff7043;  // deep orange
+}
+
+.tag-code {
+  background-color: #5c6bc0;  // indigo
+}
+
+// Default tag color for unspecified tags
+.tag-default {
+  background-color: #78909c;  // blue grey
+}
+
+// Dark mode code highlighting
+.highlight {
+  background-color: #263238;
+  border-radius: 4px;
+}
+  
+pre, code {
+  background-color: #263238;
+  border: none;
+}
+  
+.highlight .c, .highlight .c1, .highlight .cm { color: #546e7a; } 
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kt { color: #7986cb; } 
+.highlight .o { color: #89ddff; } 
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sr, .highlight .sb { color: #c3e88d; } 
+.highlight .na, .highlight .nb, .highlight .bp { color: #82aaff; } 
+.highlight .mi, .highlight .mf, .highlight .mh, .highlight .mo { color: #f78c6c; } 
+.highlight .nt { color: #ff5370; } 
+.highlight .nf { color: #ffcb6b; } 
+
+// Dark mode tables
+table {
+  color: #e0e0e0;
+  border: 1px solid #424242;
+}
+  
+tr {
+  background-color: #1e1e1e;
+}
+
+tr:nth-child(even) {
+  background-color: #212121;
+}
+  
+th, td {
+  border: 1px solid #424242;
+}
+
+// Dark mode blockquotes
+blockquote {
+  color: #9e9e9e;
+  border-left: 4px solid #424242;
+}
+
+// Dark mode horizontal rule
+hr {
+  border-top: 1px solid #424242;
+}
