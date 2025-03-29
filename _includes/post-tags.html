@@ -3,11 +3,13 @@
     <span>Tags: </span>
     {% if page.tags.size > 0 %}
       {% for tag in page.tags %}
-        <a class="post-tag" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
+        {% assign tag_slug = tag | slugify %}
+        <a class="post-tag" href="/tags/#{{ tag_slug }}" data-tag="{{ tag_slug }}">{{ tag }}</a>
       {% endfor %}
     {% elsif post.tags.size > 0 %}
       {% for tag in post.tags %}
-        <a class="post-tag" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
+        {% assign tag_slug = tag | slugify %}
+        <a class="post-tag" href="/tags/#{{ tag_slug }}" data-tag="{{ tag_slug }}">{{ tag }}</a>
       {% endfor %}
     {% endif %}
   </div>
