@@ -12,7 +12,7 @@ Currently, I'm integrating machine learning and computer vision into development
 
 # Resume
 
-<iframe src="/media/gushiken-cv.pdf" width="100%" height="800px" frameborder="0" scrolling="yes"></iframe>
+<iframe src="/media/gushiken-cv-draft.pdf" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
 
 ![Self Image](/media/self01.png)
 
