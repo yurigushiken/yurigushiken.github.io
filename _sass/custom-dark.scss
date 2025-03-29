@@ -4,7 +4,6 @@
 body {
   background-color: #121212;
   color: #e0e0e0;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 // Header styling
@@ -125,32 +124,3 @@ hr {
 .wrapper {
   background-color: #121212;
 }
-
-// Lists
-ul, ol {
-  li {
-    color: #e0e0e0;
-  }
-}
-
-// Pagination
-.pagination--pager {
-  color: #e0e0e0;
-  background-color: #1e1e1e;
-  border: 1px solid #444;
-  
-  &:hover {
-    background-color: #2d2d2d;
-  }
-  
-  &.disabled {
-    color: #777;
-  }
-}
-
-// Search
-.search-input {
-  background-color: #1e1e1e;
-  color: #e0e0e0;
-  border: 1px solid #444;
-} 
