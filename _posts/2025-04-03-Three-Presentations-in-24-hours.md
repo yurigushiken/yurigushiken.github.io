@@ -58,5 +58,4 @@ Representing the [Language and Cognitive Neuroscience Lab](https://www.tc.columb
 
 ---
 
-Presenting research findings and practical applications back-to-back across these distinct venues was demanding but rewarding. It highlighted the interconnectedness of cognitive science, data analysis, and educational practice that defines our work at Columbia.
 
