@@ -12,10 +12,11 @@ The first two days of April marked an intense period of sharing work across nume
 <div style="text-align: center; margin-bottom: 2rem; display: flex; justify-content: space-between;">
   <div style="width: 48%; text-align: center;">
     <img src="/media/2025-04-01 CNS - Screenshot 2025-04-13 172743.png" alt="CNS Poster Preview" style="width: 100%; height: 300px; object-fit: contain;">
-    <p><em>(Click image for full presentation PDF)</em></p>
+    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">CNS 2025, Boston</p>
   </div>
   <div style="width: 48%; text-align: center;">
     <img src="/media/2025-04-01 20250401_080827-2.jpg" alt="CNS Conference Hallway" style="width: 100%; height: 300px; object-fit: cover;">
+    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">Me in front of our poster on numerical cognition</p>
   </div>
 </div>
 
@@ -28,6 +29,7 @@ Our results support distinct neural mechanisms for perceiving small numbers (1-3
 <div style="display: flex; justify-content: space-between; margin-bottom: 2rem;">
   <div style="width: 48%; text-align: center;">
     <img src="/media/2024-04-02-steamnasium.png" alt="Steamnasium Logo Banner" style="width: 100%; height: 300px; object-fit: contain;">
+    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">STEAMnasium banner for the 2025 event</p>
   </div>
   <div style="width: 48%; text-align: center;">
     <img src="/media/2025-04-02 20250402_115250.jpg" alt="Student engaging with Turtle Art activity at Steamnasium" style="width: 100%; height: 300px; object-fit: cover;">
@@ -44,7 +46,7 @@ My cohort members (Winnie Liu, Melissa De Sole, Giles Bullen) and I, all part of
 <div style="display: flex; justify-content: space-between; margin-bottom: 2rem;">
   <div style="width: 48%; text-align: center;">
     <img src="/media/2025-04-02 Columbia Data Science Day Screenshot 2025-04-13 172903.png" alt="Eye-Track-ML Poster Screenshot" style="width: 100%; height: 300px; object-fit: contain;">
-    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">Our Eye-Track-ML Poster.</p>
+    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">Columbia Data Science Day 2025 brochure</p>
   </div>
   <div style="width: 48%; text-align: center;">
     <img src="/media/2025-04-02 20250402_142105.jpg" alt="Yuexin Li presenting Eye-Track-ML poster" style="width: 100%; height: 300px; object-fit: cover;">
