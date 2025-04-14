@@ -5,14 +5,14 @@ date: 2025-04-13 10:00:00 -0400
 categories: tools development research visualization
 ---
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 2rem; flex-wrap: wrap; align-items: flex-start;">
-  <div style="width: 48%; min-width: 250px; text-align: center;">
-    <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 1" style="width: 100%; height: 550px; object-fit: contain;">
-    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">Desktop view</p>
+<div style="display: flex; justify-content: space-between; margin-bottom: 2rem; flex-wrap: wrap;">
+  <div style="width: 48%; min-width: 250px; text-align: center; position: relative; height: 400px;">
+    <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 1" style="width: 100%; height: 350px; object-fit: contain;">
+    <p style="text-align: center; font-size: 0.9em; position: absolute; bottom: 0; width: 100%;">Desktop view</p>
   </div>
-  <div style="width: 48%; min-width: 250px; text-align: center;">
+  <div style="width: 48%; min-width: 250px; text-align: center; position: relative; height: 400px;">
     <img src="/media/2025-04-13 overlay-gif20250413_200549.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 2" style="width: 100%; height: 350px; object-fit: contain;">
-    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">Smartphone view</p>
+    <p style="text-align: center; font-size: 0.9em; position: absolute; bottom: 0; width: 100%;">Smartphone view</p>
   </div>
 </div>
 
