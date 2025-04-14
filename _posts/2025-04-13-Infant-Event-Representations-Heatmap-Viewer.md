@@ -6,13 +6,13 @@ categories: tools development research visualization
 ---
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 2rem; flex-wrap: wrap;">
-  <div style="width: 48%; min-width: 250px; text-align: center; position: relative; height: 400px;">
-    <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 1" style="width: 100%; height: 350px; object-fit: contain;">
-    <p style="text-align: center; font-size: 0.9em; position: absolute; bottom: 0; width: 100%;">Desktop view</p>
+  <div style="width: 48%; min-width: 250px; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 400px; border: 1px solid #333; padding: 10px; box-sizing: border-box;">
+    <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 1" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+    <p style="text-align: center; font-size: 0.9em; width: 100%; margin-top: 5px;">Desktop view</p>
   </div>
-  <div style="width: 48%; min-width: 250px; text-align: center; position: relative; height: 400px;">
-    <img src="/media/2025-04-13 overlay-gif20250413_200549.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 2" style="width: 100%; height: 350px; object-fit: contain;">
-    <p style="text-align: center; font-size: 0.9em; position: absolute; bottom: 0; width: 100%;">Smartphone view</p>
+  <div style="width: 48%; min-width: 250px; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 400px; border: 1px solid #333; padding: 10px; box-sizing: border-box;">
+    <img src="/media/2025-04-13 overlay-gif20250413_200549.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 2" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+    <p style="text-align: center; font-size: 0.9em; width: 100%; margin-top: 5px;">Smartphone view</p>
   </div>
 </div>
 
