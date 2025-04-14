@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Three Presentations in 24 hours"
+title: "24 hours: CNS, Steamnasium, Columbia Data Science Day"
 date: 2025-04-03 11:00:00 -0400
 categories: academic conference research teaching
 ---
