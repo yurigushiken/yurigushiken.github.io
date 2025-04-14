@@ -5,9 +5,13 @@ date: 2025-04-13 10:00:00 -0400
 categories: tools development research visualization
 ---
 
-<div style="text-align: center; margin-bottom: 2rem;">
-  <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 1" style="width: 100%; max-width: 700px; margin-bottom: 1rem;">
-  <img src="/media/2025-04-13 overlay-gif20250413_200549.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 2" style="width: 100%; max-width: 700px;">
+<div style="display: flex; justify-content: space-between; margin-bottom: 2rem; flex-wrap: wrap;">
+  <div style="width: 48%; min-width: 250px; text-align: center;">
+    <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 1" style="width: 100%; height: 350px; object-fit: contain;">
+  </div>
+  <div style="width: 48%; min-width: 250px; text-align: center;">
+    <img src="/media/2025-04-13 overlay-gif20250413_200549.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 2" style="width: 100%; height: 350px; object-fit: contain;">
+  </div>
 </div>
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 2rem; flex-wrap: wrap;">
