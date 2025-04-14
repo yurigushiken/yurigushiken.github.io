@@ -13,7 +13,7 @@ categories: tools development research visualization
 <div style="display: flex; justify-content: space-between; margin-bottom: 2rem; flex-wrap: wrap;">
   <div style="width: 48%; min-width: 250px; text-align: center;">
     <img src="/media/2025-04-13 overlays Screenshot 2025-04-13 194556.png" alt="Heatmap Overlay Viewer Interface Left Panel" style="width: 100%; height: 300px; object-fit: contain; border: 1px solid #ddd;">
-    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">Viewer Controls and Overlay Selection</p>
+    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">GitHub repository</p>
   </div>
   <div style="width: 48%; min-width: 250px; text-align: center;">
     <img src="/media/2025-04-13 overlays Screenshot 2025-04-13 194425.png" alt="Heatmap Overlay Viewer Interface Video Area" style="width: 100%; height: 300px; object-fit: contain; border: 1px solid #ddd;">
