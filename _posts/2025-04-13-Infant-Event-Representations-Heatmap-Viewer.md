@@ -8,20 +8,11 @@ categories: tools development research visualization
 <div style="display: flex; justify-content: space-between; margin-bottom: 2rem; flex-wrap: wrap;">
   <div style="width: 48%; min-width: 250px; text-align: center;">
     <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 1" style="width: 100%; height: 350px; object-fit: contain;">
+    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">Desktop view</p>
   </div>
   <div style="width: 48%; min-width: 250px; text-align: center;">
     <img src="/media/2025-04-13 overlay-gif20250413_200549.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 2" style="width: 100%; height: 350px; object-fit: contain;">
-  </div>
-</div>
-
-<div style="display: flex; justify-content: space-between; margin-bottom: 2rem; flex-wrap: wrap;">
-  <div style="width: 48%; min-width: 250px; text-align: center;">
-    <img src="/media/2025-04-13 overlays Screenshot 2025-04-13 194556.png" alt="Heatmap Overlay Viewer Interface Left Panel" style="width: 100%; height: 300px; object-fit: contain; border: 1px solid #ddd;">
-    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">GitHub repository</p>
-  </div>
-  <div style="width: 48%; min-width: 250px; text-align: center;">
-    <img src="/media/2025-04-13 overlays Screenshot 2025-04-13 194425.png" alt="Heatmap Overlay Viewer Interface Video Area" style="width: 100%; height: 300px; object-fit: contain; border: 1px solid #ddd;">
-    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">Video Playback Area with Heatmap Overlays</p>
+    <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">Smartphone view</p>
   </div>
 </div>
 
@@ -34,5 +25,10 @@ We made "Infant Event Representations Heatmap Overlay Viewer", a web-based tool 
 Multiple lab members, including Dr. Gordon (PI) and Jean Tang (lab manager), use this tool in their data analysis for this project.
 
 This work is for the [Language and Cognitive Neuroscience Lab](https://www.tc.columbia.edu/lcl/).
+
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/media/2025-04-13 overlays Screenshot 2025-04-13 194556.png" alt="Heatmap Overlay Viewer Interface Left Panel" style="width: 80%; max-width: 600px; height: auto; object-fit: contain; border: 1px solid #ddd;">
+  <p style="text-align: center; font-size: 0.9em; margin-top: 5px;">GitHub repository</p>
+</div>
 
 ---
