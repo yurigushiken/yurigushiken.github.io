@@ -5,14 +5,21 @@ date: 2025-04-13 10:00:00 -0400
 categories: tools development research visualization
 ---
 
-<div style="display: flex; justify-content: space-between; margin-bottom: 2rem; flex-wrap: wrap;">
-  <div style="width: 48%; min-width: 250px; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 400px; border: 1px solid #333; padding: 10px; box-sizing: border-box;">
-    <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 1" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-    <p style="text-align: center; font-size: 0.9em; width: 100%; margin-top: 5px;">Desktop view</p>
+<div style="display: flex; justify-content: space-around; margin-bottom: 2rem; flex-wrap: wrap; align-items: flex-start;">
+  <!-- Left Image Block -->
+  <div style="width: 48%; min-width: 250px; height: 400px; border: 1px solid #ddd; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box; margin-bottom: 1rem;">
+    <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+      <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 1" style="display: block; max-width: 100%; max-height: 100%; object-fit: contain;">
+    </div>
+    <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Desktop view</p>
   </div>
-  <div style="width: 48%; min-width: 250px; display: flex; flex-direction: column; justify-content: space-between; align-items: center; height: 400px; border: 1px solid #333; padding: 10px; box-sizing: border-box;">
-    <img src="/media/2025-04-13 overlay-gif20250413_200549.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 2" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-    <p style="text-align: center; font-size: 0.9em; width: 100%; margin-top: 5px;">Smartphone view</p>
+
+  <!-- Right Image Block -->
+  <div style="width: 48%; min-width: 250px; height: 400px; border: 1px solid #ddd; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box; margin-bottom: 1rem;">
+    <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+      <img src="/media/2025-04-13 overlay-gif20250413_200549.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 2" style="display: block; max-width: 100%; max-height: 100%; object-fit: contain;">
+    </div>
+    <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Smartphone view</p>
   </div>
 </div>
 
