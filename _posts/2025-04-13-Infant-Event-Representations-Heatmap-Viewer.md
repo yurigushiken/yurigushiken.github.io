@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Tool: Infant Event Representations Heatmap Viewer"
+title: "Analysis Tool: Infant Event Representations Heatmap Viewer"
 date: 2025-04-13 10:00:00 -0400
 categories: tools development research visualization
 ---
