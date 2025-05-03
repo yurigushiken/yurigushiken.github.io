@@ -25,6 +25,30 @@ categories: tools development research visualization
           <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Smartphone view</p>
         </div>
       </li>
+      <li class="glide__slide">
+        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="/media/lcn-heatmap-gwo-7months-man.png" alt="7 Months Heatmap (Man)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          </div>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">7 Months Heatmap (Man)</p>
+        </div>
+      </li>
+      <li class="glide__slide">
+        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="/media/lcn-heatmap-gwo-man.png" alt="Man Heatmap" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          </div>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Man Heatmap</p>
+        </div>
+      </li>
+      <li class="glide__slide">
+        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="/media/lcn-heatmap-gwo-adult-man.png" alt="Adult Heatmap (Man)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          </div>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Adult Heatmap (Man)</p>
+        </div>
+      </li>
     </ul>
   </div>
 
@@ -40,11 +64,8 @@ categories: tools development research visualization
 </div>
 <!-- End Glide.js Carousel -->
 
-<p style="text-align: center; margin: 2rem 0;">
-  <a href="https://yurigushiken.github.io/LCN-heatmap-overlays/" target="_blank" style="font-size: 1.1em; font-weight: bold;">Explore the Infant Event Representations Heatmap Overlay Viewer</a>
-</p>
 
-We made a website/tool for data analysis "Infant Event Representations Heatmap Overlay Viewer". This tool aids our ongoing research (a follow-up to the original Infant Event Representations study, Gordon, 2003). Our team can now select stimulus videos and toggle heatmap overlays representing the gaze patterns of different age groups (infants aged 7-11 months and adults). We are inspired by Universal Design for Learning (UDL) principles, which we were introduced to at Teachers College. These principles stress and value multiple means of representation.
+We made a website/tool for data analysis "Infant Event Representations Heatmap Overlay Viewer". This tool aids in our ongoing research (a follow-up to the original Infant Event Representations study, Gordon, 2003). Our team can now select stimulus videos and toggle heatmap overlays representing the gaze patterns of different age groups (infants aged 7-11 months and adults). We are inspired by Universal Design for Learning (UDL) principles, which we were introduced to at Teachers College. These principles stress and value multiple means of representation.
 
 
 This work is for the [Language and Cognitive Neuroscience Lab](https://www.tc.columbia.edu/lcl/).
