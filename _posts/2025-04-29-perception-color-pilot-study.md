@@ -13,6 +13,14 @@ The purposes of this project are to test Donald Hoffman's Interface Theory of Pe
       <li class="glide__slide">
         <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
           <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="/media/pc-combined_experiment_and_trial_flow.png" alt="Experiment Flow Diagram" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          </div>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment and Trial Flow</p>
+        </div>
+      </li>
+      <li class="glide__slide">
+        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
             <img src="/media/pc-Screenshot 2025-05-03 110631.png" alt="Experiment Interface Additional View" style="max-width: 100%; max-height: 90%; object-fit: contain;">
           </div>
           <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment Interface (Overview)</p>
@@ -34,20 +42,20 @@ The purposes of this project are to test Donald Hoffman's Interface Theory of Pe
           <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment Interface (Trial View)</p>
         </div>
       </li>
-      <li class="glide__slide">
-        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-            <img src="/media/pc-combined_experiment_and_trial_flow.png" alt="Experiment Flow Diagram" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-          </div>
-          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment and Trial Flow</p>
-        </div>
-      </li>
     </ul>
   </div>
 
   <div class="glide__arrows" data-glide-el="controls">
     <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
     <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+  </div>
+
+  <!-- Added Navigation Bullets -->
+  <div class="glide__bullets" data-glide-el="controls[nav]" style="text-align: center; margin-top: 10px;">
+    <!-- Glide.js will automatically populate buttons here -->
+    <!-- Example structure (do not add manually): -->
+    <!-- <button class="glide__bullet" data-glide-dir="=0"></button> -->
+    <!-- <button class="glide__bullet" data-glide-dir="=1"></button> -->
   </div>
 </div>
 <!-- End Glide.js Carousel -->
