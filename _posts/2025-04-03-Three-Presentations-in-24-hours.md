@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "24 hours: CNS, Steamnasium, Columbia Data Science Day"
+title: "24 hours: CNS (Boston), Steamnasium, Columbia Data Science Day"
 date: 2025-04-03 11:00:00 -0400
 categories: academic conference research teaching
 ---
@@ -37,7 +37,7 @@ Please see our poster [here](https://docs.google.com/presentation/d/1F8Xo6gHzu2m
   </div>
 </div>
 
-On Wednesday, I presented at the annual STEAMnasium event hosted by the Mathematics, Science & Technology (MST) department at Teachers College, Columbia University. 
+On Wednesday, my MA cohort and I presented at the annual STEAMnasium event hosted by the Mathematics, Science & Technology (MST) department at Teachers College, Columbia University. 
 
 My cohort members (Winnie Liu, Melissa De Sole, Giles Bullen) and I, all part of the [Technology Specialist MA program](https://www.tc.columbia.edu/cmltd/academics/degrees--requirements/technology-specialist-ma-initial/), presented activities reflecting our work in K-12 school placements this year. Thank you to Giles for coordinating with organizers for our presentation space.
 
