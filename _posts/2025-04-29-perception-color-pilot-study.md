@@ -4,7 +4,13 @@ title: "Perception Color Experiment: Reward Effects on Categorization"
 date: 2025-04-29 11:00:00 -0400
 categories: research psychology web development data-analysis firebase react
 ---
+Can Value Change What We See (and Do)?
+
 The purposes of this project are to test Donald Hoffman's Interface Theory of Perception (ITP) and gain experience and understanding of stimulus creation, presentation, and pyschophysics research.
+
+A challenge in perception research is separating genuine perceptual changes from conscious strategies. We're currently iterating on our design to better isolate the perceptual effects we're interested in.
+
+The following is a presentation of some of our work so far.
 
 <!-- Glide.js Carousel -->
 <div class="glide" id="perception-color-carousel">
@@ -63,7 +69,7 @@ The purposes of this project are to test Donald Hoffman's Interface Theory of Pe
           <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
             <img src="/media/pc-w8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_curve_fits_plot_RedOrange.png" alt="Red/Orange Psychometric Curve Fits Plot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
           </div>
-          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Psychometric Curve Fits</p>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Psychometric Curve</p>
         </div>
       </li>
     </ul>
