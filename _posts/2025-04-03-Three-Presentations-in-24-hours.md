@@ -43,19 +43,19 @@ categories: academic conference research teaching
 
 The first two days of April was period of sharing my and my lab's recent work in numerical cognition and neuroscience, education technology, and research methods at two conferences and one event: Cognitive Neuroscience Society (CNS) annual meeting, Teachers College's STEAMnasium, and Columbia's Data Science Day.
 
-### Cognitive Neuroscience Society (CNS) 2025 (Monday, 1 April)
+### **Monday, 1 April** Cognitive Neuroscience Society (CNS) 2025
 
 At the annual CNS meeting in Boston LCN lab members and I presented findings from our EEG study on how the brain processes small versus large numerical quantities. We looked at ERP components N1 and P3b during a numerical change detection task.
 
 Please see our poster [here](https://docs.google.com/presentation/d/1F8Xo6gHzu2mmPiA4LIeVx1f57T2R2S1dVuSJrParDTQ/edit?usp=sharing).
 
-### STEAMnasium 2025 at Teachers College (Wednesday, 2 April)
+### **Wednesday, 2 April** STEAMnasium 2025 at Teachers College
 
 On Wednesday, my MA cohort and I presented at the annual STEAMnasium event hosted by the Mathematics, Science & Technology (MST) department at Teachers College, Columbia University. 
 
 My cohort members (Winnie Liu, Melissa De Sole, Giles Bullen) and I, all part of the [Technology Specialist MA program](https://www.tc.columbia.edu/cmltd/academics/degrees--requirements/technology-specialist-ma-initial/), presented activities reflecting our work in K-12 school placements this year. Thank you to Giles for coordinating with organizers for our presentation space.
 
-### Columbia Data Science Day 2025 (Wednesday, 2 April)
+### **Wednesday, 2 April** Columbia Data Science Day 2025
 
 Lastly, my research partner, Yuexin Li, and I presented our methods research at Columbia University's Data Science Day on April 2nd. 
 
