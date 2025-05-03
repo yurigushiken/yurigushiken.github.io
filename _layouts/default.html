@@ -6,10 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {%- seo -%}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     {%- feed_meta -%}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+
+    <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" />
+
+    <!-- REMOVED Glide.js CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css" integrity="sha512-NovMjQEE8D70QmM0N+2H8nPZ/XXN8HkH7mXjGvkKq/NfIuRfYB7NnyvkE1G2i8h5ghzF7Q9J2PXF5q4Z+2P9Eg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.theme.min.css" integrity="sha512-uYH5Qx+9u6U4wYhXkdD0R/kxqP/e7H2mzGaQ68N8q5F/ZR/jDPEb/D6CT+w5qj7FMyFGvwV9s/yq1h4wJ9fSbg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
   </head>
 
   <body>
@@ -71,17 +80,14 @@
         </div>
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script>
-      // Initialize Glide carousels if they exist on the page
-      if (document.getElementById('perception-color-carousel')) {
-        new Glide('#perception-color-carousel', {
-          type: 'carousel',
-          startAt: 0,
-          perView: 1
-        }).mount();
-      }
-      // Add initializers for other carousels here if needed in the future
-    </script>
-  </body>
+
+  </div>
+
+  <!-- Swiper.js JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+  <!-- REMOVED Glide.js JS -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.min.js" integrity="sha512-PyLUwP5mXWZ+zJ+1Xf/MV2JS/f7LVT47e4C9F4rn5UfGCgYJ4SD7kvckoyx8Q05mGmw0sB7YwS/j2GFQY/wJrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+</body>
 </html> 
