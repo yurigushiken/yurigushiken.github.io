@@ -27,9 +27,8 @@ categories: tools development research visualization
   <a href="https://yurigushiken.github.io/LCN-heatmap-overlays/" target="_blank" style="font-size: 1.1em; font-weight: bold;">Explore the Infant Event Representations Heatmap Overlay Viewer</a>
 </p>
 
-We made "Infant Event Representations Heatmap Overlay Viewer", a web-based tool for data analysis. This tool aids our ongoing research (a follow-up to the original Infant Event Representations study, Gordon, 2003). Users can select stimulus videos and toggle heatmap overlays representing the gaze patterns of different age groups (infants aged 7-11 months and adults). We are inspired by Universal Design for Learning (UDL) principles that value offering multiple means of data representation, as we do in this project.
+We made a website/tool for data analysis "Infant Event Representations Heatmap Overlay Viewer". This tool aids our ongoing research (a follow-up to the original Infant Event Representations study, Gordon, 2003). Our team can now select stimulus videos and toggle heatmap overlays representing the gaze patterns of different age groups (infants aged 7-11 months and adults). We are inspired by Universal Design for Learning (UDL) principles, which we were introduced to at Teachers College. These principles stress and value multiple means of representation.
 
-Multiple lab members, including Dr. Gordon (PI) and Jean Tang (lab manager), use this tool in their data analysis for this project.
 
 This work is for the [Language and Cognitive Neuroscience Lab](https://www.tc.columbia.edu/lcl/).
 
