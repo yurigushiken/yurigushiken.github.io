@@ -148,7 +148,7 @@ Project highlights & skills we gained:
 * Iteratively refined experimental design to isolate perceptual effects.
 
 
-**Experimental flow:**
+**Experiment flow:**
 * Introduction & Setup: Brief instructions and webcam check/calibration via RealEye.io.
 * Baseline Block: First, we measure each participant's initial perceptual boundary – the point where they are equally likely to categorize an ambiguous color as 'Blue' or 'Green'. This establishes their personal Point of Subjective Equivalence (PSE).
 * Experimental Blocks (Randomized Order): Participants then complete two main blocks designed to test the influence of value:
