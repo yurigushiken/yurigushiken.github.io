@@ -4,29 +4,45 @@ title: "Perception Color Experiment: Reward Effects on Categorization"
 date: 2025-04-29 11:00:00 -0400
 categories: research psychology web development data-analysis firebase react
 ---
-The purposes of this project are to test Donald Hoffman's Interface Theory of Perception (ITP) and gain experience and understanding of stimulus presentation and pyschophysics research.
+The purposes of this project are to test Donald Hoffman's Interface Theory of Perception (ITP) and gain experience and understanding of stimulus creation, presentation, and pyschophysics research.
 
-<div style="text-align: center; margin: 1rem 0;">
-  <img src="/media/pc-Screenshot 2025-05-03 110631.png" alt="Experiment Interface Additional View" style="width: 80%; max-width: 700px; height: auto; object-fit: contain; border: 1px solid #ddd;">
-</div>
-
-<div style="display: flex; justify-content: space-around; margin-bottom: 2rem; flex-wrap: wrap; align-items: flex-start;">
-  <!-- Left Image Block -->
-  <div style="width: 48%; min-width: 250px; max-height: 400px; border: 1px solid #ddd; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box; margin-bottom: 1rem;">
-    <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-      <img src="/media/pc-Screenshot 2025-04-21 181710.png" alt="Perception Color Experiment Screenshot" style="display: block; max-width: 100%; max-height: 100%; object-fit: contain;">
-    </div>
-    <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment Interface</p>
+<!-- Glide.js Carousel -->
+<div class="glide" id="perception-color-carousel">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+      <li class="glide__slide">
+        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="/media/pc-Screenshot 2025-05-03 110631.png" alt="Experiment Interface Additional View" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          </div>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment Interface (Overview)</p>
+        </div>
+      </li>
+      <li class="glide__slide">
+        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="/media/pc-Screenshot 2025-04-21 181710.png" alt="Perception Color Experiment Screenshot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          </div>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment Interface (Trial View)</p>
+        </div>
+      </li>
+      <li class="glide__slide">
+        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="/media/pc-combined_experiment_and_trial_flow.png" alt="Experiment Flow Diagram" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          </div>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment and Trial Flow</p>
+        </div>
+      </li>
+    </ul>
   </div>
 
-  <!-- Right Image Block -->
-  <div style="width: 48%; min-width: 250px; max-height: 400px; border: 1px solid #ddd; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box; margin-bottom: 1rem;">
-    <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-      <img src="/media/pc-combined_experiment_and_trial_flow.png" alt="Experiment Flow Diagram" style="display: block; max-width: 100%; max-height: 100%; object-fit: contain;">
-    </div>
-    <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment and Trial Flow</p>
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
   </div>
 </div>
+<!-- End Glide.js Carousel -->
 
 <p style="text-align: center; margin: 2rem 0;">
   <a href="https://perception-color.web.app/" target="_blank" style="font-size: 1.1em; font-weight: bold;">Explore the Perception Color Experiment (Demo)</a><br>
@@ -81,5 +97,18 @@ We quantify each participant's color boundary (PSE) and sensitivity (slope) unde
     Your browser does not support the video tag.
   </video>
 </div>
+
+<script>
+  // Only initialize Glide if the element exists
+  if (document.getElementById('perception-color-carousel')) {
+    new Glide('#perception-color-carousel', {
+      type: 'carousel', // Use 'carousel' for looping or 'slider' for non-looping
+      startAt: 0,
+      perView: 1, // Show one slide at a time
+      // Add other Glide.js options here if needed
+      // e.g., autoplay: 3000, hoverpause: true
+    }).mount();
+  }
+</script>
 
 --- 
