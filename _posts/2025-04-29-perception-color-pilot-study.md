@@ -23,7 +23,7 @@ The purposes of this project are to test Donald Hoffman's Interface Theory of Pe
           <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
             <img src="/media/pc-Screenshot 2025-05-03 110631.png" alt="Experiment Interface Additional View" style="max-width: 100%; max-height: 90%; object-fit: contain;">
           </div>
-          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment Interface (Overview)</p>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Orange/Red Stimulus Example</p>
         </div>
       </li>
       <li class="glide__slide">
