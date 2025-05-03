@@ -101,14 +101,13 @@ Project highlights & skills we gained:
 <!-- End Glide.js Carousel -->
 
 
-
-** Features & Flow:**
-*   **Tech:** React, Vite, and Firebase (for login, database, and hosting).
-*   **Baseline Block:** Point of Subjective Equivalence or PSE between  Red/Orange, Blue/Green, Olive/Brown.
-*   **Experiment Blocks:** Categorize colors near your boundary in two phases (order randomized):
-    *   _Skewed Rewards:_ Get more points (+4) for one color, fewer (+1) for the other.
-    *   _Control Rewards:_ Get equal points (+1) for either color.
-*   **Piloting:** We tested this version informally with 6 participants.
+Experimental flow:
+Introduction & Setup: Brief instructions and webcam check/calibration via RealEye.io.
+Baseline Block: First, we measure each participant's initial perceptual boundary – the point where they are equally likely to categorize an ambiguous color as 'Blue' or 'Green'. This establishes their personal Point of Subjective Equivalence (PSE).
+Experimental Blocks (Randomized Order): Participants then complete two main blocks designed to test the influence of value:
+Skewed Reward Block: Correctly identifying one anchor color (e.g., the clearest Blue) consistently yields more points (+4) than correctly identifying the other anchor (e.g., the clearest Green, +1 point). We test if this differential reward shifts the participant's perceived boundary.
+Control Reward Block: Correctly identifying either anchor color yields the same number of points (+1). This block helps ensure any shift seen in the Skewed block is due to the learned color-value link, not just the presence of points or task repetition.
+Debriefing: Participants are informed about the study's purpose and hypotheses.
 
 ### Stimulus Demonstration
 
