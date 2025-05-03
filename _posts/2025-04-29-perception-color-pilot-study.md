@@ -28,9 +28,9 @@ categories: research psychology psychophysics web development data-analysis fire
     <div class="swiper-slide">
       <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/pc-stimulus-red-orange.png" alt="Experiment Interface Additional View" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          <img src="/media/pc-stimulus-red-orange.png" alt="Orange/Red Stimulus Example" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Orange/Red Stimulus Example</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Orange/Red Stimulus Example (stimulus variations)</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -38,7 +38,15 @@ categories: research psychology psychophysics web development data-analysis fire
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/pc-stimulus-blue-green.png" alt="Blue/Green Stimulus Example" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Blue/Green Stimulus Example</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Blue/Green Stimulus Example (stimulus variations)</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/pc-stimulus-olive-brown.png" alt="Olive/Brown Stimulus Example" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+        </div>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Olive/Brown Stimulus Example (stimulus variations)</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -84,6 +92,9 @@ categories: research psychology psychophysics web development data-analysis fire
     </div>
     <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
       <img src="/media/pc-stimulus-blue-green.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/pc-stimulus-olive-brown.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
     <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
       <img src="/media/pc-Screenshot 2025-04-21 181710.png" style="width:100%; height: 100%; object-fit: cover;" />
