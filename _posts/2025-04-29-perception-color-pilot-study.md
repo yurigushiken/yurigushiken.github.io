@@ -106,17 +106,4 @@ We quantify each participant's color boundary (PSE) and sensitivity (slope) unde
   </video>
 </div>
 
-<script>
-  // Only initialize Glide if the element exists
-  if (document.getElementById('perception-color-carousel')) {
-    new Glide('#perception-color-carousel', {
-      type: 'carousel', // Use 'carousel' for looping or 'slider' for non-looping
-      startAt: 0,
-      perView: 1, // Show one slide at a time
-      // Add other Glide.js options here if needed
-      // e.g., autoplay: 3000, hoverpause: true
-    }).mount();
-  }
-</script>
-
 --- 

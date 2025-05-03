@@ -72,5 +72,16 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+      // Initialize Glide carousels if they exist on the page
+      if (document.getElementById('perception-color-carousel')) {
+        new Glide('#perception-color-carousel', {
+          type: 'carousel',
+          startAt: 0,
+          perView: 1
+        }).mount();
+      }
+      // Add initializers for other carousels here if needed in the future
+    </script>
   </body>
 </html> 
