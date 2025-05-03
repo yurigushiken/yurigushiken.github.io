@@ -17,3 +17,6 @@ node_modules/
 # Ignore other OS-specific and editor-specific files
 .DS_Store
 Thumbs.db
+
+# Ignore media processing inputs/outputs
+/media_processing/
