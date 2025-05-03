@@ -12,7 +12,7 @@ categories: Automation Tools
   <div style="text-align: center;">
     <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-original-video-gif.gif"
          alt="Infant Event Representations Original"
-         style="width: 300px;" />
+         style="width: 350px;" />
     <p>
       <em>Infant Event Representations Original</em><br />
       <a href="https://youtu.be/M90Rbu8EGZc" target="_blank">YouTube Video of original</a>
@@ -28,7 +28,7 @@ categories: Automation Tools
   <div style="text-align: center;">
     <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-v2-gif.gif"
          alt="Infant Event Representations V2"
-         style="width: 390px;" />
+         style="width: 350px;" />
     <p>
       <em>Infant Event Representations - visual representation</em><br />
       <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of V2</a>
