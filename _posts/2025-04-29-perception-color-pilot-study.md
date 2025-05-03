@@ -6,6 +6,9 @@ categories: research psychology web development data-analysis firebase react
 ---
 The purposes of this project are to test Donald Hoffman's Interface Theory of Perception (ITP) and gain experience and understanding of stimulus presentation and pyschophysics research.
 
+<div style="text-align: center; margin: 1rem 0;">
+  <img src="/media/pc-Screenshot 2025-05-03 110631.png" alt="Experiment Interface Additional View" style="width: 80%; max-width: 700px; height: auto; object-fit: contain; border: 1px solid #ddd;">
+</div>
 
 <div style="display: flex; justify-content: space-around; margin-bottom: 2rem; flex-wrap: wrap; align-items: flex-start;">
   <!-- Left Image Block -->
