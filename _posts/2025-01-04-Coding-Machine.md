@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "infant eye-tracking coding machine"
+title: "Coding Machine for coding Eye-tracking AOIs"
 date: 2025-01-04 12:00:00 -0400
 categories: Automation Tools
 ---
@@ -14,7 +14,7 @@ categories: Automation Tools
          alt="Infant Event Representations Original"
          style="width: 300px;" />
     <p>
-      <strong>Infant Event Representations Original</strong><br />
+      <em>Infant Event Representations Original</em><br />
       <a href="https://youtu.be/M90Rbu8EGZc" target="_blank">YouTube Video of original</a>
     </p>
   </div>
@@ -30,7 +30,7 @@ categories: Automation Tools
          alt="Infant Event Representations V2"
          style="width: 390px;" />
     <p>
-      <strong>Infant Event Representations V2</strong><br />
+      <em>Infant Event Representations - visual representation</em><br />
       <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of V2</a>
     </p>
   </div>
@@ -41,10 +41,11 @@ categories: Automation Tools
   <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_datasheet.png"
        alt="Infant Eye-Tracking datasheet"
        style="max-width: 500px;" />
-  <p><strong>participant datasheet, 1 of 72</strong></p>
+  <p><em>Output: complete participant datasheet ready for analysis, 1 of 72</em></p>
 </div>
 
-We begin with ~75 participant video files (~300 minutes / 540k frames) that would take many hours to code by hand. This ML-powered and rule-based verified workflow automates the process outputting labeled video files and accompanying datasheets.
+My lab partner, Yuexin Li, and I created a workflow to code eye-tracking data for our lab's Infant Event Representations study.
+We needed to code ~75 participant video files (~300 minutes / 540k frames). This would take countless hours to code by hand, frame by frame. Our ML-powered and rule-based verified workflow automates most of the process, outputting datahseets and visual representations.
 
 
 ---
