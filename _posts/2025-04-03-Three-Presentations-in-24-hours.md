@@ -59,7 +59,8 @@ My cohort members (Winnie Liu, Melissa De Sole, Giles Bullen) and I, all part of
 
 Lastly, my research partner, Yuexin Li, and I presented our methods research at Columbia University's Data Science Day on April 2nd. 
 
-We presented "Eye-Track-ML," a machine learning pipeline developed to automate the frame-by-frame coding of eye-tracking videos. This tool significantly increases speed of coding of gaze data, which we innovated for our infant event representation research. Our pipeline uses YOLOv11 and SAM2.1. You can learn more about the project from our related [AI Summit contribution](/academic/research/2025/03/04/Columbia-AI-Summit-poster-contribution.html).
+We presented "Eye-Track-ML," a machine learning pipeline developed to automate the frame-by-frame coding of eye-tracking videos. This tool significantly increases speed of coding of gaze data, which we innovated for our infant event representation research. Our pipeline uses YOLOv11 and SAM2.1. 
+See our [poster](/academic/research/2025/03/04/Columbia-AI-Summit-poster-contribution.html).
 
 We got excellent feedback from conference attendees. We also met several students interested in joining our lab, including one who has officially joined our lab after meeting Yuexin and me at Columbia Data Science Day.
 
