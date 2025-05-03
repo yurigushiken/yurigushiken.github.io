@@ -62,19 +62,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Keyboard Navigation
     document.addEventListener('keydown', (e) => {
-      // Check if the carousel or its children have focus to avoid global capture
-      // This is a basic check; more robust focus management might be needed
-      if (document.activeElement === carousel || carousel.contains(document.activeElement)) {
-          if (e.key === 'ArrowLeft') {
-            prevButton.click();
-          } else if (e.key === 'ArrowRight') {
-            nextButton.click();
-          }
+      // Removed focus check - arrows now work globally
+      if (e.key === 'ArrowLeft') {
+        prevButton.click();
+      } else if (e.key === 'ArrowRight') {
+        nextButton.click();
       }
     });
-
-    // Add tabindex to make the carousel focusable for keyboard events
-    carousel.setAttribute('tabindex', '0');
 
     // Initialize
     showSlide(0);
