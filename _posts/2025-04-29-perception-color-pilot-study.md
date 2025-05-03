@@ -50,6 +50,30 @@ The purposes of this project are to test Donald Hoffman's Interface Theory of Pe
           <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Stimulus Presentation Grid</p>
         </div>
       </li>
+      <li class="glide__slide">
+        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="/media/pc-w8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_response_counts_plot_RedOrange.png" alt="Red/Orange Response Counts Plot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          </div>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Response Counts</p>
+        </div>
+      </li>
+      <li class="glide__slide">
+        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="/media/pc-NtSXyw8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_trial_counts_plot_RedOrange.png" alt="Red/Orange Trial Counts Plot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          </div>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Trial Counts per Level</p>
+        </div>
+      </li>
+      <li class="glide__slide">
+        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="/media/pc-w8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_curve_fits_plot_RedOrange.png" alt="Red/Orange Psychometric Curve Fits Plot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          </div>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Psychometric Curve Fits</p>
+        </div>
+      </li>
     </ul>
   </div>
 
@@ -77,34 +101,6 @@ We are testing Donald Hoffman's Interface Theory of Perception (ITP), which prop
     *   _Skewed Rewards:_ Get more points (+4) for one color, fewer (+1) for the other.
     *   _Control Rewards:_ Get equal points (+1) for either color.
 *   **Piloting:** We tested this version informally with 6 participants.
-
-
-
-<div style="display: flex; justify-content: space-around; margin-top: 2rem; flex-wrap: wrap; align-items: flex-start;">
-  <!-- Bottom Image 1 -->
-  <div style="width: 32%; min-width: 200px; max-height: 350px; border: 1px solid #ddd; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box; margin-bottom: 1rem;">
-    <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-      <img src="/media/pc-w8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_response_counts_plot_RedOrange.png" alt="Red/Orange Response Counts Plot" style="display: block; max-width: 100%; max-height: 100%; object-fit: contain;">
-    </div>
-    <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Response Counts</p>
-  </div>
-
-  <!-- Bottom Image 2 -->
-  <div style="width: 32%; min-width: 200px; max-height: 350px; border: 1px solid #ddd; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box; margin-bottom: 1rem;">
-    <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-      <img src="/media/pc-NtSXyw8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_trial_counts_plot_RedOrange.png" alt="Red/Orange Trial Counts Plot" style="display: block; max-width: 100%; max-height: 100%; object-fit: contain;">
-    </div>
-    <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Trial Counts per Level</p>
-  </div>
-
-  <!-- Bottom Image 3 -->
-  <div style="width: 32%; min-width: 200px; max-height: 350px; border: 1px solid #ddd; display: flex; flex-direction: column; padding: 10px; box-sizing: border-box; margin-bottom: 1rem;">
-    <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-      <img src="/media/pc-w8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_curve_fits_plot_RedOrange.png" alt="Red/Orange Psychometric Curve Fits Plot" style="display: block; max-width: 100%; max-height: 100%; object-fit: contain;">
-    </div>
-    <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Psychometric Curve Fits</p>
-  </div>
-</div>
 
 ### Stimulus Demonstration
 
