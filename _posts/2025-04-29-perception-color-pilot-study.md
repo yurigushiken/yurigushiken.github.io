@@ -42,6 +42,14 @@ The purposes of this project are to test Donald Hoffman's Interface Theory of Pe
           <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Chroma.JS color Pallette Helper</p>
         </div>
       </li>
+      <li class="glide__slide">
+        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="/media/pc-combined_grid.png" alt="Stimulus Presentation Grid" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          </div>
+          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Stimulus Presentation Grid</p>
+        </div>
+      </li>
     </ul>
   </div>
 
@@ -62,7 +70,7 @@ The purposes of this project are to test Donald Hoffman's Interface Theory of Pe
 
 We are testing Donald Hoffman's Interface Theory of Perception (ITP), which proposes that what we perceive isn't objective reality, but an "interface" shaped by evolution to guide useful behavior potentially influenced by reward values.
 
-**Key Features & Flow:**
+** Features & Flow:**
 *   **Tech:** React, Vite, and Firebase (for login, database, and hosting).
 *   **Baseline Block:** Point of Subjective Equivalence or PSE between  Red/Orange, Blue/Green, Olive/Brown.
 *   **Experiment Blocks:** Categorize colors near your boundary in two phases (order randomized):
@@ -98,7 +106,7 @@ We are testing Donald Hoffman's Interface Theory of Perception (ITP), which prop
   </div>
 </div>
 
-### Demo Video
+### Stimulus Demonstration
 
 <div style="text-align: center; margin: 2rem 0;">
   <video width="80%" max-width="700px" controls>
