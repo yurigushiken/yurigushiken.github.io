@@ -96,6 +96,7 @@ This work is for the [Language and Cognitive Neuroscience Lab](https://www.tc.co
       freeMode: true,
       watchSlidesProgress: true,
       clickable: true,
+      centeredSlides: true, // Center the active thumbnail
     });
     var swiperMain = new Swiper(".heatmapSwiper2", {
       spaceBetween: 10,

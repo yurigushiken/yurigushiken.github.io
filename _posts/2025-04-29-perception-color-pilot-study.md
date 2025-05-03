@@ -118,6 +118,7 @@ categories: research psychology psychophysics web development data-analysis fire
       freeMode: true,
       watchSlidesProgress: true,
       clickable: true,
+      centeredSlides: true, // Center the active thumbnail
     });
     var swiperMain = new Swiper(".perceptionSwiper2", {
       spaceBetween: 10,
