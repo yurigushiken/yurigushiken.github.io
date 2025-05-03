@@ -117,7 +117,7 @@ categories: research psychology psychophysics web development data-analysis fire
       thumbs: {
         swiper: swiperThumbs,
       },
-      // loop: true, // Optional: enable looping
+      loop: true, // Enable looping
     });
   });
 </script>

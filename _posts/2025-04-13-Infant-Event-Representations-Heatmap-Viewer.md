@@ -106,7 +106,7 @@ This work is for the [Language and Cognitive Neuroscience Lab](https://www.tc.co
       thumbs: {
         swiper: swiperThumbs,
       },
-      // loop: true, // Optional: enable looping
+      loop: true, // Enable looping
     });
   });
 </script>
