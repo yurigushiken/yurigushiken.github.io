@@ -60,7 +60,7 @@ The purposes of this project are to test Donald Hoffman's Interface Theory of Pe
 </div>
 <!-- End Glide.js Carousel -->
 
-We explore if offering different rewards for identifying colors (like Red vs. Orange or Blue vs. Green) affects where people perceive the boundary between them. We are testing Donald Hoffman's Interface Theory of Perception (ITP), which proposes that what we perceive isn't objective reality, but an "interface" shaped by evolution to guide useful behavior potentially influenced by reward values.
+We are testing Donald Hoffman's Interface Theory of Perception (ITP), which proposes that what we perceive isn't objective reality, but an "interface" shaped by evolution to guide useful behavior potentially influenced by reward values.
 
 **Key Features & Flow:**
 *   **Tech:** React, Vite, and Firebase (for login, database, and hosting).
@@ -70,9 +70,7 @@ We explore if offering different rewards for identifying colors (like Red vs. Or
     *   _Control Rewards:_ Get equal points (+1) for either color.
 *   **Piloting:** We tested this version informally with 6 participants.
 
-We securely save all trial data (responses, timing, calculated boundaries) to Firestore. Our Python analysis scripts fetch this data and fit psychometric curves.
 
-We quantify each participant's color boundary (PSE) and sensitivity (slope) under the different reward conditions, revealing how rewards impact their judgments. The plots below illustrate this analysis for the Red/Orange task.
 
 <div style="display: flex; justify-content: space-around; margin-top: 2rem; flex-wrap: wrap; align-items: flex-start;">
   <!-- Bottom Image 1 -->
