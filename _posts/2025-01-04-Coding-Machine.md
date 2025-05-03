@@ -7,42 +7,34 @@ categories: Automation Tools
 
 ## Automating Thousands of Frames with Infant Eye-Tracking Coding Machine
 
-<div style="display: flex; align-items: center; justify-content: center; gap: 30px; margin-bottom: 2rem;">
-  <!-- Original version (smaller) -->
-  <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-original-video-gif.gif"
-         alt="Infant Event Representations Original"
-         style="width: 350px;" />
-    <p>
-      <em>Infant Event Representations Original</em><br />
-      <a href="https://youtu.be/M90Rbu8EGZc" target="_blank">YouTube Video of original</a>
-    </p>
-  </div>
+<link rel="stylesheet" href="/assets/css/carousel.css">
 
-  <!-- Large arrow in the center -->
-  <div style="font-size: 3rem; display: flex; align-items: center; color: #fff;">
-    <span style="color: inherit;">&#8594;</span>
+<div class="image-carousel">
+  <div class="carousel-slides">
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-original-video-gif.gif"
+           alt="Infant Event Representations Original" />
+      <p><em>Infant Event Representations Original</em><br />
+         <a href="https://youtu.be/M90Rbu8EGZc" target="_blank">YouTube Video of original</a>
+      </p>
+    </div>
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-v2-gif.gif"
+           alt="Infant Event Representations V2" />
+      <p><em>Infant Event Representations - visual representation</em><br />
+         <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of V2</a>
+      </p>
+    </div>
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_datasheet.png"
+           alt="Infant Eye-Tracking datasheet" />
+      <p><em>Output: complete participant datasheet ready for analysis, 1 of 72</em></p>
+    </div>
   </div>
-
-  <!-- V2 version (bigger: ~1.3 times the width of the original) -->
-  <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-v2-gif.gif"
-         alt="Infant Event Representations V2"
-         style="width: 350px;" />
-    <p>
-      <em>Infant Event Representations - visual representation</em><br />
-      <a href="https://youtu.be/45lbqvLpGYQ" target="_blank">YouTube Video of V2</a>
-    </p>
-  </div>
+  <button class="carousel-button prev">&#10094;</button>
+  <button class="carousel-button next">&#10095;</button>
 </div>
 
-<!-- Eye-tracking datasheet image (updated link) -->
-<div style="text-align: center; margin-top: 2rem;">
-  <img src="https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_eye-tracking_datasheet.png"
-       alt="Infant Eye-Tracking datasheet"
-       style="max-width: 500px;" />
-  <p><em>Output: complete participant datasheet ready for analysis, 1 of 72</em></p>
-</div>
 
 My lab partner, Yuexin Li, and I created a workflow to code eye-tracking data for our lab's Infant Event Representations study.
 We needed to code ~75 participant video files (~300 minutes / 540k frames). This would take countless hours to code by hand, frame by frame. Our ML-powered and rule-based verified workflow automates most of the process, outputting datahseets and visual representations.
@@ -181,3 +173,5 @@ Below is a step-by-step look at each script in the workflow:
 
 [Language and Cognitive Lab]: https://www.tc.columbia.edu/lcl/  
 [GitHub Repository]: https://github.com/yurigushiken/google-shared-drive-exporter
+
+<script src="/assets/js/carousel.js"></script>
