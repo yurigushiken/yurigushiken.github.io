@@ -7,7 +7,7 @@ categories: tools development research visualization
 
 <!-- Swiper -->
 <!-- Top (Main) Swiper -->
-<div style="--swiper-navigation-color: #333; --swiper-pagination-color: #333; margin-bottom: 10px;" class="swiper heatmapSwiper2">
+<div style="--swiper-navigation-color: #333; --swiper-pagination-color: #333; margin-bottom: 10px; background-color: #444;" class="swiper heatmapSwiper2">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
       <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between; background: #fff;">
