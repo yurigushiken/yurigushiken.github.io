@@ -5,7 +5,7 @@ date: 2025-04-03 11:00:00 -0400
 categories: academic conference research teaching
 ---
 
-The first two days of April marked an intense period of sharing work across numerical cognition and neuroscience, education technology, and machine learning and research methods. Within a span of roughly 24 hours, our lab and program involvements led us to present at three distinct events: the Cognitive Neuroscience Society (CNS) annual meeting, Teachers College's STEAMnasium, and Columbia's Data Science Day. These were showcases of our research at the Language and Cognitive Neuroscience Lab and practical applications of educational technology from our MA program.
+The first two days of April was period of sharing my and my lab's recent work in numerical cognition and neuroscience, education technology, and research methods at two conferences and one event: Cognitive Neuroscience Society (CNS) annual meeting, Teachers College's STEAMnasium, and Columbia's Data Science Day.
 
 ### Cognitive Neuroscience Society (CNS) 2025 (Monday, 1 April)
 
@@ -20,9 +20,9 @@ The first two days of April marked an intense period of sharing work across nume
   </div>
 </div>
 
-Our journey began at the annual CNS meeting in Boston. We presented findings from an EEG study conducted at the [Language and Cognitive Neuroscience Lab](https://www.tc.columbia.edu/lcl/), investigating how the brain processes small versus large numerical quantities. We looked at ERP components like the N1 and P3b during a numerical change detection task.
+At the annual CNS meeting in Boston LCN lab members and I presented findings from our EEG study on how the brain processes small versus large numerical quantities. We looked at ERP components N1 and P3b during a numerical change detection task.
 
-Our results support distinct neural mechanisms for perceiving small numbers (1-3), likely involving individuation, versus larger numbers (4-6), which rely more on estimation. We observed N1 amplitude scaling with cardinality only in the small number range. P3b variations reflected the cognitive effort involved in updating mental representations during number changes, aligning with context-updating theories. Please view the full presentation [here](https://docs.google.com/presentation/d/1F8Xo6gHzu2mmPiA4LIeVx1f57T2R2S1dVuSJrParDTQ/edit?usp=sharing).
+Please see our poster [here](https://docs.google.com/presentation/d/1F8Xo6gHzu2mmPiA4LIeVx1f57T2R2S1dVuSJrParDTQ/edit?usp=sharing).
 
 ### STEAMnasium 2025 at Teachers College (Wednesday, 2 April)
 
@@ -37,9 +37,9 @@ Our results support distinct neural mechanisms for perceiving small numbers (1-3
   </div>
 </div>
 
-Next, on Wednesday, I participated in the annual STEAMnasium event hosted by the Mathematics, Science & Technology (MST) department at Teachers College, Columbia University. This is a vibrant and hands-on fair to celebrate Science, Technology, Engineering, Arts, and Mathematics education, put on by and for the TC and local communities.
+On Wednesday, I presented at the annual STEAMnasium event hosted by the Mathematics, Science & Technology (MST) department at Teachers College, Columbia University. 
 
-My cohort members (Winnie Liu, Melissa De Sole, Giles Bullen) and I, all part of the [Technology Specialist MA program](https://www.tc.columbia.edu/cmltd/academics/degrees--requirements/technology-specialist-ma-initial/), presented activities reflecting our work in K-12 school placements this year. We showcased projects like coding Turtle Art for computational thinking, using AI for drawing completion, designing cardboard automata, and experimenting with illuminated illustrations. It was a great opportunity to share practical classroom applications of EdTech.
+My cohort members (Winnie Liu, Melissa De Sole, Giles Bullen) and I, all part of the [Technology Specialist MA program](https://www.tc.columbia.edu/cmltd/academics/degrees--requirements/technology-specialist-ma-initial/), presented activities reflecting our work in K-12 school placements this year. Thank you to Giles for coordinating with organizers for our presentation space.
 
 ### Columbia Data Science Day 2025 (Wednesday, 2 April)
 
@@ -54,9 +54,11 @@ My cohort members (Winnie Liu, Melissa De Sole, Giles Bullen) and I, all part of
   </div>
 </div>
 
-Lastly, Yuexin Li and I presented a poster at Columbia University's Data Science Day on April 2nd. This is a flagship event by the Data Science Institute that connects university researchers with industry and government innovators. The event featured talks, lightning sessions, and over 100 posters and demos.
+Lastly, my research partner, Yuexin Li, and I presented our methods research at Columbia University's Data Science Day on April 2nd. 
 
-Representing the [Language and Cognitive Neuroscience Lab](https://www.tc.columbia.edu/lcl/), my research partner Yuexin Li and I shared our work on "Eye-Track-ML," a machine learning pipeline developed to automate the frame-by-frame coding of eye-tracking videos. This tool significantly speeds up the analysis of gaze data, crucial for studies like our infant event representation research, using models like YOLOv11 and SAM2.1. You can learn more about the project from our related [AI Summit contribution](/academic/research/2025/03/04/Columbia-AI-Summit-poster-contribution.html).
+We presented "Eye-Track-ML," a machine learning pipeline developed to automate the frame-by-frame coding of eye-tracking videos. This tool significantly increases speed of coding of gaze data, which we innovated for our infant event representation research. Our pipeline uses YOLOv11 and SAM2.1. You can learn more about the project from our related [AI Summit contribution](/academic/research/2025/03/04/Columbia-AI-Summit-poster-contribution.html).
+
+We got excellent feedback from conference attendees. We also met several students interested in joining our lab, including one who has officially joined our lab after meeting Yuexin and me at Columbia Data Science Day.
 
 ---
 
