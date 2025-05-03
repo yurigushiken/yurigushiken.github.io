@@ -52,20 +52,15 @@ The purposes of this project are to test Donald Hoffman's Interface Theory of Pe
 </div>
 <!-- End Glide.js Carousel -->
 
-<p style="text-align: center; margin: 2rem 0;">
-  <a href="https://perception-color.web.app/" target="_blank" style="font-size: 1.1em; font-weight: bold;">Explore the Perception Color Experiment (Demo)</a><br>
-  <span style="font-size: 0.9em;">(This version is for demonstration purposes only and not the final experiment.)</span>
-</p>
-
-Can earning points change how we see colors? We explore if offering different rewards for identifying colors (like Red vs. Orange or Blue vs. Green) affects where people perceive the boundary between them. We're testing Donald Hoffman's Interface Theory of Perception (ITP), which proposes that what we perceive isn't objective reality, but an "interface" shaped by evolution to guide useful behavior potentially influenced by reward values.
+We explore if offering different rewards for identifying colors (like Red vs. Orange or Blue vs. Green) affects where people perceive the boundary between them. We are testing Donald Hoffman's Interface Theory of Perception (ITP), which proposes that what we perceive isn't objective reality, but an "interface" shaped by evolution to guide useful behavior potentially influenced by reward values.
 
 **Key Features & Flow:**
-*   **Tech:** Built with React, Vite, and Firebase (for login, database, and hosting).
-*   **Finding Your Boundary:** First, a quick adaptive test finds your personal "tipping point" (Point of Subjective Equivalence or PSE) between colors like Red/Orange, Blue/Green, or Olive/Brown.
-*   **Testing Rewards:** Next, you'll categorize colors near your boundary in two phases (order randomized):
+*   **Tech:** React, Vite, and Firebase (for login, database, and hosting).
+*   **Baseline Block:** Point of Subjective Equivalence or PSE between  Red/Orange, Blue/Green, Olive/Brown.
+*   **Experiment Blocks:** Categorize colors near your boundary in two phases (order randomized):
     *   _Skewed Rewards:_ Get more points (+4) for one color, fewer (+1) for the other.
     *   _Control Rewards:_ Get equal points (+1) for either color.
-*   **Piloting:** We recently tested this version with 6 participants.
+*   **Piloting:** We tested this version informally with 6 participants.
 
 We securely save all trial data (responses, timing, calculated boundaries) to Firestore. Our Python analysis scripts fetch this data and fit psychometric curves.
 
