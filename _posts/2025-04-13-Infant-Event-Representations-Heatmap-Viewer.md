@@ -97,35 +97,35 @@ categories: tools development research visualization
 <!-- Bottom (Thumbs) Swiper -->
 <div thumbsSlider="" class="swiper heatmapSwiper" style="height: 100px; box-sizing: border-box; padding: 10px 0;">
   <div class="swiper-wrapper">
-    <div class="swiper-slide" style="opacity: 0.4;">
-      <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" style="display: block; max-height: 80px; width: auto; object-fit: contain;" />
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="opacity: 0.4;">
-      <img src="/media/2025-04-13 overlay-gif20250413_200549.gif" style="display: block; max-height: 80px; width: auto; object-fit: contain;" />
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/2025-04-13 overlay-gif20250413_200549.gif" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="opacity: 0.4;">
-      <img src="/media/lcn-heatmap-gwo-7months-man.png" style="display: block; max-height: 80px; width: auto; object-fit: contain;" />
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/lcn-heatmap-gwo-7months-man.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="opacity: 0.4;">
-      <img src="/media/lcn-heatmap-gwo-adult-man.png" style="display: block; max-height: 80px; width: auto; object-fit: contain;" />
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/lcn-heatmap-gwo-adult-man.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="opacity: 0.4;">
-      <img src="/media/lcn-heatmap-gwo-eight-man.png" style="display: block; max-height: 80px; width: auto; object-fit: contain;" />
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/lcn-heatmap-gwo-eight-man.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="opacity: 0.4;">
-      <img src="/media/lcn-heatmap-gwo-nine-man.png" style="display: block; max-height: 80px; width: auto; object-fit: contain;" />
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/lcn-heatmap-gwo-nine-man.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="opacity: 0.4;">
-      <img src="/media/lcn-heatmap-gwo-ten-man.png" style="display: block; max-height: 80px; width: auto; object-fit: contain;" />
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/lcn-heatmap-gwo-ten-man.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="opacity: 0.4;">
-      <img src="/media/lcn-heatmap-gwo-eleven-man.png" style="display: block; max-height: 80px; width: auto; object-fit: contain;" />
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/lcn-heatmap-gwo-eleven-man.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="opacity: 0.4;">
-      <img src="/media/lcn-heatmap-gwo-all-heat-man.png" style="display: block; max-height: 80px; width: auto; object-fit: contain;" />
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/lcn-heatmap-gwo-all-heat-man.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="opacity: 0.4;">
-      <img src="/media/lcn-heatmap-gwo-all-man.png" style="display: block; max-height: 80px; width: auto; object-fit: contain;" />
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/lcn-heatmap-gwo-all-man.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
   </div>
 </div>
@@ -147,11 +147,11 @@ This work is for the [Language and Cognitive Neuroscience Lab](https://www.tc.co
   document.addEventListener('DOMContentLoaded', function () {
     var swiperThumbs = new Swiper(".heatmapSwiper", {
       spaceBetween: 10,
-      slidesPerView: 'auto', 
+      slidesPerView: 4,
       freeMode: true,
       watchSlidesProgress: true,
       clickable: true,
-      centeredSlides: true, // Center the active thumbnail
+      centeredSlides: true,
     });
     var swiperMain = new Swiper(".heatmapSwiper2", {
       spaceBetween: 10,
@@ -162,8 +162,8 @@ This work is for the [Language and Cognitive Neuroscience Lab](https://www.tc.co
       thumbs: {
         swiper: swiperThumbs,
       },
-      loop: true, // Enable looping
-      keyboard: { // Enable keyboard navigation
+      loop: true,
+      keyboard: {
         enabled: true,
       },
     });
