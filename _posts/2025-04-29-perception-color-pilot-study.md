@@ -61,14 +61,6 @@ The purposes of this project are to test Donald Hoffman's Interface Theory of Pe
       <li class="glide__slide">
         <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
           <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-            <img src="/media/pc-NtSXyw8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_trial_counts_plot_RedOrange.png" alt="Red/Orange Trial Counts Plot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-          </div>
-          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Trial Counts per Level</p>
-        </div>
-      </li>
-      <li class="glide__slide">
-        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
             <img src="/media/pc-w8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_curve_fits_plot_RedOrange.png" alt="Red/Orange Psychometric Curve Fits Plot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
           </div>
           <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Psychometric Curve Fits</p>
