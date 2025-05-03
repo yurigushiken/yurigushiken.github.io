@@ -2,15 +2,25 @@
 layout: post
 title: "Perception Color Experiment: Reward Effects on Categorization"
 date: 2025-04-29 11:00:00 -0400
-categories: research psychology web development data-analysis firebase react
+categories: research psychology psychophysics web development data-analysis firebase react
 ---
-Can Value Change What We See (and Do)?
+_Can Value Change What We See (and Do)?_
 
 The purposes of this project are to test Donald Hoffman's Interface Theory of Perception (ITP) and gain experience and understanding of stimulus creation, presentation, and pyschophysics research.
+
+Hoffman's Interface Theory of Perception (ITP) proposes that our senses didn't evolve to show us objective reality, but rather a 'user interface' tuned to fitness payoffs – things relevant to survival and reproduction. This theory predicts that perception isn't fixed; for example, the perceived boundary between colors might shift depending on the 'value' we learn to associate with them. Our experiment investigates this directly, using point rewards to see if we can induce such a shift in color categorization.
 
 A challenge in perception research is separating genuine perceptual changes from conscious strategies. We're currently iterating on our design to better isolate the perceptual effects we're interested in.
 
 The following is a presentation of some of our work so far.
+
+Project Highlights & Skills:
+* Applied cognitive theory (Hoffman's ITP) to design a perceptual experiment.
+* Implemented psychophysical methods (adaptive staircase, PSE measurement).
+* Developed a web-based experiment using React, JavaScript, and color science tools.
+* Designed controlled visual stimuli (perceptually uniform color spaces).
+* Planned quantitative analysis of psychometric and behavioral data.
+* Iteratively refined experimental design to isolate perceptual effects.
 
 <!-- Glide.js Carousel -->
 <div class="glide" id="perception-color-carousel">
@@ -90,7 +100,7 @@ The following is a presentation of some of our work so far.
 </div>
 <!-- End Glide.js Carousel -->
 
-We are testing Donald Hoffman's Interface Theory of Perception (ITP), which proposes that what we perceive isn't objective reality, but an "interface" shaped by evolution to guide useful behavior potentially influenced by reward values.
+
 
 ** Features & Flow:**
 *   **Tech:** React, Vite, and Firebase (for login, database, and hosting).
