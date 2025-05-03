@@ -22,83 +22,129 @@ Project highlights & skills we gained:
 * Conducted quantitative analysis of psychometric and behavioral data.
 * Iteratively refined experimental design to isolate perceptual effects.
 
-<!-- Glide.js Carousel -->
-<div class="glide" id="perception-color-carousel">
-  <div class="glide__track" data-glide-el="track">
-    <ul class="glide__slides">
-      <li class="glide__slide">
-        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-            <img src="/media/pc-combined_experiment_and_trial_flow.png" alt="Experiment Flow Diagram" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-          </div>
-          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment and Trial Flow</p>
+<!-- Swiper -->
+<!-- Top (Main) Swiper -->
+<div style="--swiper-navigation-color: #333; --swiper-pagination-color: #333; margin-bottom: 10px;" class="swiper perceptionSwiper2">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between; background: #fff;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/pc-combined_experiment_and_trial_flow.png" alt="Experiment Flow Diagram" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-      </li>
-      <li class="glide__slide">
-        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-            <img src="/media/pc-combined_grid.png" alt="Stimulus Presentation Grid" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-          </div>
-          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Stimulus Presentation Grid</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment and Trial Flow</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between; background: #fff;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/pc-combined_grid.png" alt="Stimulus Presentation Grid" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-      </li>
-      <li class="glide__slide">
-        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-            <img src="/media/pc-Screenshot 2025-05-03 110631.png" alt="Experiment Interface Additional View" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-          </div>
-          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Orange/Red Stimulus Example</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Stimulus Presentation Grid</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between; background: #fff;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/pc-Screenshot 2025-05-03 110631.png" alt="Experiment Interface Additional View" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-      </li>
-      <li class="glide__slide">
-        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-            <img src="/media/pc-stimulus-blue-green.png" alt="Blue/Green Stimulus Example" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-          </div>
-          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Blue/Green Stimulus Example</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Orange/Red Stimulus Example</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between; background: #fff;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/pc-stimulus-blue-green.png" alt="Blue/Green Stimulus Example" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-      </li>
-      <li class="glide__slide">
-        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-            <img src="/media/pc-Screenshot 2025-04-21 181710.png" alt="Perception Color Experiment Screenshot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-          </div>
-          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Chroma.JS color Pallette Helper</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Blue/Green Stimulus Example</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between; background: #fff;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/pc-Screenshot 2025-04-21 181710.png" alt="Perception Color Experiment Screenshot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-      </li>
-      <li class="glide__slide">
-        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-            <img src="/media/pc-w8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_response_counts_plot_RedOrange.png" alt="Red/Orange Response Counts Plot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-          </div>
-          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Response Counts</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Chroma.JS color Pallette Helper</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between; background: #fff;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/pc-w8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_response_counts_plot_RedOrange.png" alt="Red/Orange Response Counts Plot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-      </li>
-      <li class="glide__slide">
-        <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-            <img src="/media/pc-w8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_curve_fits_plot_RedOrange.png" alt="Red/Orange Psychometric Curve Fits Plot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-          </div>
-          <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Psychometric Curve</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Response Counts</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between; background: #fff;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/pc-w8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_curve_fits_plot_RedOrange.png" alt="Red/Orange Psychometric Curve Fits Plot" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-      </li>
-    </ul>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Psychometric Curve</p>
+      </div>
+    </div>
   </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
 
-  <div class="glide__arrows" data-glide-el="controls">
-    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-  </div>
-
-  <!-- Added Navigation Bullets -->
-  <div class="glide__bullets" data-glide-el="controls[nav]" style="text-align: center; margin-top: 10px;">
-    <!-- Glide.js will automatically populate buttons here -->
-    <!-- Example structure (do not add manually): -->
-    <!-- <button class="glide__bullet" data-glide-dir="=0"></button> -->
-    <!-- <button class="glide__bullet" data-glide-dir="=1"></button> -->
+<!-- Bottom (Thumbs) Swiper -->
+<div thumbsSlider="" class="swiper perceptionSwiper" style="height: 100px; box-sizing: border-box; padding: 10px 0;">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/pc-combined_experiment_and_trial_flow.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/pc-combined_grid.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/pc-Screenshot 2025-05-03 110631.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/pc-stimulus-blue-green.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/pc-Screenshot 2025-04-21 181710.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/pc-w8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_response_counts_plot_RedOrange.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/pc-w8qNtSXyF1d5tf9fRx7bRNMG6Ga2_Yuri_02_red-orange_curve_fits_plot_RedOrange.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
   </div>
 </div>
-<!-- End Glide.js Carousel -->
+<!-- End Swiper -->
+
+<!-- Swiper JS Initialization Script -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var swiperThumbs = new Swiper(".perceptionSwiper", {
+      spaceBetween: 10,
+      slidesPerView: 4, // Adjust number of thumbs visible
+      freeMode: true,
+      watchSlidesProgress: true,
+      clickable: true,
+    });
+    var swiperMain = new Swiper(".perceptionSwiper2", {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiperThumbs,
+      },
+      // loop: true, // Optional: enable looping
+    });
+  });
+</script>
+
+<!-- Basic CSS for Thumb Opacity on Active -->
+<style>
+  .swiper-slide-thumb-active {
+    opacity: 1 !important;
+  }
+</style>
 
 
 **Experimental flow:**
