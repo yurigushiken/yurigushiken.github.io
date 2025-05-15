@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Yuri Gushiken
+title: Mischa Gushiken (Yuri)
 email: mischagushiken@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is the professional site of Yuri Gushiken. Here you will find information about my educational and professional career, projects, and blog posts.
