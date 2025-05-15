@@ -2,7 +2,7 @@
 layout: post
 title: "Training: AI Agentic Design Patterns with AutoGen"
 date: 2024-07-26 12:00:00 -0400
-categories: course completion update
+categories: course completion update hobby
 ---
 
 ![Course Completion Screenshot](/media/Screenshot%202024-07-26%20165703.png)

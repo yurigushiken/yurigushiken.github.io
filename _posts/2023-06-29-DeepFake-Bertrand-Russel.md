@@ -2,7 +2,7 @@
 layout: post
 title:  "Bertrand Russell Quote (in French)"
 date:   2023-06-29 00:00:00 -0400
-categories: voice ai
+categories: voice ai hobby
 ---
 
 Technology Demonstration: 

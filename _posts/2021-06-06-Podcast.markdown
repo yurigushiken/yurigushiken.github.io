@@ -2,7 +2,7 @@
 layout: post
 title:  "Starting a Student-Focused Podcast During the Pandemic"
 date:   2021-06-06 00:00:00 -0400
-categories: podcast
+categories: podcast hobby
 ---
 
 During the pandemic, I started a student-focused podcast to give a voice to my students who were home for months and missed school. I was the main host, producer, and editor. I used a Tascam recorder, four XLR microphones, Audacity for editing, and had two co-hosts. I took great care in providing value to my listeners and producing high-quality sound.

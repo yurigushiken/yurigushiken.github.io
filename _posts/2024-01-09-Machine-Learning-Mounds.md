@@ -2,7 +2,7 @@
 layout: post
 title: "Machine Learning Mound Mapping"
 date: 2024-01-09 20:17:03 +0000
-categories: blog-posts current-projects experimentation
+categories: blog-posts current-projects experimentation hobby
 ---
 
 

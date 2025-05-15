@@ -2,7 +2,7 @@
 layout: post
 title:  "Teach Technology Classes"
 date:   2022-01-08 00:00:00 -0400
-categories: teaching ai classes
+categories: teaching ai classes instruction
 ---
 
 I designed and taught three different Technology classes.

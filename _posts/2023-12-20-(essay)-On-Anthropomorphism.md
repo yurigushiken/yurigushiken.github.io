@@ -2,7 +2,7 @@
 layout: post
 title: "(essay) On Anthropomoprhization"
 date: 2023-12-20 00:00:00 -0400
-categories: education cognition AI
+categories: education cognition AI hobby
 ---
 
 

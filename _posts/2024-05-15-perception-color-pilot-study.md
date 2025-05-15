@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Perception Color Experiment: Reward Effects on Categorization"
-date: 2024-05-15 11:00:00 -0400 # Using today's date, adjust if needed
-categories: research psychology web development data-analysis firebase react
+date: 2025-05-05 11:00:00 -0400 
+categories: research psychology web development data-analysis firebase react lcn-lab hobby
 ---
 The purposes of this project are to test Donald Hoffman's Interface Theory of Perception (ITP) and gain experience and understanding of stimulus presentation and pyschophysics research.
 

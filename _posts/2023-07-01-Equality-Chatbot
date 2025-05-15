@@ -2,7 +2,7 @@
 layout: post
 title:  "Equality Chatbot"
 date:   2023-07-01 00:00:00 -0400
-categories: chatbot ai
+categories: chatbot ai hobby instruction
 ---
 
 I built a chatbot that can respond to queries based on data I provided. The data used were a class syllabus and assigned readings in PDF and text file formats. The bot successfully answered queries based on the data in the files.

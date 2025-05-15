@@ -2,7 +2,7 @@
 layout: post
 title:  "Google Earth + Unreal + Cesium"
 date:   2023-08-28 00:00:00 -0400
-categories: unreal cesium
+categories: unreal cesium hobby instruction
 ---
 
 I used the Cesium plugin in Unreal 5 to create a YouTube video tour of TC housing options. The voiceover is a clone of my voice created by ElevenLabs.

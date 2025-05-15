@@ -2,7 +2,7 @@
 layout: post
 title: "Assignment: Multimodal Reflection"
 date: 2024-07-22 01:05:54 -0400
-categories: Assignment
+categories: Assignment hobby
 ---
 
 **Live Multimodal Reflection**

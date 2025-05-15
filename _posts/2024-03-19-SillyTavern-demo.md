@@ -2,7 +2,7 @@
 layout: post
 title: "Silly Tavern Demo"
 date: 2024-03-19 00:00:00 -0400
-categories: technology research
+categories: technology research hobby
 ---
 
 **Silly Tavern demonstration – Persona/Voice clone**

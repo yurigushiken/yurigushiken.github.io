@@ -2,7 +2,7 @@
 layout: post
 title: "Demonstration of GPT Vision and DeepFace"
 date: 2023-11-12 00:00:00 -0400
-categories: coding design experimentation
+categories: coding design experimentation hobby
 ---
 
 ---
