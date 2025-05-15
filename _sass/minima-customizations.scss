@@ -213,7 +213,9 @@ ul, ol {
 /* Styles for post list items with thumbnails (new structure) */
 .list-item-content-row { // New flex container for thumbnail + title/excerpt
   display: flex;
+  flex-direction: row; /* Explicitly set row direction */
   align-items: flex-start; // Align top of thumbnail with top of title block
+  width: 100%; /* Ensure it tries to take available width to lay out children */
 }
 
 .thumbnail-container {
@@ -240,6 +242,7 @@ ul, ol {
 
 .post-main-details { // Replaces .post-details
   flex-grow: 1; /* Allow post details to take remaining space */
+  // width: auto; /* Ensure it doesn't try to be 100% if some base style conflicts */
 
   h3 { // Title within this block
     margin-top: 0;
