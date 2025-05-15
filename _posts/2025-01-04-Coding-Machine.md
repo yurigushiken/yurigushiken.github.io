@@ -2,7 +2,7 @@
 layout: post
 title: "Coding Machine for coding Eye-tracking AOIs"
 date: 2025-01-04 12:00:00 -0400
-categories: Automation Tools
+categories: Automation Tools lcn-lab
 ---
 
 ## Automating Thousands of Frames with Infant Eye-Tracking Coding Machine

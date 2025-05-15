@@ -2,7 +2,7 @@
 layout: post
 title: "24 hours: CNS (Boston), Steamnasium, Columbia Data Science Day"
 date: 2025-04-03 11:00:00 -0400
-categories: academic conference research teaching
+categories: academic conference research teaching lcn-lab 
 ---
 
 <link rel="stylesheet" href="/assets/css/carousel.css">

@@ -2,7 +2,7 @@
 layout: post
 title: "Teaching Google's Teachable Machine to Elementary School Students"
 date: 2025-01-26 09:00:00 -0400
-categories: teaching
+categories: teaching instruction
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">

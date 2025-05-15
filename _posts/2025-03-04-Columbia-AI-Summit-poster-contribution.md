@@ -2,7 +2,7 @@
 layout: post
 title: "Columbia AI Summit - poster contribution"
 date: 2025-03-04 14:00:00 -0400
-categories: academic research
+categories: academic research lcn-lab
 ---
 
 <link rel="stylesheet" href="/assets/css/carousel.css">
