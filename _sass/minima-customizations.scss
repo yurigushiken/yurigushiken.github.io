@@ -215,7 +215,6 @@ ul, ol {
   display: flex;
   flex-direction: row; /* Explicitly set row direction */
   align-items: flex-start; // Align top of thumbnail with top of title block
-  width: 100%; /* Ensure it tries to take available width to lay out children */
 }
 
 .thumbnail-container {
