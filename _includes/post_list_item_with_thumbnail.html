@@ -13,7 +13,8 @@
 {%- else -%}
   {%- assign first_image_in_content = post.content | match: '<img.+?src="([^"]+)"' -%}
   {%- if first_image_in_content -%}
-    {%- assign thumbnail_url = first_image_in_content[1] -%}
+    {%- assign temp_url = first_image_in_content[1] -%}
+    {%- assign thumbnail_url = temp_url | replace: ' ', '%20' -%}
   {%- endif -%}
 {%- endif -%}
 
