@@ -9,6 +9,89 @@ layout: default
 
   {{ content }}
 
+  {%- assign lcn_posts = site.posts | where_exp: "post", "post.categories contains 'LCN Lab'" -%}
+  {%- assign instruction_posts = site.posts | where_exp: "post", "post.categories contains 'Instruction'" -%}
+  {%- assign hobby_posts = site.posts | where_exp: "post", "post.categories contains 'Hobby'" -%}
+
+  <div class="home-columns">
+    <!-- LCN Lab Column -->
+    <div class="home-column">
+      <h2 class="column-heading">LCN Lab</h2>
+      {%- if lcn_posts.size > 0 -%}
+        <ul class="post-list">
+          {%- for post in lcn_posts -%}
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </li>
+          {%- endfor -%}
+        </ul>
+      {%- else -%}
+        <p>No posts in this category yet.</p>
+      {%- endif -%}
+    </div>
+
+    <!-- Instruction Column -->
+    <div class="home-column">
+      <h2 class="column-heading">Instruction</h2>
+      {%- if instruction_posts.size > 0 -%}
+        <ul class="post-list">
+          {%- for post in instruction_posts -%}
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </li>
+          {%- endfor -%}
+        </ul>
+      {%- else -%}
+        <p>No posts in this category yet.</p>
+      {%- endif -%}
+    </div>
+
+    <!-- Hobby Column -->
+    <div class="home-column">
+      <h2 class="column-heading">Hobby</h2>
+      {%- if hobby_posts.size > 0 -%}
+        <ul class="post-list">
+          {%- for post in hobby_posts -%}
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </li>
+          {%- endfor -%}
+        </ul>
+      {%- else -%}
+        <p>No posts in this category yet.</p>
+      {%- endif -%}
+    </div>
+  </div>
+
+  {%- comment -%}
+  Original post listing (now replaced by columns):
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
@@ -30,4 +113,7 @@ layout: default
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
+  {%- endcomment -%}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 </div>

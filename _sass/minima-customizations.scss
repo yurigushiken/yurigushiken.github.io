@@ -130,4 +130,65 @@ ul, ol {
   li {
     color: #e0e0e0;
   }
+}
+
+/* Three-column layout for homepage */
+.home-columns {
+  display: flex;
+  flex-wrap: wrap; /* Allows columns to wrap on smaller screens if necessary */
+  margin-left: -15px; /* Adjust for column padding */
+  margin-right: -15px; /* Adjust for column padding */
+}
+
+.home-column {
+  flex: 1; /* Each column will take up equal space */
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: 280px; /* Minimum width before wrapping, adjust as needed */
+}
+
+.column-heading {
+  font-family: "Roboto Mono", monospace; /* Apply Roboto Mono */
+  font-size: 1.8em; /* Example of a "large" size, can be adjusted */
+  margin-bottom: 1em;
+  /* Add any other specific styling for headings here */
+}
+
+/* Responsive adjustments: stack columns on smaller screens */
+@media screen and (max-width: 768px) { /* Adjust breakpoint as needed */
+  .home-columns {
+    flex-direction: column;
+  }
+  .home-column {
+    flex: none; /* Reset flex behavior */
+    width: 100%; /* Full width for stacked columns */
+    margin-bottom: 2em; /* Add some space between stacked columns */
+  }
+}
+
+/* Ensure post list styling remains consistent or adjust as needed within columns */
+.home-column .post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.home-column .post-list li {
+  margin-bottom: 1.5em;
+}
+
+.home-column .post-meta {
+  display: block;
+  font-size: 0.875em; /* 14px if base is 16px */
+  color: #828282; /* Or use minima's secondary text color variable if known */
+}
+
+.home-column .post-link {
+  text-decoration: none;
+  /* color: inherit; /* Or specific link color */
+}
+
+.home-column h3 {
+  margin-top: 0.25em;
+  margin-bottom: 0;
+  font-size: 1.25em; /* Adjust as needed */
 } 
