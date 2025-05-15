@@ -153,9 +153,9 @@ hr {
 }
 
 .intro-headshot {
-  width: 100px;        /* Desired width of the headshot */
-  height: 100px;       /* Desired height of the headshot */
-  border-radius: 50%;  /* Makes the image circular */
+  width: 150px;        /* Increased from 100px */
+  height: 150px;       /* Increased from 100px */
+  /* border-radius: 50%; */  /* Removed to make it square/rectangular */
   object-fit: cover;   /* Ensures the image covers the area, cropping if necessary */
   border: 2px solid #4a4a4a; /* Optional subtle border around the headshot */
 }
