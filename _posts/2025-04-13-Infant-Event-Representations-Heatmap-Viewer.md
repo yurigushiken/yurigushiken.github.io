@@ -11,7 +11,7 @@ thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
 <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #333; margin-bottom: 10px; background-color: #383838;" class="swiper heatmapSwiper2">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="text-align: center; border: 1px solid #888; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 1" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
@@ -19,7 +19,7 @@ thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
       </div>
     </div>
     <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="text-align: center; border: 1px solid #888; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/2025-04-13 overlay-gif20250413_200549.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 2" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
@@ -27,7 +27,7 @@ thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
       </div>
     </div>
     <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="text-align: center; border: 1px solid #888; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/lcn-heatmap-gwo-adult-man.png" alt="Adult Heatmap (Man)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
@@ -35,7 +35,7 @@ thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
       </div>
     </div>
     <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="text-align: center; border: 1px solid #888; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/lcn-heatmap-gwo-7months-man.png" alt="7 Months Heatmap (Man)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
@@ -43,7 +43,7 @@ thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
       </div>
     </div>
     <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="text-align: center; border: 1px solid #888; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/lcn-heatmap-gwo-eight-man.png" alt="8 Months Heatmap (AOI: man)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
@@ -51,7 +51,7 @@ thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
       </div>
     </div>
     <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="text-align: center; border: 1px solid #888; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/lcn-heatmap-gwo-nine-man.png" alt="9 Months Heatmap (AOI: man)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
@@ -59,7 +59,7 @@ thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
       </div>
     </div>
     <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="text-align: center; border: 1px solid #888; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/lcn-heatmap-gwo-ten-man.png" alt="10 Months Heatmap (AOI: man)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
@@ -67,7 +67,7 @@ thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
       </div>
     </div>
     <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="text-align: center; border: 1px solid #888; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/lcn-heatmap-gwo-eleven-man.png" alt="11 Months Heatmap (AOI: man)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
@@ -75,7 +75,7 @@ thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
       </div>
     </div>
     <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="text-align: center; border: 1px solid #888; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/lcn-heatmap-gwo-all-heat-man.png" alt="All Infants Heatmap (AOI: man)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
@@ -83,7 +83,7 @@ thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
       </div>
     </div>
     <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="text-align: center; border: 1px solid #888; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/lcn-heatmap-gwo-all-man.png" alt="All Participants Heatmap (AOI: man)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
