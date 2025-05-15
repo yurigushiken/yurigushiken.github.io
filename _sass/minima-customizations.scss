@@ -123,6 +123,11 @@ hr {
 // Wrapper
 .wrapper {
   background-color: #121212;
+  max-width: 960px; /* Increased from Minima default to allow for 3 columns */
+  margin-left: auto; /* Keep it centered */
+  margin-right: auto; /* Keep it centered */
+  padding-left: 15px; /* Standard Minima padding */
+  padding-right: 15px; /* Standard Minima padding */
 }
 
 // Lists
@@ -147,7 +152,7 @@ ul, ol {
   flex-grow: 1; /* Allow columns to grow */
   flex-shrink: 1; /* Allow columns to shrink */
   flex-basis: 0; /* Distribute space equally among columns */
-  min-width: 280px; /* Minimum width before wrapping, adjust as needed */
+  min-width: 260px; /* Reduced from 280px */
   padding-left: 10px; /* Inner gutter for content */
   padding-right: 10px; /* Inner gutter for content */
   box-sizing: border-box;
