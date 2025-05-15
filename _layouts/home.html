@@ -9,9 +9,9 @@ layout: default
 
   {{ content }}
 
-  {%- assign lcn_posts = site.posts | where_exp: "post", "post.categories contains 'LCN Lab'" -%}
-  {%- assign instruction_posts = site.posts | where_exp: "post", "post.categories contains 'Instruction'" -%}
-  {%- assign hobby_posts = site.posts | where_exp: "post", "post.categories contains 'Hobby'" -%}
+  {%- assign lcn_posts = site.posts | where_exp: "post", "post.categories contains 'lcn-lab'" -%}
+  {%- assign instruction_posts = site.posts | where_exp: "post", "post.categories contains 'instruction'" -%}
+  {%- assign hobby_posts = site.posts | where_exp: "post", "post.categories contains 'hobby'" -%}
 
   <div class="home-columns">
     <!-- LCN Lab Column -->
