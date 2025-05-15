@@ -20,7 +20,8 @@
 {%- endif -%}
 
 <div class="list-item-with-thumbnail">
-  {%- if thumbnail_url -%}
+  {%- assign stripped_thumbnail_url = thumbnail_url | strip -%}
+  {%- if stripped_thumbnail_url.size > 0 -%}
     <div class="thumbnail-container">
       <img src="{{ thumbnail_url }}" alt="Thumbnail for {{ post.title | escape }}" class="post-thumbnail">
     </div>
