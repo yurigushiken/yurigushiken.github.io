@@ -212,7 +212,7 @@ ul, ol {
 /* Styles for list items with thumbnails */
 .list-item-with-thumbnail {
   display: flex;
-  align-items: baseline; /* Align thumbnail baseline with text baseline */
+  align-items: flex-start; /* Changed from baseline to flex-start */
   margin-bottom: 1em; /* Space below each list item */
 }
 
@@ -247,12 +247,12 @@ ul, ol {
   display: block;
   font-size: 0.875em;
   color: #828282;
-  margin-bottom: 0.2em; /* Space between date and title */
+  margin-top: 0.3em; /* Was margin-bottom: 0.2em; space after title */
 }
 
 .list-item-with-thumbnail h3 {
   margin-top: 0;
-  margin-bottom: 0.25em; /* Space below title if excerpt is shown */
+  margin-bottom: 0.1em; /* Was 0.25em; space before date */
   font-size: 1.15em; /* Slightly adjust if needed, to fit with thumbnail */
 }
 
