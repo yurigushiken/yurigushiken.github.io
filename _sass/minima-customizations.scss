@@ -137,6 +137,67 @@ hr {
   // For now, let's rely on the .home-columns to define its own width within the 960px wrapper and see.
 }
 
+/* Homepage Intro Section Styles */
+.intro-section {
+  display: flex;
+  align-items: center; /* Vertically aligns the center of the image with the center of the text block */
+  margin-top: 1em;    /* Optional space above this section */
+  margin-bottom: 2.5em; /* Space between this section and the columns below */
+  padding-bottom: 1.5em; /* Optional space before a potential border */
+  // border-bottom: 1px solid #333; /* Optional subtle separator line */
+}
+
+.intro-headshot-container {
+  flex-shrink: 0; /* Prevents the image container from shrinking */
+  margin-right: 25px; /* Space between the headshot and the text */
+}
+
+.intro-headshot {
+  width: 100px;        /* Desired width of the headshot */
+  height: 100px;       /* Desired height of the headshot */
+  border-radius: 50%;  /* Makes the image circular */
+  object-fit: cover;   /* Ensures the image covers the area, cropping if necessary */
+  border: 2px solid #4a4a4a; /* Optional subtle border around the headshot */
+}
+
+.intro-text {
+  flex-grow: 1; /* Allows the text block to take up the remaining space */
+}
+
+.intro-title {
+  font-size: 2.2em; /* Example size, adjust as you like */
+  font-family: "Roboto Mono", monospace; /* Matches your column headings */
+  margin-top: 0;
+  margin-bottom: 0.1em; /* Minimal margin if no subtitle */
+  color: #e0e0e0;    /* Light text color, consistent with your theme */
+  line-height: 1.3;
+}
+
+.intro-subtitle {
+  font-size: 1.1em;
+  color: #b0b0b0; /* Softer color for the subtitle */
+  margin-top: 0.25em;
+  line-height: 1.5;
+}
+
+/* Responsive adjustments for the intro section */
+@media screen and (max-width: 768px) { /* Adjust breakpoint if needed */
+  .intro-section {
+    flex-direction: column; /* Stack image on top of text */
+    align-items: flex-start; /* Align items to the start (left) when stacked */
+    text-align: left;     /* Align text to the left when stacked */
+  }
+
+  .intro-headshot-container {
+    margin-right: 0; /* Remove right margin when stacked */
+    margin-bottom: 1em; /* Add space below image when stacked */
+  }
+  
+  .intro-title {
+    font-size: 1.8em; /* Slightly smaller title on mobile */
+  }
+}
+
 // Lists
 ul, ol {
   li {
