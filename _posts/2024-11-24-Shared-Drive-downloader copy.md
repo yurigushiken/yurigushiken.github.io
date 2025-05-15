@@ -3,6 +3,7 @@ layout: post
 title: "Automating Google Shared Drive Backups"
 date: 2024-11-24 12:00:00 -0400
 categories: Automation Tools lcn-lab
+thumbnail: https://raw.githubusercontent.com/yurigushiken/google-shared-drive-exporter/refs/heads/main/images/YouCut_20241115_174925804_1.gif
 ---
 
 ![Google Drive Backup Script in Action](https://raw.githubusercontent.com/yurigushiken/google-shared-drive-exporter/refs/heads/main/images/YouCut_20241115_174925804_1.gif)

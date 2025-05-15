@@ -2,7 +2,8 @@
 layout: post
 title: "Teaching Google's Teachable Machine to Elementary School Students"
 date: 2025-01-26 09:00:00 -0400
-categories: teaching instruction
+categories: teaching instruction 
+thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/friendsai-20250113_113847%20%281%29.jpg
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">

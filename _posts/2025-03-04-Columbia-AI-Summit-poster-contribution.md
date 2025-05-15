@@ -3,6 +3,7 @@ layout: post
 title: "Columbia AI Summit - poster contribution"
 date: 2025-03-04 14:00:00 -0400
 categories: academic research lcn-lab
+thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/poster-eye-track-ml.jpg
 ---
 
 <link rel="stylesheet" href="/assets/css/carousel.css">

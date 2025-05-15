@@ -3,6 +3,7 @@ layout: post
 title: "Training: Diagramming Foundations with Lucidchart"
 date: 2024-07-27 16:00:00 -0400
 categories: course completion update hobby instruction
+thumbnail: /media/Screenshot%202024-07-27%20144139.png
 ---
 
 ![Course Content](/media/Screenshot%202024-07-27%20144139.png)
