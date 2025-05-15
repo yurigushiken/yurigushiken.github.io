@@ -1,0 +1,43 @@
+{% comment %}
+  Reusable component to display a post list item with a thumbnail.
+
+  Expects:
+  - post: The post object.
+  - placeholder_color: A hex color string for the placeholder background if no image is found.
+{% endcomment %}
+
+{%- assign thumbnail_url = nil -%}
+
+{%- if post.thumbnail -%}
+  {%- assign thumbnail_url = post.thumbnail | relative_url -%}
+{%- else -%}
+  {%- assign first_image_in_content = post.content | match: '<img.+?src="([^"]+)"' -%}
+  {%- if first_image_in_content -%}
+    {%- assign thumbnail_url = first_image_in_content[1] -%}
+  {%- endif -%}
+{%- endif -%}
+
+<div class="list-item-with-thumbnail">
+  {%- if thumbnail_url -%}
+    <div class="thumbnail-container">
+      <img src="{{ thumbnail_url }}" alt="Thumbnail for {{ post.title | escape }}" class="post-thumbnail">
+    </div>
+  {%- else -%}
+    <div class="thumbnail-container">
+      <div class="post-thumbnail-placeholder" style="background-color: {{ include.placeholder_color }};"></div>
+    </div>
+  {%- endif -%}
+
+  <div class="post-details">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <span class="post-meta">{{ post.date | date: date_format }}</span>
+    <h3>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </h3>
+    {%- if site.show_excerpts == true and post.excerpt -%}
+      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+    {%- endif -%}
+  </div>
+</div> 

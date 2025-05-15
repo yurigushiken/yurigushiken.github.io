@@ -207,4 +207,57 @@ ul, ol {
   margin-top: 0.25em;
   margin-bottom: 0;
   font-size: 1.25em; /* Adjust as needed */
+}
+
+/* Styles for list items with thumbnails */
+.list-item-with-thumbnail {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  margin-bottom: 1em; /* Space below each list item */
+}
+
+.thumbnail-container {
+  flex-shrink: 0; /* Prevent thumbnail from shrinking */
+  width: 40px; /* Desired width of thumbnail/placeholder */
+  height: 40px; /* Desired height of thumbnail/placeholder */
+  margin-right: 10px; /* Space between thumbnail and text */
+  overflow: hidden; /* Ensure images don't overflow if they are not square */
+}
+
+.post-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Scale image to cover the container, cropping if necessary */
+  border-radius: 3px; /* Optional: slightly rounded corners */
+}
+
+.post-thumbnail-placeholder {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px; /* Optional: slightly rounded corners */
+  /* Background color is set inline via Liquid */
+}
+
+.post-details {
+  flex-grow: 1; /* Allow post details to take remaining space */
+}
+
+/* Ensure post meta and title within the new structure are styled appropriately */
+.list-item-with-thumbnail .post-meta {
+  display: block;
+  font-size: 0.875em;
+  color: #828282;
+  margin-bottom: 0.2em; /* Space between date and title */
+}
+
+.list-item-with-thumbnail h3 {
+  margin-top: 0;
+  margin-bottom: 0.25em; /* Space below title if excerpt is shown */
+  font-size: 1.15em; /* Slightly adjust if needed, to fit with thumbnail */
+}
+
+.list-item-with-thumbnail .post-excerpt {
+  font-size: 0.9em;
+  color: #b0b0b0; /* Lighter than main text but readable */
+  margin-top: 0.3em;
 } 

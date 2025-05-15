@@ -13,6 +13,9 @@ layout: default
   {%- assign instruction_posts = site.posts | where_exp: "post", "post.categories contains 'instruction'" -%}
   {%- assign hobby_posts = site.posts | where_exp: "post", "post.categories contains 'hobby'" -%}
 
+  {%- assign pastel_colors = "#FFDFD3,#D3FFDF,#D3DFFF,#FFF0D3,#FFD3FF,#D3FFFF" | split: ',' -%}
+  {%- assign pastel_color_count = pastel_colors | size -%}
+
   <div class="home-columns">
     <!-- LCN Lab Column -->
     <div class="home-column">
@@ -20,22 +23,15 @@ layout: default
       {%- if lcn_posts.size > 0 -%}
         <ul class="post-list">
           {%- for post in lcn_posts -%}
+          {%- assign current_pastel_index = forloop.index0 | modulo: pastel_color_count -%}
+          {%- assign placeholder_color = pastel_colors[current_pastel_index] -%}
           <li>
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            </h3>
-            {%- if site.show_excerpts -%}
-              {{ post.excerpt }}
-            {%- endif -%}
+            {% include post_list_item_with_thumbnail.html post=post placeholder_color=placeholder_color %}
           </li>
           {%- endfor -%}
         </ul>
       {%- else -%}
-        <p>No posts in this category yet.</p>
+        <p>{{ site.theme_settings.l10n.no_posts_found }}</p>
       {%- endif -%}
     </div>
 
@@ -45,22 +41,15 @@ layout: default
       {%- if instruction_posts.size > 0 -%}
         <ul class="post-list">
           {%- for post in instruction_posts -%}
+          {%- assign current_pastel_index = forloop.index0 | modulo: pastel_color_count -%}
+          {%- assign placeholder_color = pastel_colors[current_pastel_index] -%}
           <li>
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            </h3>
-            {%- if site.show_excerpts -%}
-              {{ post.excerpt }}
-            {%- endif -%}
+            {% include post_list_item_with_thumbnail.html post=post placeholder_color=placeholder_color %}
           </li>
           {%- endfor -%}
         </ul>
       {%- else -%}
-        <p>No posts in this category yet.</p>
+        <p>{{ site.theme_settings.l10n.no_posts_found }}</p>
       {%- endif -%}
     </div>
 
@@ -70,22 +59,15 @@ layout: default
       {%- if hobby_posts.size > 0 -%}
         <ul class="post-list">
           {%- for post in hobby_posts -%}
+          {%- assign current_pastel_index = forloop.index0 | modulo: pastel_color_count -%}
+          {%- assign placeholder_color = pastel_colors[current_pastel_index] -%}
           <li>
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            </h3>
-            {%- if site.show_excerpts -%}
-              {{ post.excerpt }}
-            {%- endif -%}
+            {% include post_list_item_with_thumbnail.html post=post placeholder_color=placeholder_color %}
           </li>
           {%- endfor -%}
         </ul>
       {%- else -%}
-        <p>No posts in this category yet.</p>
+        <p>{{ site.theme_settings.l10n.no_posts_found }}</p>
       {%- endif -%}
     </div>
   </div>
