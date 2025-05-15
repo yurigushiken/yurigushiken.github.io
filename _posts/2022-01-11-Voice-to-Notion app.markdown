@@ -3,6 +3,7 @@ layout: post
 title:  "Voice to Notion Python App"
 date:   2022-01-11 00:00:00 -0400
 categories: python app hobby
+thumbnail: https://img.youtube.com/vi/-nVTJpQAbs0/0.jpg
 ---
 
 GitHub repository for the Voice to Notion app [here](https://github.com/yurigushiken/voice-to-notion).

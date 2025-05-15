@@ -3,6 +3,7 @@ layout: post
 title:  "Learning Thai with Anki"
 date:   2014-02-01 00:00:00 -0400
 categories: language learning hobby
+thumbnail: /media/anki2.png
 ---
 
 I am self-taught at the Thai language. I used a spaced-repetition flashcard program called Anki to make over 2000 unique flashcards to help me. I was also inspired by former Singaporean Prime Minister and adult language learner Lee Kwan Yew and his book "Keeping My Mandarin Alive", who started learning Mandarin at the age of 32.

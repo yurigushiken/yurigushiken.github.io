@@ -3,6 +3,7 @@ layout: post
 title:  "Technical Reading"
 date:   2023-04-13 00:00:00 -0400
 categories: technical reading ai hobby
+thumbnail: /media/technicalreading.png
 ---
 
 I have read the following papers to write papers for MSTU-4005 Cognition and Computers and MSTU-4028 Technology and Culture:
