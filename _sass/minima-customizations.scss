@@ -135,16 +135,23 @@ ul, ol {
 /* Three-column layout for homepage */
 .home-columns {
   display: flex;
+  flex-direction: row; /* Ensure side-by-side layout */
   flex-wrap: wrap; /* Allows columns to wrap on smaller screens if necessary */
-  margin-left: -15px; /* Adjust for column padding */
-  margin-right: -15px; /* Adjust for column padding */
+  width: 100%; /* Ensure the container takes up full available width */
+  box-sizing: border-box;
+  margin-left: -10px; /* Adjust for column padding, creates outer gutter */
+  margin-right: -10px; /* Adjust for column padding, creates outer gutter */
 }
 
 .home-column {
-  flex: 1; /* Each column will take up equal space */
-  padding-left: 15px;
-  padding-right: 15px;
+  flex-grow: 1; /* Allow columns to grow */
+  flex-shrink: 1; /* Allow columns to shrink */
+  flex-basis: 0; /* Distribute space equally among columns */
   min-width: 280px; /* Minimum width before wrapping, adjust as needed */
+  padding-left: 10px; /* Inner gutter for content */
+  padding-right: 10px; /* Inner gutter for content */
+  box-sizing: border-box;
+  margin-bottom: 20px; /* Space below columns if they wrap to a new line */
 }
 
 .column-heading {
