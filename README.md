@@ -64,16 +64,59 @@ The site uses the Jekyll Minima theme with a custom dark mode implementation.
 
 ### Local Development (Optional)
 
-1. Clone the repository
-2. Install Jekyll and dependencies:
-   ```
-   gem install bundler jekyll
-   bundle install
-   ```
-3. Run the site locally:
-   ```
-   bundle exec jekyll serve
-   ```
+If you prefer to write and preview your changes on your own computer before making them live, follow these steps:
+
+1.  **Clone the repository:**
+    If you haven't already, get a local copy of the project:
+    ```bash
+    git clone https://github.com/yurigushiken/yurigushiken.github.io.git
+    cd yurigushiken.github.io
+    ```
+    (If you've already cloned it, just navigate to your local project directory using `cd your-project-directory-path` in your terminal.)
+
+2.  **Install dependencies:**
+    (Ensure you have Ruby and Bundler installed. You typically only need to run `bundle install` once to set up the project, and then again if the `Gemfile` (which lists project dependencies) changes.)
+    ```bash
+    # If you haven't installed the bundler gem system-wide yet:
+    # gem install bundler
+    bundle install
+    ```
+    This command reads the `Gemfile` and installs Jekyll and other necessary gems.
+
+3.  **Create or modify content:**
+    Make your changes, such as creating a new blog post in the `_posts` directory (see the "Adding Content" -> "Creating Blog Posts" section above), editing pages, or updating styles.
+
+4.  **Run the site locally (to preview your changes):**
+    This command starts a local web server. You can then open your web browser and go to `http://localhost:4000` (or `http://127.0.0.1:4000`) to see your site as it would appear.
+    ```bash
+    bundle exec jekyll serve
+    ```
+    Most changes you save will automatically update in the browser. Press `Ctrl+C` in the terminal window where `jekyll serve` is running to stop the local server.
+
+5.  **Publishing Your Changes to the Live Site:**
+    Once you are satisfied with your local changes and ready to make them live on `https://yurigushiken.github.io/`:
+
+    a.  **Stage your changes:** In your terminal (from the project root directory), tell Git which files you want to include in your next "commit" (a snapshot of your work).
+        *   To add a specific file (for example, a new post you just created):
+            ```bash
+            git add _posts/YYYY-MM-DD-your-new-post-title.md
+            ```
+        *   Or, to add all files that you have changed or created in the project:
+            ```bash
+            git add .
+            ```
+
+    b.  **Commit your changes:** Save your staged changes to your local Git history with a descriptive message. This message helps you and others understand what was changed and why.
+        ```bash
+        git commit -m "Your descriptive commit message (e.g., Add new blog post about Jekyll, Fix typo on about page)"
+        ```
+
+    c.  **Push your changes to GitHub:** Send your committed changes from your local computer to the `main` branch on the remote GitHub repository.
+        ```bash
+        git push origin main
+        ```
+
+    After this `git push` command, GitHub Pages will automatically detect the new commits on the `main` branch. It will then rebuild your Jekyll site and deploy the updates. Your new content or changes should be live on your website within a minute or two.
 
 ### Direct GitHub Editing
 
