@@ -325,7 +325,7 @@ ul, ol {
 
 /* More specific selector for post titles within homepage columns */
 .home-column .post-list .post-main-details h3 {
-  font-size: 1.1em; /* Adjusted back to a smaller size */
+  font-size: 0.9em; /* Further reduced for smaller post titles */
   margin-top: 0;
   margin-bottom: 0.25em; /* Space before excerpt */
   color: #4da6ff; /* Ensuring it uses the post-link color for consistency */
