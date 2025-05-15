@@ -317,7 +317,7 @@ ul, ol {
   h3 { // Title within this block
     margin-top: 0;
     margin-bottom: 0.25em; // Space before excerpt
-    font-size: 1.15em;
+    font-size: 1.0em; /* Reduced from 1.15em */
   }
 
   .post-excerpt {
