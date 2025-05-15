@@ -162,7 +162,7 @@ ul, ol {
 }
 
 /* Responsive adjustments: stack columns on smaller screens */
-@media screen and (max-width: 768px) { /* Adjust breakpoint as needed */
+@media screen and (max-width: 919px) { /* Adjust breakpoint as needed - increased from 768px */
   .home-columns {
     flex-direction: column;
   }
