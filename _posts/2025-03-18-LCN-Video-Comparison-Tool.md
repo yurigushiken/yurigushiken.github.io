@@ -3,6 +3,7 @@ layout: post
 title: "LCN Video Comparison: Multi-Video Synchronization Tool"
 date: 2025-03-18 10:00:00 -0400
 categories: tools development lcn-lab
+thumbnail: /media/eir-data-visualization.png
 ---
 
 *13 April update: This project is now replaced by [Analysis Tool](https://yurigushiken.github.io/tools/development/research/visualization/2025/04/13/Infant-Event-Representations-Heatmap-Viewer.html)*

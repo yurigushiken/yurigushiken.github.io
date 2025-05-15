@@ -6,7 +6,7 @@ categories: research psychology psychophysics web development data-analysis fire
 thumbnail: /media/pc-combined_experiment_and_trial_flow.png
 ---
 
-<!-- Swiper -->
+<!-- Swiper ->
 <!-- Top (Main) Swiper -->
 <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #333; margin-bottom: 10px; background-color: #383838;" class="swiper perceptionSwiper2">
   <div class="swiper-wrapper">

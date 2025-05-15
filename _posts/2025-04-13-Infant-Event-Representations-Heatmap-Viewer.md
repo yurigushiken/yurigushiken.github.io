@@ -2,7 +2,8 @@
 layout: post
 title: "Analysis Tool: Infant Event Representations Heatmap Viewer"
 date: 2025-04-13 10:00:00 -0400
-categories: tools development research visualization
+categories: tools development research visualization lcn-lab
+thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
 ---
 
 <!-- Swiper -->
