@@ -3,6 +3,7 @@ layout: post
 title: "(class project) Parametric Faces"
 date: 2023-09-26 00:00:00 -0400
 categories: coding design fabrication hobby
+thumbnail: /media/Screenshot%202024-06-06%20204434.png
 ---
 Sewing project. Mental geometry. Turtle stitch. 
 

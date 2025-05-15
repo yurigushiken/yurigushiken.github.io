@@ -3,6 +3,7 @@ layout: post
 title: "Demonstration of GPT Vision and DeepFace"
 date: 2023-11-12 00:00:00 -0400
 categories: coding design experimentation hobby
+thumbnail: /media/Screenshot-2023-11-12-153402-2048x1346.png
 ---
 
 ---
@@ -13,13 +14,13 @@ categories: coding design experimentation hobby
 
 Demonstration of GPT Vision and DeepFace. GPT Vision released by Open AI early November 2023. DeepFace from Facebook, 2021.
 
-I started with Roboflow’s GPT Vision application and modified it to include DeepFace.
+I started with Roboflow's GPT Vision application and modified it to include DeepFace.
 
 GPT Vision: [https://platform.openai.com/docs/guides/vision](https://platform.openai.com/docs/guides/vision)
 
 DeepFace: [https://github.com/serengil/deepface](https://github.com/serengil/deepface)
 
-Original Roboflow’s GPT Vision: [https://github.com/roboflow/awesome-openai-vision-api-experiments](https://github.com/roboflow/awesome-openai-vision-api-experiments)
+Original Roboflow's GPT Vision: [https://github.com/roboflow/awesome-openai-vision-api-experiments](https://github.com/roboflow/awesome-openai-vision-api-experiments)
 
 Awesome OpenAI Vision API Experiments: [https://github.com/roboflow/awesome-openai-vision-api-experiments](https://github.com/roboflow/awesome-openai-vision-api-experiments)
 
