@@ -1,46 +1,45 @@
 {% comment %}
-  Reusable component to display a post list item with a thumbnail.
-
+  Displays a post list item with date on top, then thumbnail aligned with title.
   Expects:
   - post: The post object.
-  - placeholder_color: A hex color string for the placeholder background if no image is found.
+  - placeholder_color: A hex color string for the placeholder.
 {% endcomment %}
 
-{%- assign thumbnail_url = nil -%}
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+<span class="post-meta">{{ post.date | date: date_format }}</span>
 
-{%- if post.thumbnail -%}
-  {%- assign thumbnail_url = post.thumbnail | relative_url -%}
-{%- else -%}
-  {%- assign first_image_in_content = post.content | match: '<img.+?src="([^"]+)"' -%}
-  {%- if first_image_in_content -%}
-    {%- assign temp_url = first_image_in_content[1] -%}
-    {%- assign processed_url = temp_url | replace: ' ', '%20' -%}
-    {%- assign thumbnail_url = processed_url | relative_url -%}
-  {%- endif -%}
-{%- endif -%}
-
-<div class="list-item-with-thumbnail">
-  {%- assign stripped_thumbnail_url = thumbnail_url | strip -%}
-  {%- if stripped_thumbnail_url.size > 0 -%}
-    <div class="thumbnail-container">
-      <img src="{{ thumbnail_url }}" alt="Thumbnail for {{ post.title | escape }}" class="post-thumbnail">
-    </div>
+<div class="list-item-content-row">
+  
+  {%- assign thumbnail_url = nil -%}
+  {%- if post.thumbnail -%}
+    {%- assign thumbnail_url = post.thumbnail | relative_url -%}
   {%- else -%}
-    <div class="thumbnail-container">
-      <div class="post-thumbnail-placeholder" style="background-color: {{ include.placeholder_color }};"></div>
-    </div>
+    {%- assign first_image_in_content = post.content | match: '<img.+?src="([^"]+)"' -%}\
+    {%- if first_image_in_content -%}
+      {%- assign temp_url = first_image_in_content[1] -%}
+      {%- assign processed_url = temp_url | replace: ' ', '%20' -%}
+      {%- assign thumbnail_url = processed_url | relative_url -%}
+    {%- endif -%}
   {%- endif -%}
 
-  <div class="post-details">
+  <div class="thumbnail-container">
+    {%- assign stripped_thumbnail_url = thumbnail_url | strip -%}
+    {%- if stripped_thumbnail_url.size > 0 -%}
+      <img src="{{ thumbnail_url }}" alt="Thumbnail for {{ post.title | escape }}" class="post-thumbnail">
+    {%- else -%}
+      <div class="post-thumbnail-placeholder" style="background-color: {{ include.placeholder_color }};"></div>
+    {%- endif -%}
+  </div>
+
+  <div class="post-main-details">
     <h3>
       <a class="post-link" href="{{ post.url | relative_url }}">
         {{ post.title | escape }}
       </a>
     </h3>
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    <span class="post-meta">{{ post.date | date: date_format }}</span>
     {%- if site.show_excerpts == true and post.excerpt -%}
       <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
     {%- endif -%}
   </div>
+
 </div> 
