@@ -212,7 +212,7 @@ ul, ol {
 /* Styles for list items with thumbnails */
 .list-item-with-thumbnail {
   display: flex;
-  align-items: flex-start; /* Align items to the top */
+  align-items: baseline; /* Align thumbnail baseline with text baseline */
   margin-bottom: 1em; /* Space below each list item */
 }
 
