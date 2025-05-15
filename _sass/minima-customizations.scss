@@ -123,11 +123,18 @@ hr {
 // Wrapper
 .wrapper {
   background-color: #121212;
-  max-width: 960px; /* Increased from Minima default to allow for 3 columns */
-  margin-left: auto; /* Keep it centered */
-  margin-right: auto; /* Keep it centered */
-  padding-left: 15px; /* Standard Minima padding */
-  padding-right: 15px; /* Standard Minima padding */
+  max-width: 960px; /* Default max-width for most pages */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box; /* Ensure padding is included in width/height */
+}
+
+// Allow homepage content to be wider if needed for columns
+.home > .wrapper { // More specific selector for homepage wrapper
+  // max-width: 1200px; // Example: Or set to none if columns should span full browser width allowed by theme structure
+  // For now, let's rely on the .home-columns to define its own width within the 960px wrapper and see.
 }
 
 // Lists
@@ -137,44 +144,41 @@ ul, ol {
   }
 }
 
-/* Three-column layout for homepage */
+/* Three-column layout for homepage using CSS Grid */
 .home-columns {
-  display: flex;
-  flex-direction: row; /* Ensure side-by-side layout */
-  flex-wrap: wrap; /* Allows columns to wrap on smaller screens if necessary */
-  width: 100%; /* Ensure the container takes up full available width */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
+  gap: 20px; /* Space between columns, and also rows if they wrap (though we aim for one row on desktop) */
+  width: 100%; /* Take full width of its container */
   box-sizing: border-box;
-  margin-left: -10px; /* Adjust for column padding, creates outer gutter */
-  margin-right: -10px; /* Adjust for column padding, creates outer gutter */
+  // margin-left: -10px; // Not typically needed with grid gap
+  // margin-right: -10px; // Not typically needed with grid gap
 }
 
 .home-column {
-  flex-grow: 1; /* Allow columns to grow */
-  flex-shrink: 1; /* Allow columns to shrink */
-  flex-basis: 0; /* Distribute space equally among columns */
-  min-width: 260px; /* Reduced from 280px */
-  padding-left: 10px; /* Inner gutter for content */
-  padding-right: 10px; /* Inner gutter for content */
+  /* Flex properties removed, Grid handles sizing */
+  /* min-width: 260px; */ /* Not strictly needed with 1fr, but can be a fallback if grid isn't supported - though unlikely */
+  padding: 10px; /* Inner padding for content within each column */
   box-sizing: border-box;
-  margin-bottom: 20px; /* Space below columns if they wrap to a new line */
+  /* margin-bottom: 20px; */ /* Gap property on grid container handles spacing */
 }
 
 .column-heading {
-  font-family: "Roboto Mono", monospace; /* Apply Roboto Mono */
-  font-size: 1.8em; /* Example of a "large" size, can be adjusted */
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.8em;
   margin-bottom: 1em;
-  /* Add any other specific styling for headings here */
 }
 
 /* Responsive adjustments: stack columns on smaller screens */
-@media screen and (max-width: 919px) { /* Adjust breakpoint as needed - increased from 768px */
+@media screen and (max-width: 919px) { /* Breakpoint for stacking */
   .home-columns {
-    flex-direction: column;
+    grid-template-columns: 1fr; /* Single column */
+    // flex-direction: column; // Not needed for Grid
   }
   .home-column {
-    flex: none; /* Reset flex behavior */
-    width: 100%; /* Full width for stacked columns */
-    margin-bottom: 2em; /* Add some space between stacked columns */
+    // flex: none; // Not needed
+    // width: 100%; // Grid items will take full width of the single track
+    margin-bottom: 2em; /* Retain space between stacked items if desired */
   }
 }
 
