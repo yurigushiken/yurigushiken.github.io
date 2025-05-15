@@ -180,6 +180,16 @@ hr {
   line-height: 1.5;
 }
 
+.intro-cv-link {
+  font-size: 0.95em;
+  margin-top: 0.75em; /* Space above the CV link */
+}
+
+.intro-cv-link a {
+  text-decoration: underline; /* Standard link underline */
+  /* color: #4da6ff; */ /* Uses default link color from theme, or uncomment to customize */
+}
+
 /* Responsive adjustments for the intro section */
 @media screen and (max-width: 768px) { /* Adjust breakpoint if needed */
   .intro-section {
