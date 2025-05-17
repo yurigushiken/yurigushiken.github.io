@@ -1,6 +1,6 @@
 .image-carousel {
   position: relative;
-  max-width: 600px; /* Adjust max-width as needed */
+  /* max-width: 600px; */ /* Adjust max-width as needed */
   margin: 2rem auto;
   overflow: hidden;
   border-radius: 8px;
