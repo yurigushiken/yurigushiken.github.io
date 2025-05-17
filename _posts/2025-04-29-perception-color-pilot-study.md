@@ -8,7 +8,7 @@ thumbnail: /media/pc-combined_experiment_and_trial_flow.png
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">A web-based psychophysics experiment. Do learned value associations alter color perception?/p>
+  <p style="font-size: 1.1em; color: #ccc;">A web-based psychophysics experiment. Do learned value associations alter color perception?</p>
   
   <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
@@ -29,6 +29,7 @@ thumbnail: /media/pc-combined_experiment_and_trial_flow.png
   -->
 </div>
 
+<div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
 <!-- Swiper ->
 <!-- Top (Main) Swiper -->
 <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #333; margin-bottom: 10px; background-color: #383838;" class="swiper perceptionSwiper2">
@@ -132,6 +133,7 @@ thumbnail: /media/pc-combined_experiment_and_trial_flow.png
   </div>
 </div>
 <!-- End Swiper -->
+</div>
 
 <!-- Swiper JS Initialization Script -->
 <script>
