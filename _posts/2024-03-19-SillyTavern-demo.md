@@ -18,7 +18,10 @@ thumbnail: https://img.youtube.com/vi/LTZUoXLnzCA/0.jpg
   </ul>
 </div>
 
-![Silly Tavern Demonstration Video](https://img.youtube.com/vi/LTZUoXLnzCA/0.jpg)
+<div style="text-align: center;">
+  ![Silly Tavern Demonstration Video](https://img.youtube.com/vi/LTZUoXLnzCA/0.jpg)
+  <p><em>chatting with one's own voice</em></p>
+</div>
 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Post Details...</summary>
