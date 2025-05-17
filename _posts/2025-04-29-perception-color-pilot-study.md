@@ -169,7 +169,7 @@ thumbnail: /media/pc-combined_experiment_and_trial_flow.png
 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
-  <div style="padding-top: 15px; color: #bbb;">
+  <div style="padding-top: 15px; color: #bbb;" markdown="1">
 _Can Value Change What We See (and Do)?_
 
 The primary goal of this project is to test Donald Hoffman's Interface Theory (ITP); a secondary objective is developing our skills in experimental design, stimulus creation, stimulus presentation, and psychophysics research.
