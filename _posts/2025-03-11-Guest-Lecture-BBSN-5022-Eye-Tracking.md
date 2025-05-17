@@ -8,13 +8,13 @@ thumbnail: /media/Screenshot%202025-03-21%20201549.png
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">Guest lecture for Dr. Jean Tang-Lonardo's BBSN 5022 course at Teachers College, Columbia University, focusing on the "Eye-Track-ML" project.</p>
+  <p style="font-size: 1.1em; color: #ccc;">Guest lecture for Dr. Jean Tang-Lonardo's BBSN 5022 course at Teachers College, Columbia University, presenting "Eye-Track-ML" (<a href="https://yurigushiken.github.io/academic/research/lcn-lab/2025/03/04/Columbia-AI-Summit-poster-contribution.html" style="color: #7cc5ff;">see poster</a>).</p>
   
   <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
     <li>Present the "Eye-Track-ML" automated eye-tracking video coding pipeline.</li>
     <li>Explain how computer vision models can streamline data analysis for eye-tracking.</li>
-    <li>For more information about the project, see our <a href="/academic/research/lcn-lab/2025/03/04/Columbia-AI-Summit-poster-contribution.html" style="color: #7cc5ff;">Eye-Track-ML post</a>.</li>
+    <li>For more information about the project, see our Eye-Track-ML post.</li>
   </ul>
 </div>
 
