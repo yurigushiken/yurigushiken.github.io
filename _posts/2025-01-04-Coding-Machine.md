@@ -6,6 +6,25 @@ categories: Automation Tools lcn-lab
 thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-original-video-gif.gif
 ---
 
+<div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
+  <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
+  <p style="font-size: 1.1em; color: #ccc;">An ML and rule-based workflow to automate frame-by-frame coding of eye-tracking video data (see subsequent poster: <a href="https://yurigushiken.github.io/academic/research/lcn-lab/2025/03/04/Columbia-AI-Summit-poster-contribution.html" style="color: #7cc5ff;">Columbia AI Summit Poster</a>)</p>
+  
+  <h3 style="color: #eee;">What we did:</h3>
+  <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
+    <li>Develop a multi-step automated pipeline.</li>
+    <li>Applied pipeline to our Infant Event Representations study (~75 participant files, ~540k frames).</li>
+    <li>Use object detection (YOLO) and segmentation (SAM2) models.</li>
+    <li>Implement rules-based and human-verification of neural network outputs.</li>
+    <li>Assemble datasheets (CSV) from detection and classification data.</li>
+    <li>Render final annotated MP4 videos with text overlays for verification and visual analysis.</li>
+  </ul>
+</div>
+
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
+  <div style="padding-top: 15px; color: #bbb;" markdown="1">
+
 ## Automating Thousands of Frames with Infant Eye-Tracking Coding Machine
 
 <link rel="stylesheet" href="/assets/css/carousel.css">
@@ -179,3 +198,5 @@ Below is a step-by-step look at each script in the workflow:
 [GitHub Repository]: https://github.com/yurigushiken/google-shared-drive-exporter
 
 <script src="/assets/js/carousel.js"></script>
+  </div>
+</details>
