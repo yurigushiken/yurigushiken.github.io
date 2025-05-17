@@ -6,6 +6,18 @@ categories: academic conference research teaching lcn-lab
 thumbnail: /media/2025-04-01 CNS - Screenshot 2025-04-13 172743.png
 ---
 
+<div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
+  <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
+  <p style="font-size: 1.1em; color: #ccc;">Three academic and community presentations delivered over a 24-hour period</p>
+  
+  <h3 style="color: #eee;">What we did:</h3>
+  <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
+    <li>Present EEG research poster on numerical quantity processing at the Cognitive Neuroscience Society (CNS) 2025.</li>
+    <li>Showcase K-12 educational technology activities at Teachers College's STEAMnasium 2025.</li>
+    <li>Present "Eye-Track-ML" poster an automated eye-tracking video coding pipeline, at Columbia Data Science Day 2025.</li>
+  </ul>
+</div>
+
 <link rel="stylesheet" href="/assets/css/carousel.css">
 
 <div class="image-carousel">
@@ -42,6 +54,9 @@ thumbnail: /media/2025-04-01 CNS - Screenshot 2025-04-13 172743.png
   </div>
 </div>
 
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
+  <div style="padding-top: 15px; color: #bbb;" markdown="1">
 The first two days of April was period of sharing my and my lab's recent work in numerical cognition and neuroscience, education technology, and research methods at two conferences and one event: Cognitive Neuroscience Society (CNS) annual meeting, Teachers College's STEAMnasium, and Columbia's Data Science Day.
 
 ### **Monday, 1 April** Cognitive Neuroscience Society (CNS) 2025
@@ -68,5 +83,7 @@ We got excellent feedback from conference attendees. We also met several student
 ---
 
 <script src="/assets/js/carousel.js"></script>
+</div>
+</details>
 
 
