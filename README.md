@@ -145,3 +145,5 @@ The site uses GitHub Pages for deployment. When changes are pushed to the main b
 ## License
 
 All rights reserved. The content of this website is not licensed for public use.
+
+<!-- Trivial change to trigger GitHub Pages rebuild -->
