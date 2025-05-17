@@ -12,7 +12,6 @@ thumbnail: /media/pc-combined_experiment_and_trial_flow.png
   
   <h3 style="color: #eee;">Project Highlights:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
-    <li>Applied cognitive theory (Hoffman's ITP) to experimental design.</li>
     <li>Implemented psychophysical methods (adaptive staircase, PSE measurement).</li>
     <li>Developed a web-based experiment using React, JavaScript, and Firebase.</li>
     <li>Designed controlled visual stimuli leveraging perceptually uniform color spaces.</li>
