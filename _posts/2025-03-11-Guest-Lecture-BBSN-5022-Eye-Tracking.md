@@ -18,8 +18,10 @@ thumbnail: /media/Screenshot%202025-03-21%20201549.png
   </ul>
 </div>
 
-<img src="/media/VideoCapture_20250321-220031.jpg" alt="Lecture Capture" width="66.7%" />
-<p><em>Presenting Eye-Track-ML to BBSN 5022, Teachers College</em></p>
+<div style="text-align: center;">
+  <img src="/media/VideoCapture_20250321-220031.jpg" alt="Lecture Capture" width="66.7%" />
+  <p><em>Presenting Eye-Track-ML to BBSN 5022, Teachers College</em></p>
+</div>
 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
