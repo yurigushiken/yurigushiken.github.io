@@ -27,20 +27,25 @@ subtitle: "A technology demonstration showcasing AI voice cloning, translation, 
 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #eee; margin-bottom: 10px;">Read Full Post Details...</summary>
+
   <div style="padding-top: 10px; border-top: 1px solid #444;">
-    Technology Demonstration: 
+
+    Technology Demonstration:
     I used a paid version of ElevenLabs to create my voice based on a one-minute sample of me talking. ElevenLabs also made my voice speak French. I used Lalamu to make my mouth move with my French-speaking voice. I added subtitles.
-    
+
     ### Example Video
+
     <div style="text-align: center; margin-bottom: 20px;">
       ![Bertrand Russell Quote](https://img.youtube.com/vi/HBasbV8Yyjo/0.jpg)
     </div>
-    
+
     These software were developed in the last few months (June, 2023).
-    
+
     ### Software Used
+
     - [ElevenLabs](https://beta.elevenlabs.io/)
     - [Lalamu](https://lalamu.studio/)
+
   </div>
 </details>
 
