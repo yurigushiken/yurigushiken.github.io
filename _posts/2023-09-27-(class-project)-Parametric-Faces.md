@@ -20,9 +20,9 @@ subtitle: "A project submission for parametric design."
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
+  <img src="/media/face3-9-1.png" alt="Face Variation 1" style="max-width: 30%; height: auto; margin: 5px; border: 1px solid #555; padding: 5px; background-color: #333a45;">
   <img src="/media/face3-7-1.png" alt="Face Variation 3" style="max-width: 30%; height: auto; margin: 5px; border: 1px solid #555; padding: 5px; background-color: #333a45;">
   <img src="/media/face3-8-1.png" alt="Face Variation 2" style="max-width: 30%; height: auto; margin: 5px; border: 1px solid #555; padding: 5px; background-color: #333a45;">
-  <img src="/media/face3-9-1.png" alt="Face Variation 1" style="max-width: 30%; height: auto; margin: 5px; border: 1px solid #555; padding: 5px; background-color: #333a45;">
 </div>
 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
