@@ -4,6 +4,7 @@ title: "Automating Google Shared Drive Backups"
 date: 2024-11-24 12:00:00 -0400
 categories: Automation Tools lcn-lab
 thumbnail: https://raw.githubusercontent.com/yurigushiken/google-shared-drive-exporter/refs/heads/main/images/YouCut_20241115_174925804_1.gif
+subtitle: "Automated backup process for LCN Lab Shared Drive."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">

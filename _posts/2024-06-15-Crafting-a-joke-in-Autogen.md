@@ -4,6 +4,7 @@ title:  "Crafting a Joke in Autogen"
 date:   2024-06-15 01:05:54 -0400
 categories: autogen update hobby
 thumbnail:
+subtitle: "Using a multi-agent workflow to write a joke."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">

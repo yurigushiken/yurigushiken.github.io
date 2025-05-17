@@ -4,6 +4,7 @@ title: "Study Tool: MBTI Comparison App"
 date: 2024-10-27 16:00:00 -0400
 categories: Personality Research hobby
 thumbnail: /media/Screenshot%202024-10-27%20134337.png
+subtitle: "A web application to compare Cognitive Functions of Myers-Briggs Personality Types (MBTI)."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">

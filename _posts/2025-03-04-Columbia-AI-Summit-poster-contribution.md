@@ -4,6 +4,7 @@ title: "Columbia AI Summit poster contribution"
 date: 2025-03-04 14:00:00 -0400
 categories: academic research lcn-lab
 thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/poster-eye-track-ml.jpg
+subtitle: "A poster presented at the Columbia AI Summit, detailing Eye-Track-ML: our machine learning pipeline designed to automate the frame-by-frame coding of extensive eye-tracking video data."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">

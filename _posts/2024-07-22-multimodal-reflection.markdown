@@ -4,6 +4,7 @@ title: "Assignment: Multimodal Reflection"
 date: 2024-07-22 01:05:54 -0400
 categories: Assignment hobby
 thumbnail: /media/Screenshot%202024-07-22%20205551.png
+subtitle: "My submission for multimodal reflection assignment for the course \"C&T 4001: Inclusive Instructional Approaches for Diverse Learners.\""
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">

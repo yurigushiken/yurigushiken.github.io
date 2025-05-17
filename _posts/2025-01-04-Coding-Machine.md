@@ -4,6 +4,7 @@ title: "Coding Machine for coding Eye-tracking AOIs"
 date: 2025-01-04 12:00:00 -0400
 categories: Automation Tools lcn-lab
 thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-original-video-gif.gif
+subtitle: "An ML and rule-based workflow to automate frame-by-frame coding of eye-tracking video data."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">

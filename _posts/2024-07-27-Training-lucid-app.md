@@ -4,6 +4,7 @@ title: "Training: Diagramming Foundations with Lucidchart"
 date: 2024-07-27 16:00:00 -0400
 categories: course completion update instruction
 thumbnail: /media/Screenshot%202024-07-27%20144139.png
+subtitle: "Completion of the \"Diagramming Foundations\" course by Lucid."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
