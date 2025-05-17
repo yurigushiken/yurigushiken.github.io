@@ -4,6 +4,7 @@ title: "(final project) Pose Prompter"
 date: 2023-12-16 00:00:00 -0400
 categories: coding design experimentation hobby
 thumbnail: /media/YouCut_20231220_180838651_2.gif
+subtitle: "Submission for A&HA-4084 assignment. A system that takes poses as inputs to generate images at 3 FPS. It uses hand/body tracking (MediaPipe) and an AI image generator (ComfyUI/Stable Diffusion)."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">

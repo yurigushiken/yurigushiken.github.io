@@ -4,11 +4,12 @@ title: "(essay) On Anthropomoprhization"
 date: 2023-12-20 00:00:00 -0400
 categories: education cognition AI hobby
 thumbnail: /media/li01.png
+subtitle: "An essay arguing that anthropomorphizing AI systems produces better outputs."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">An essay arguing that the most effective way to interact with and develop AI systems is to treat them as if they are human.</p>
+  <p style="font-size: 1.1em; color: #ccc;">An essay arguing that anthropomorphizing AI systems produces better outputs.</p>
   
   <h3 style="color: #eee;">What I did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">

@@ -4,6 +4,7 @@ title: "Machine Learning Mound Mapping"
 date: 2024-01-09 20:17:03 +0000
 categories: blog-posts current-projects experimentation hobby
 thumbnail: /media/Screenshot-2024-01-09-035219.png
+subtitle: "A project to map earth anomalies (called 'mounds') across the USA using machine learning."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">

@@ -4,6 +4,7 @@ title: "Demonstration of GPT Vision and DeepFace"
 date: 2023-11-12 00:00:00 -0400
 categories: coding design experimentation hobby
 thumbnail: /media/Screenshot-2023-11-12-153402-2048x1346.png
+subtitle: "A tech demonstration of OpenAI's new GPT Vision API."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
@@ -75,7 +76,7 @@ from deepface import DeepFace
 from datetime import datetime
 
 MARKDOWN = """
-# WebcamGPT 💬 + 📸
+# WebcamGPT �� + 📸
 
 webcamGPT is a tool that allows you to chat with video using OpenAI Vision API.
 
