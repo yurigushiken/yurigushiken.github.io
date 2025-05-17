@@ -6,6 +6,21 @@ categories: education cognition AI hobby
 thumbnail: /media/li01.png
 ---
 
+<div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
+  <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
+  <p style="font-size: 1.1em; color: #ccc;">An essay arguing that the most effective way to interact with and develop AI systems is to treat them as if they are human.</p>
+  
+  <h3 style="color: #eee;">What I did:</h3>
+  <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
+    <li>Analyze human-like characteristics already embedded in language models.</li>
+    <li>Identify pattern: applying principles of human cognition (like emotional engagement, step-by-step reasoning, and iterative decision-making) to LLMs leads to significant performance improvements.</li>
+    <li>Conclude that interacting with AI systems like humans yields better results, regardless of philosophical debates on AI consciousness or rights.</li>
+  </ul>
+</div>
+
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+<summary style="cursor: pointer; font-weight: bold; color: #adbac7; margin-bottom: 10px;">Read Full Essay Details...</summary>
+<div markdown="1">
 
 ---
 
@@ -181,4 +196,7 @@ Zelikman, E., Wu, Y., Mu, J., & Goodman, N. D. (2022). STaR: Bootstrapping Reaso
 You can download the full paper here:
 
 - [MSTU4133_Final_YuriGushiken-submit-copy.pdf](/media/MSTU4133_Final_YuriGushiken-submit-copy.pdf)
+
+</div>
+</details>
 
