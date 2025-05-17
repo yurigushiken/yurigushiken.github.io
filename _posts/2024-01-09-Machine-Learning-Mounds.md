@@ -6,7 +6,26 @@ categories: blog-posts current-projects experimentation hobby
 thumbnail: /media/Screenshot-2024-01-09-035219.png
 ---
 
+<div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
+  <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
+  <p style="font-size: 1.1em; color: #ccc;">A project to map earth anomalies (called 'mounds') across the USA using machine learning.</p>
+  
+  <h3 style="color: #eee;">What I did:</h3>
+  <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
+    <li>Develop an interactive web application to visualize mound data.</li>
+    <li>Continuously expand mound mapping coverage, with updates for areas like Arkansas and plans for the entire USA.</li>
+    <li>Identified 1.2 million mounds in Arkansas</li>
+  </ul>
+</div>
 
+<div style="text-align: center;" markdown="1">
+  ![Featured Image](/media/Screenshot-2024-01-09-035219.png)
+  <p><em>mapping earth anomalies in the American South (Arkansas)</em></p>
+</div>
+
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Post Details...</summary>
+  <div style="padding-top: 15px; color: #bbb;" markdown="1">
 
 # Machine Learning Mound Mapping
 
@@ -16,8 +35,6 @@ Expanding coverage to entire USA
 -Arkansas mounds identified
 
 **Click to try the demo: [https://yurigushiken.com/moundmapperdemo/](https://yurigushiken.com/moundmapperdemo/)**
-
-![Featured Image](/media/Screenshot-2024-01-09-035219.png)
 
 # Problem: The origins
 
@@ -29,3 +46,5 @@ Study mounds from new perspectives
 Perform statistical analysis on data
 Use mounds data in various spatial formats
 Use mounds data in various software
+  </div>
+</details>
