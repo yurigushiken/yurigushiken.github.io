@@ -28,7 +28,7 @@ subtitle: "A technology demonstration showcasing AI voice cloning, translation, 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #eee; margin-bottom: 10px;">Read Full Post Details...</summary>
 
-  <div style="padding-top: 10px; border-top: 1px solid #444;">
+  <div style="padding-top: 10px; border-top: 1px solid #444;" markdown="1">
 
     Technology Demonstration:
     I used a paid version of ElevenLabs to create my voice based on a one-minute sample of me talking. ElevenLabs also made my voice speak French. I used Lalamu to make my mouth move with my French-speaking voice. I added subtitles.
