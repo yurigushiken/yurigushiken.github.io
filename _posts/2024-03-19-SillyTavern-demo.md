@@ -18,7 +18,7 @@ thumbnail: https://img.youtube.com/vi/LTZUoXLnzCA/0.jpg
   </ul>
 </div>
 
-<div style="text-align: center;">
+<div style="text-align: center;" markdown="1">
   ![Silly Tavern Demonstration Video](https://img.youtube.com/vi/LTZUoXLnzCA/0.jpg)
   <p><em>chatting with one's own voice</em></p>
 </div>
