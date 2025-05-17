@@ -8,11 +8,11 @@ thumbnail: /media/pc-combined_experiment_and_trial_flow.png
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">A web-based psychophysics experiment. Do learned value associations alter color perception?</p>
+  <p style="font-size: 1.1em; color: #ccc;">A web-based psychophysics experiment. </p>
   
   <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
-    <li>Examine Hoffman's Interface Theory (ITP)</li>
+    <li>Examine Hoffman's Interface Theory (ITP). Do learned value associations alter color perception?</li>
     <li>Implement psychophysical methods (adaptive staircase, PSE measurement).</li>
     <li>Develop a web-based experiment using React, JavaScript, and Firebase.</li>
     <li>Design controlled visual stimuli leveraging perceptually uniform color spaces.</li>
