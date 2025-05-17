@@ -29,5 +29,9 @@ This demo brings together many technologies: SillyTavern, XTTS API server, Silly
 
 Please see and hear my demonstration video:
 
-[![Silly Tavern Demonstration Video](https://img.youtube.com/vi/LTZUoXLnzCA/0.jpg)](https://www.youtube.com/watch?v=LTZUoXLnzCA)
+![Silly Tavern Demonstration Video](https://img.youtube.com/vi/LTZUoXLnzCA/0.jpg)
+
+<div class="video-container" style="text-align: center; margin-top: 15px; margin-bottom: 15px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/LTZUoXLnzCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
