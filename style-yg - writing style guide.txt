@@ -1,0 +1,157 @@
+style-yg: A Style Guide to Writing (Cover Letter Focus example)
+
+Context: This guide primarily focuses on applying the style-yg philosophy to cover letter writing, but the principles are broadly applicable to professional communication.
+
+Core Philosophy: style-yg prioritizes directness, authenticity, and confident clarity. It aims for writing that is concise, purposeful, and professional, yet sounds like a real, thinking individual, not a template or an AI. It avoids unnecessary jargon, academic clichés, and overly passive or weak phrasing. The goal is efficient communication that respects the reader's time while clearly conveying competence and genuine interest.
+
+Key Principles:
+
+Be Direct (Omit Needless Words & Get to the Point):
+
+Avoid weak lead-ins or unnecessary qualifiers (e.g., starting sentences with "While..." just to qualify).
+
+State your purpose or main point early in paragraphs and sentences where appropriate.
+
+Prefer shorter, clearer sentences over complex ones when possible.
+
+Eliminate redundant words and phrases.
+
+Sound Authentic (Avoid Formulaic & "AI" Language):
+
+Reject common academic or business clichés that sound impersonal or robotic.
+
+Avoid placeholder transition words that add little meaning.
+
+Write like a person communicating, not like filling out a form. Use natural language, but maintain professionalism.
+
+Don't "try too hard" with fancy synonyms; prefer the clear, standard word unless there's a strong reason otherwise. Avoid grandiose fillers (e.g., “leverage,” “game‑changing,” “cutting‑edge”) unless they are strictly required by a quotation or technical context.
+
+Project Confidence (Use Active Voice & Strong Phrasing):
+
+Strongly prefer the active voice ("I developed...") over the passive voice ("My initiative is shown...", "...experience needed..."). Passive voice often sounds weaker or less direct.
+
+State capabilities and experiences directly (e.g., "I have experience analyzing...") rather than using weaker framing ("My background includes...").
+
+Avoid self-deprecating or overly submissive language, even when apologizing or making requests. Be polite but straightforward.
+
+Show, Don't Just Tell:
+
+Instead of labeling skills (e.g., "advanced programming skills"), describe the actions or projects that demonstrate those skills (e.g., "developed an automated pipeline using Python and ML").
+
+Provide specific context where it adds value (e.g., mentioning the LCN lab), but avoid excessive detail (like exact data figures) that belongs in supporting documents (like a CV). The goal is to entice further reading.
+
+Maintain Professionalism & Politeness:
+
+Use standard English grammar and spelling.
+
+Address the recipient respectfully (e.g., "Dear Dr. Tian").
+
+Even when being direct, maintain a courteous tone.
+
+Specific Dos and Don'ts:
+
+Words/Phrases to AVOID:
+
+While (especially as a weak opening qualifier)
+
+Utilizing (prefer using)
+
+Furthermore (and similar generic transitions like Moreover, Additionally unless truly necessary and varied)
+
+Key (as a vague adjective)
+
+Active / Actively (often redundant when using strong verbs)
+
+Valuable (as a weak, generic positive descriptor for experience)
+
+Leveraging (and similar grandiose fillers like game-changing, cutting-edge)
+
+Priority (when deadline is more accurate/direct)
+
+Advanced (when self-assessing skills; describe the skill instead)
+
+Fuels (can sound forced; prefer drives or similar if needed, or rephrase)
+
+Stemming from (often wordy; consider from or rephrasing)
+
+Eager
+
+Critical
+
+Delve
+
+Endeavor
+
+Foster
+
+Underscore
+
+Valuable insights
+
+Potentially overused positive clichés: enthusiastic interest, invaluable preparation (replace with specifics or more grounded phrasing).
+
+Phrasing to AVOID:
+
+Passive Voice:
+
+Avoid: "My technical initiative is shown through..."
+
+Avoid: "...the specific research experience needed for this goal."
+
+Avoid: "It is hoped that..."
+
+Weak/Formulaic Openings:
+
+Avoid: "While I realize..." (when a direct statement works better).
+
+Avoid: "My research background includes..." (less direct than "I have experience in...").
+
+Overly General Statements: When specifics add more weight without clutter.
+
+Repeating CV Details: Don't list specifics like exact numbers or extensive software lists if they are in the CV; refer to the type of work or skill.
+
+Preferred Phrasing:
+
+Active Voice:
+
+Prefer: "I demonstrated technical initiative by developing..."
+
+Prefer: "Working in [X] will provide the experience vital for this goal."
+
+Direct Statements:
+
+Prefer: "I have experience analyzing EEG data using R..."
+
+Prefer: "I gained experience supervising staff..."
+
+Direct Requests/Statements:
+
+Prefer: "I hope I can still receive consideration." (Direct, personal)
+
+Showing Competence:
+
+Prefer: "In self-directed projects, I developed an automated eye-tracking analysis pipeline (Eye-Track-ML) using Python..." (Describes action and implies skill).
+
+Illustrative Examples (Based on Our Drafting):
+
+Opening Apology/Request:
+
+Avoid (Wordy/Passive): "While I realize my application... is submitted after the priority deadline... my background presents a strong fit... compels me to hope my application will still be reviewed."
+
+Prefer (style-yg - Direct): "I realize my application for the... position... arrives after the deadline. Given my relevant background, I hope I can still receive consideration."
+
+Describing Technical Work:
+
+Avoid (Passive/Labeling): "My technical initiative is shown through self-directed projects where I developed... I possess advanced programming skills..."
+
+Prefer (style-yg - Active/Showing): "In self-directed projects, I demonstrated technical initiative by developing an automated eye-tracking analysis pipeline (Eye-Track-ML) using Python and machine learning..."
+
+Connecting Goals to Opportunity:
+
+Avoid (Passive/Clunky): "Contributing to a developmental lab focused on mathematical learning is a vital step in gaining the specific research experience needed for this goal."
+
+Prefer (style-yg - Active/Clearer): "Working in a developmental lab focused on mathematical learning will provide the specific research experience vital for this goal."
+
+Tone Summary:
+
+Aim for Confident Humility. Be direct about your skills and experiences without arrogance. Be polite and respectful without being overly deferential or submissive. Be concise and clear, valuing both your time and the reader's. Sound like a competent, interested, and straightforward individual.

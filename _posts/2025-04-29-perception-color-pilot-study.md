@@ -18,7 +18,7 @@ subtitle: "A web-based psychophysics experiment."
     <li>Develop a web-based experiment using React, JavaScript, and Firebase.</li>
     <li>Design controlled visual stimuli leveraging perceptually uniform color spaces.</li>
     <li>Conduct quantitative analysis of psychometric and behavioral data.</li>
-    <li>Iteratively refine experimental design to isolate perceptual effects.</li>
+    <li>Submit application to IRB (update: Pending -May 2025).</li>
   </ul>
   
   <!-- Add links here if applicable, e.g., GitHub repo, Live Demo -->

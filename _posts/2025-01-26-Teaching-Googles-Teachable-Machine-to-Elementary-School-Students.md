@@ -13,10 +13,10 @@ subtitle: "A 4th-grade lesson on machine learning using Google's Teachable Machi
   
   <h3 style="color: #eee;">What I did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
+     <li>Co-teach and co-plan the lesson with my cooperating teacher, Judith, at Friends Seminary school.</li>
     <li>Adapt Ready AI's lesson plan for artists' styles and fabric patterns.</li>
     <li>Guide students to train a model on images of famous artists' works (Picasso, Van Gogh, etc.).</li>
-    <li>Co-teach and co-plan the lesson with my cooperating teacher, Judith, at Friends Seminary school.</li>
-    <li>Addressed NYS Computer Science and Digital Fluency Standards (4-6.IC.5, 4-6.CT.1, 4-6.CT.3).</li>
+    <li>Address NYS Computer Science and Digital Fluency Standards (4-6.IC.5, 4-6.CT.1, 4-6.CT.3).</li>
   </ul>
 </div>
 

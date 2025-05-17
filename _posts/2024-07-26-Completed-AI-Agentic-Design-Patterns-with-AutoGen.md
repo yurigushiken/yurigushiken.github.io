@@ -4,7 +4,7 @@ title: "Training: AI Agentic Design Patterns with AutoGen"
 date: 2024-07-26 12:00:00 -0400
 categories: course completion update hobby
 thumbnail: /media/Screenshot%202024-07-26%20165703.png
-subtitle: "I completed DeepLearningAI's \"AI Agentic Design Patterns with AutoGen\" online course."
+subtitle: "Completion of DeepLearningAI's AutoGen online course."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
