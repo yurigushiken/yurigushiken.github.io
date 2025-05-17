@@ -6,6 +6,23 @@ categories: Assignment hobby
 thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/Screenshot%202024-07-22%20205551.png
 ---
 
+<div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
+  <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
+  <p style="font-size: 1.1em; color: #ccc;">My submission for multimodal reflection assignment for the course "C&T 4001: Inclusive Instructional Approaches for Diverse Learners."</p>
+  
+  <h3 style="color: #eee;">What I did:</h3>
+  <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
+    <li>Design and develop an interactive web application ("MyPath") featuring a visual maze.</li>
+    <li>Integrate AI-generated text (fictional student blurbs via GPT-4o Mini) and images (via Eden AI) into the application.</li>
+    <li>Reflect on inclusive education, presumed competence, and Universal Design for Learning (UDL).</li>
+    <li>Host the application on Render.com and provide links to the live version and GitHub repository.</li>
+  </ul>
+</div>
+
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Post Details...</summary>
+  <div style="padding-top: 15px; color: #bbb;" markdown="1">
+
 **Live Multimodal Reflection**
 
 ![Screenshot](/media/Screenshot%202024-07-22%20205551.png)
@@ -66,3 +83,6 @@ Spencer, S. A. (2011). Universal design for learning: Assistance for teachers in
 **Reflection:**
 
 ...
+
+  </div>
+</details>
