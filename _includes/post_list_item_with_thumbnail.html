@@ -37,6 +37,9 @@
         {{ post.title | escape }}
       </a>
     </h3>
+    {%- if post.subtitle -%}
+      <p class="post-subtitle" style="color: grey; font-size: 0.9em; margin-top: -2px; margin-bottom: 8px;">{{ post.subtitle | escape }}</p>
+    {%- endif -%}
     {%- if site.show_excerpts == true and post.excerpt -%}
       <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
     {%- endif -%}
