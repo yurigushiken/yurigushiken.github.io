@@ -18,11 +18,11 @@ thumbnail: /media/Screenshot%202024-07-26%20165703.png
   </ul>
 </div>
 
-![Course Completion Screenshot](/media/Screenshot%202024-07-26%20165703.png)
-
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Post Details...</summary>
   <div style="padding-top: 15px; color: #bbb;" markdown="1">
+
+![Course Completion Screenshot](/media/Screenshot%202024-07-26%20165703.png)
 
 I completed the "AI Agentic Design Patterns with AutoGen" course offered by DeepLearning.AI. This comprehensive course covered multi-agent conversation, sequential chats, and planning with AI.
 
