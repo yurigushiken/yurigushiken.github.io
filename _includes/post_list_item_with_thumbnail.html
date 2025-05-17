@@ -27,7 +27,7 @@
     {%- if stripped_thumbnail_url.size > 0 and stripped_thumbnail_url != "/" -%}
       <img src="{{ thumbnail_url }}" alt="Thumbnail for {{ post.title | escape }}" class="post-thumbnail">
     {%- else -%}
-      <div class="post-thumbnail-placeholder" style="background-color: {{ include.placeholder_color }};"></div>
+      <div class="post-thumbnail-placeholder" style="--placeholder-bg-color: {{ include.placeholder_color }};"></div>
     {%- endif -%}
   </div>
 
