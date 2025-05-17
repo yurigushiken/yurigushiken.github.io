@@ -4,6 +4,7 @@ title:  "Bertrand Russell Quote (in French)"
 date:   2023-06-29 00:00:00 -0400
 categories: voice ai hobby
 thumbnail: https://img.youtube.com/vi/HBasbV8Yyjo/0.jpg
+subtitle: ""
 ---
 
 Technology Demonstration: 

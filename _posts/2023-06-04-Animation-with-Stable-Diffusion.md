@@ -4,6 +4,7 @@ title:  "Four-Step Animations"
 date:   2023-06-04 00:00:00 -0400
 categories: animation stable diffusion hobby
 thumbnail: https://img.youtube.com/vi/l9YuyThqXec/0.jpg
+subtitle: ""
 ---
 
 I made a six hundred frame animation starting from an original video. I isolated each frame with DaVinci Resolve, processed each frame through Stable Diffusion with an anime checkpoint, removed the background with Runway ML, generated a dynamic background with the Stable Diffusion Deforum function, and overlayed the isolated subject over the background with DaVinci Resolve.

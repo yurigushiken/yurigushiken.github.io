@@ -4,6 +4,7 @@ title:  "Teach Technology Classes"
 date:   2022-01-08 00:00:00 -0400
 categories: teaching ai classes instruction
 thumbnail: /media/teachtechui.png
+subtitle: ""
 ---
 
 I designed and taught three different Technology classes.
