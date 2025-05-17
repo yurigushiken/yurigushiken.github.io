@@ -15,6 +15,7 @@ thumbnail: /media/Screenshot%202024-07-26%20165703.png
     <li>Gain experience with early AI agentic design.</li>
     <li>Juggle agent behavior during multiple agent workflows.</li>
     <li>An LM variation of computational orchestration</li>
+    <li>Applied AutoGen concepts to <a href="https://yurigushiken.github.io/autogen/update/hobby/2024/06/15/Autogen.html" style="color: #7cc5ff;">craft a joke with a multi-agent workflow</a>.</li>
   </ul>
 </div>
 
