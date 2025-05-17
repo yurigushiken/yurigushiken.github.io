@@ -6,6 +6,23 @@ categories: coding design experimentation hobby
 thumbnail: /media/Screenshot-2023-11-12-153402-2048x1346.png
 ---
 
+<div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
+  <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
+  <p style="font-size: 1.1em; color: #ccc;">A tech demonstration of OpenAI's new GPT Vision API.</p>
+  
+  <h3 style="color: #eee;">What I did:</h3>
+  <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
+    <li>Expore potential technologies for a final project in the A&HA-4084 course</li>
+    <li>Combining technologies - integrate DeepFace into codebase</li>
+    <li>Build a Gradio interface to capture webcam images, process them through both AI models, and display the combined results.</li>
+    <li>Add emotion, age, gender, and race detection (experimental) to the visual analysis.</li>
+  </ul>
+</div>
+
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Post Details...</summary>
+  <div style="padding-top: 15px; color: #bbb;" markdown="1">
+
 ---
 
 *Exploring technologies to use for final project for A&HA-4084 at Teachers College*
@@ -245,3 +262,6 @@ demo.launch(debug=False, show_error=True)
 </code>
 </pre>
 </div>
+
+  </div>
+</details>
