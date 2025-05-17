@@ -8,16 +8,16 @@ thumbnail: /media/pc-combined_experiment_and_trial_flow.png
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">Piloted a web-based psychophysics experiment testing if learned value associations alter color perception, examining Hoffman's Interface Theory (ITP) at LCN Lab, Columbia University.</p>
+  <p style="font-size: 1.1em; color: #ccc;">A web-based psychophysics experiment. Do learned value associations alter color perception?/p>
   
   <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
-    <li>Applied cognitive theory (Hoffman's ITP) to experimental design.</li>
-    <li>Implemented psychophysical methods (adaptive staircase, PSE measurement).</li>
-    <li>Developed a web-based experiment using React, JavaScript, and Firebase.</li>
-    <li>Designed controlled visual stimuli leveraging perceptually uniform color spaces.</li>
-    <li>Conducted quantitative analysis of psychometric and behavioral data.</li>
-    <li>Iteratively refined experimental design to isolate perceptual effects.</li>
+    <li>Examine Hoffman's Interface Theory (ITP)</li>
+    <li>Implement psychophysical methods (adaptive staircase, PSE measurement).</li>
+    <li>Develop a web-based experiment using React, JavaScript, and Firebase.</li>
+    <li>Design controlled visual stimuli leveraging perceptually uniform color spaces.</li>
+    <li>Conduct quantitative analysis of psychometric and behavioral data.</li>
+    <li>Iteratively refine experimental design to isolate perceptual effects.</li>
   </ul>
   
   <!-- Add links here if applicable, e.g., GitHub repo, Live Demo -->
