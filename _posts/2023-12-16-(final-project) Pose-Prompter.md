@@ -6,6 +6,11 @@ categories: coding design experimentation hobby
 thumbnail: /media/YouCut_20231220_180838651_2.gif
 ---
 
+<div style="text-align: center;" markdown="1">
+  ![My advisor using Pose-Prompter](/media/post-prompter-dr-meier.gif)
+  <p><em>My advisor using Pose-Prompter</em></p>
+</div>
+
 ---
 
 *This blog post is submission for final project for A&HA-4084 at Teachers College*
