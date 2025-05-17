@@ -5,7 +5,7 @@ date: 2023-12-16 00:00:00 -0400
 categories: coding design experimentation hobby
 thumbnail: /media/YouCut_20231220_180838651_2.gif
 ---
-
+<!-- Trivial change to force rebuild -->
 <div style="text-align: center;" markdown="1">
   ![My advisor using Pose-Prompter](/media/post-prompter-dr-meier.gif)
   <p><em>My advisor using Pose-Prompter</em></p>
