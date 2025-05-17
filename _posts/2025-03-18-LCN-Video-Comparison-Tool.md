@@ -14,7 +14,7 @@ thumbnail: /media/eir-data-visualization.png
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
     <li>Develop a tool for data analysis</li>
     <li>Enable frame-by-frame navigation (1/30th second).</li>
-    <li>Version 1 (for version 2, please see: <a href="https://yurigushiken.github.io/tools/development/research/visualization/lcn-lab/2025/04/13/Infant-Event-Representations-Heatmap-Viewer.html" style="color: #7cc5ff;">Infant Event Representations Heatmap Viewer</a>)</li>
+    <li>Version 1 (for Version 2, please see: <a href="https://yurigushiken.github.io/tools/development/research/visualization/lcn-lab/2025/04/13/Infant-Event-Representations-Heatmap-Viewer.html" style="color: #7cc5ff;">Infant Event Representations Heatmap Viewer</a>)</li>
   </ul>
 </div>
 
