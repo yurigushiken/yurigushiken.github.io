@@ -18,11 +18,11 @@ thumbnail: /media/eir-data-visualization.png
   </ul>
 </div>
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/LjDz26i2shU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-*(1) Heatmap video, 11-month old participants, GW event*
-
 ![LCN Video Comparison Tool Screenshot](/media/eir-data-visualization.png)
-*(2) Data representation tool: [link](https://yurigushiken.github.io/LCN-video-viewer/)*
+*(1) Data representation tool: [link](https://yurigushiken.github.io/LCN-video-viewer/)*
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/LjDz26i2shU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+*(2) Heatmap video, 11-month old participants, GW event*
 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
