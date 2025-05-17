@@ -37,7 +37,10 @@ Cesium and Unreal 5 are easy to use and learn.
 ![Video Tour of TC Housing Options](https://img.youtube.com/vi/rUSjQzCFMEQ/0.jpg)
 
 ### My Route Home with Game Mode
-[My Route Home with Game Mode](https://www.youtube.com/watch?v=GC2jL5zlh2o)
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GC2jL5zlh2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
   </div>
 </details>
