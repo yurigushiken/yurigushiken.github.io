@@ -4,6 +4,7 @@ title: "LCN Video Comparison: Multi-Video Synchronization Tool"
 date: 2025-03-18 10:00:00 -0400
 categories: tools development lcn-lab
 thumbnail: /media/eir-data-visualization.png
+subtitle: "A web-based data analysis tool (version 1)."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">

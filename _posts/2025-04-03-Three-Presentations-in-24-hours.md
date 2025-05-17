@@ -4,6 +4,7 @@ title: "24 hours: CNS (Boston), Steamnasium, Columbia Data Science Day"
 date: 2025-04-03 11:00:00 -0400
 categories: academic conference research teaching lcn-lab 
 thumbnail: /media/2025-04-01 CNS - Screenshot 2025-04-13 172743.png
+subtitle: "Three academic and community presentations delivered over a 24-hour period"
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">

@@ -4,6 +4,7 @@ title: "Guest Lecture in BBSN 5022: Eye-Tracking & Dynamic Data Analysis"
 date: 2025-03-11 10:00:00 -0400
 categories: academic teaching lcn-lab
 thumbnail: /media/Screenshot%202025-03-21%20201549.png
+subtitle: "Guest lecture in Dr. Jean Tang-Lonardo's BBSN 5022 course."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
