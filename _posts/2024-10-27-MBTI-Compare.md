@@ -27,13 +27,9 @@ thumbnail: /media/Screenshot%202024-10-27%20134337.png
 
 I've been working on an MBTI comparison project that allows you to select two different Myers-Briggs personality types and see how they compare in terms of Cognitive Functions. 
 
-You can explore the demo of the app [here](https://yurigushiken.github.io/MBTI-Compare/).
+The goal of this app is to be a reference appliication for cogntive functions.
 
-The goal of this app is to help synthesize complex personality data into meaningful insights that can be applied to improve communication and understanding between individuals.
-
-Feel free to try it out and see how your personality type aligns with others!
-
-For more details about the project, you can check out the demo link above.
+To interact with the project, you can check out the demo link above.
   </div>
 </details>
 
