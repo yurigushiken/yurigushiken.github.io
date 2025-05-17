@@ -4,7 +4,7 @@ title: "Perception Color Experiment: Testing Hoffman's Interface Theory of Perce
 date: 2025-04-29 11:00:00 -0400
 categories: research psychology psychophysics web development data-analysis firebase react lcn-lab
 thumbnail: /media/pc-combined_experiment_and_trial_flow.png
-subtitle: "(subtitle placeholder)"
+subtitle: "A web-based psychophysics experiment."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
