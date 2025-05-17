@@ -8,16 +8,14 @@ thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">A web-based data analysis tool, the "Infant Event Representations Heatmap Overlay Viewer," designed to visualize and compare infant and adult gaze patterns (heatmaps) on stimulus videos for research at the LCN Lab, Columbia University.</p>
+  <p style="font-size: 1.1em; color: #ccc;">A web-based data analysis tool.</p>
   
   <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
-    <li>Visualize eye-tracking heatmaps overlaid on stimulus videos.</li>
+    <li>Simultaneous view all eye-tracking heatmaps overlaid on stimulus videos.</li>
     <li>Enable comparison of gaze patterns across different age groups (e.g., infants 7-11 months, adults).</li>
     <li>Support research into infant event representations (follow-up to Gordon, 2003).</li>
-    <li>Provide features for selecting videos and toggling heatmap overlays.</li>
-    <li>Apply Universal Design for Learning (UDL) principles to the tool's interface and representation.</li>
-    <li>Develop for the Language and Cognitive Neuroscience Lab (LCN Lab) at Teachers College, Columbia University.</li>
+    <li>Create features for selecting videos and toggling heatmap overlays.</li>
   </ul>
   
   <!-- Add links here if applicable, e.g., GitHub repo, Live Demo -->
