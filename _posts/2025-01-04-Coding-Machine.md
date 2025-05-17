@@ -21,12 +21,6 @@ thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io
   </ul>
 </div>
 
-<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
-  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
-  <div style="padding-top: 15px; color: #bbb;" markdown="1">
-
-## Automating Thousands of Frames with Infant Eye-Tracking Coding Machine
-
 <link rel="stylesheet" href="/assets/css/carousel.css">
 
 <div class="image-carousel">
@@ -58,6 +52,13 @@ thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io
   </div>
 </div>
 
+<script src="/assets/js/carousel.js"></script>
+
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
+  <div style="padding-top: 15px; color: #bbb;" markdown="1">
+
+## Automating Thousands of Frames with Infant Eye-Tracking Coding Machine
 
 My lab partner, Yuexin Li, and I created a workflow to code eye-tracking data for our lab's Infant Event Representations study.
 We needed to code ~75 participant video files (~300 minutes / 540k frames). This would take countless hours to code by hand, frame by frame. Our ML-powered and rule-based verified workflow automates most of the process, outputting datahseets and visual representations.
@@ -197,6 +198,5 @@ Below is a step-by-step look at each script in the workflow:
 [Language and Cognitive Lab]: https://www.tc.columbia.edu/lcl/  
 [GitHub Repository]: https://github.com/yurigushiken/google-shared-drive-exporter
 
-<script src="/assets/js/carousel.js"></script>
   </div>
 </details>
