@@ -8,7 +8,7 @@ thumbnail: /media/eir-data-visualization.png
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">A custom-built web tool for synchronized frame-by-frame comparison of eye-tracking data.</p>
+  <p style="font-size: 1.1em; color: #ccc;">A web-based data analysis tool (version 1).</p>
   
   <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
