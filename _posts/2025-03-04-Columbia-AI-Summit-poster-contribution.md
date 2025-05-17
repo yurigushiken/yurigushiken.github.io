@@ -53,6 +53,7 @@ thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io
 
 <script src="/assets/js/carousel.js"></script>
 
+<!-- Trivial change to force git update -->
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
   <div style="padding-top: 15px; color: #bbb;" markdown="1">
