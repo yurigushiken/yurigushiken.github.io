@@ -118,6 +118,63 @@ If you prefer to write and preview your changes on your own computer before maki
 
     After this `git push` command, GitHub Pages will automatically detect the new commits on the `main` branch. It will then rebuild your Jekyll site and deploy the updates. Your new content or changes should be live on your website within a minute or two.
 
+### Renaming Files in Git (and Updating Content)
+
+When you need to rename a blog post file (or any other file tracked by Git) and also update its content (like the `title` in the frontmatter), it's important to tell Git about the rename explicitly to preserve file history and avoid issues.
+
+**Ideal Process:**
+
+1.  **Modify Content First (Optional but Recommended):**
+    *   Open the file you intend to rename (e.g., `_posts/YYYY-MM-DD-old-title.md`).
+    *   Make any necessary content changes (e.g., update the `title:` in the frontmatter).
+    *   Save the file.
+    *   At this point, `git status` will show the file as `modified`.
+
+2.  **Rename the File Using `git mv`:**
+    *   This command stages the file for renaming and includes any modifications made in step 1.
+    *   In your terminal, from the project root directory, run:
+        ```bash
+        git mv _posts/YYYY-MM-DD-old-title.md _posts/YYYY-MM-DD-new-title.md
+        ```
+    *   `git status` should now show the file as `renamed: _posts/YYYY-MM-DD-old-title.md -> _posts/YYYY-MM-DD-new-title.md`.
+
+3.  **Commit the Changes:**
+    *   Bundle the rename and content updates into a single commit.
+        ```bash
+        git commit -m "Rename old-title.md to new-title.md and update content"
+        ```
+
+4.  **Push to Remote:**
+    *   Publish your changes to the live site.
+        ```bash
+        git push origin main
+        ```
+
+**Troubleshooting: Old File Reappears as "Untracked"**
+
+Sometimes, you might find the *old* filename reappearing as "untracked" in `git status` after you thought you'd correctly renamed and committed. The *new* filename might also show as "modified" even if you thought all changes were committed.
+
+1.  **Verify `git status`:** Confirm the old file is listed under "Untracked files" and the new file under "Changes not staged for commit" (if it has further modifications) or that your working tree is clean if the new file is exactly as committed.
+2.  **Delete the Untracked Old File:** Since Git is no longer tracking it (and your remote should have the rename), you can safely delete it from your local system.
+    *   Using PowerShell (default on Windows for this project):
+        ```powershell
+        Remove-Item _posts/YYYY-MM-DD-old-title.md
+        ```
+    *   Or using Git Bash / Linux / macOS:
+        ```bash
+        rm _posts/YYYY-MM-DD-old-title.md
+        ```
+3.  **Stage Any Modifications to the New File:** If `git status` shows the *new* filename as `modified`:
+    ```bash
+    git add _posts/YYYY-MM-DD-new-title.md
+    ```
+4.  **Commit and Push Again:**
+    ```bash
+    git commit -m "Finalize updates for new-title.md and ensure old file is removed"
+    git push origin main
+    ```
+This ensures your local and remote repositories are consistent.
+
 ### Direct GitHub Editing
 
 1. Make changes to files directly in GitHub
