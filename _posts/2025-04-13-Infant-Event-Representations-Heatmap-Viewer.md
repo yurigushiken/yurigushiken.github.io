@@ -6,6 +6,29 @@ categories: tools development research visualization lcn-lab
 thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
 ---
 
+<div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
+  <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
+  <p style="font-size: 1.1em; color: #ccc;">A web-based data analysis tool, the "Infant Event Representations Heatmap Overlay Viewer," designed to visualize and compare infant and adult gaze patterns (heatmaps) on stimulus videos for research at the LCN Lab, Columbia University.</p>
+  
+  <h3 style="color: #eee;">What we did:</h3>
+  <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
+    <li>Visualize eye-tracking heatmaps overlaid on stimulus videos.</li>
+    <li>Enable comparison of gaze patterns across different age groups (e.g., infants 7-11 months, adults).</li>
+    <li>Support research into infant event representations (follow-up to Gordon, 2003).</li>
+    <li>Provide features for selecting videos and toggling heatmap overlays.</li>
+    <li>Apply Universal Design for Learning (UDL) principles to the tool's interface and representation.</li>
+    <li>Develop for the Language and Cognitive Neuroscience Lab (LCN Lab) at Teachers College, Columbia University.</li>
+  </ul>
+  
+  <!-- Add links here if applicable, e.g., GitHub repo, Live Demo -->
+  <!-- 
+  <p style="font-size: 1.1em;">
+    <a href="[Link to GitHub Repo]" style="color: #7cc5ff;">View Code on GitHub</a> | 
+    <a href="[Link to Live Tool]" style="color: #7cc5ff;">Access Live Tool</a>
+  </p>
+  -->
+</div>
+
 <!-- Swiper -->
 <!-- Top (Main) Swiper -->
 <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #333; margin-bottom: 10px; background-color: #383838;" class="swiper heatmapSwiper2">
@@ -132,7 +155,9 @@ thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
 </div>
 <!-- End Swiper -->
 
-
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
+  <div style="padding-top: 15px; color: #bbb;" markdown="1">
 We made a website/tool for data analysis "Infant Event Representations Heatmap Overlay Viewer". This tool aids in our ongoing research (a follow-up to the original Infant Event Representations study, Gordon, 2003). Our team can now select stimulus videos and toggle heatmap overlays representing the gaze patterns of different age groups (infants aged 7-11 months and adults). We are inspired by Universal Design for Learning (UDL) principles, which we were introduced to at Teachers College. These principles stress and value multiple means of representation.
 
 
@@ -179,3 +204,5 @@ This work is for the [Language and Cognitive Neuroscience Lab](https://www.tc.co
 </style>
 
 ---
+</div>
+</details>
