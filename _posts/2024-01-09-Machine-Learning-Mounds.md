@@ -34,8 +34,6 @@ Expanding coverage to entire USA
 -February 2024 update:
 -Arkansas mounds identified
 
-**Click to try the demo: [https://yurigushiken.com/moundmapperdemo/](https://yurigushiken.com/moundmapperdemo/)**
-
 # Problem: The origins
 
 ![Featured Image](/media/SmartSelect_20240126_012429_Adobe-Acrobat.jpg)
