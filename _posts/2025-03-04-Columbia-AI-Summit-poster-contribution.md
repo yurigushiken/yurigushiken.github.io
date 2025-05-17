@@ -6,8 +6,6 @@ categories: academic research lcn-lab
 thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/poster-eye-track-ml.jpg
 ---
 
-<link rel="stylesheet" href="/assets/css/carousel.css">
-
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
   <p style="font-size: 1.1em; color: #ccc;">A poster presented at the Columbia AI Summit, detailing <a href="https://yurigushiken.github.io/academic/research/lcn-lab/2025/03/04/Columbia-AI-Summit-poster-contribution.html" style="color: #7cc5ff;">Eye-Track-ML: our machine learning pipeline designed to automate the frame-by-frame coding of extensive eye-tracking video data.</a></p>
@@ -21,9 +19,7 @@ thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io
   </ul>
 </div>
 
-<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
-  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
-  <div style="padding-top: 15px; color: #bbb;" markdown="1">
+<link rel="stylesheet" href="/assets/css/carousel.css">
 
 <div class="image-carousel">
   <div class="carousel-slides">
@@ -55,6 +51,12 @@ thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io
   </div>
 </div>
 
+<script src="/assets/js/carousel.js"></script>
+
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
+  <div style="padding-top: 15px; color: #bbb;" markdown="1">
+
 ## Eye-Track-ML: A Machine Learning Pipeline for Automated Frame-by-Frame Coding of Eye-Tracking Videos
 
 Our project, Eye-Track-ML, is a pipeline for automating eye-tracking video analysis using computer vision models, YOLOv11 and SAM2.1. We developed this solution to address the challenge of manually coding over 6+ hours of video data (600,000 frames) from our infant event representation study. The pipeline combines YOLOv11 for image classification and object detection with SAM2.1 for object segmentation. 
@@ -67,7 +69,6 @@ We found that human verification remains necessary for detecting subtle patterns
 [How to train YOLOv11 on custom data](https://blog.roboflow.com/yolov11-how-to-train-custom-data/)
 [Fine-tuning SAM 2.1](https://blog.roboflow.com/fine-tune-sam-2-1/)
 
-<script src="/assets/js/carousel.js"></script>
   </div>
 </details>
  
