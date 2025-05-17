@@ -7,11 +7,12 @@ thumbnail: /media/pc-combined_experiment_and_trial_flow.png
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
-  <h3 style="margin-top: 0; color: #eee;">Quick Look:</h3>
+  <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
   <p style="font-size: 1.1em; color: #ccc;">Piloted a web-based psychophysics experiment testing if learned value associations alter color perception, examining Hoffman's Interface Theory (ITP) at LCN Lab, Columbia University.</p>
   
-  <h3 style="color: #eee;">Project Highlights:</h3>
+  <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
+    <li>Applied cognitive theory (Hoffman's ITP) to experimental design.</li>
     <li>Implemented psychophysical methods (adaptive staircase, PSE measurement).</li>
     <li>Developed a web-based experiment using React, JavaScript, and Firebase.</li>
     <li>Designed controlled visual stimuli leveraging perceptually uniform color spaces.</li>
