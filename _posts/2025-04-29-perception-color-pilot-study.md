@@ -145,6 +145,32 @@ thumbnail: /media/pc-combined_experiment_and_trial_flow.png
   }
 </style>
 
+<div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
+  <h3 style="margin-top: 0; color: #eee;">Project Overview:</h3>
+  <p style="font-size: 1.1em; color: #ccc;">This project developed and piloted a web-based psychophysics experiment to test if learned value associations can alter human color perception, critically examining Donald Hoffman's Interface Theory of Perception (ITP). The study was conducted as part of research activities at the LCN Lab, Teachers College, Columbia University.</p>
+  
+  <h3 style="color: #eee;">Project Highlights & Skills Applied:</h3>
+  <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
+    <li>Applied cognitive theory (Hoffman's ITP) to experimental design.</li>
+    <li>Implemented psychophysical methods (adaptive staircase, PSE measurement).</li>
+    <li>Developed a web-based experiment using React, JavaScript, and Firebase.</li>
+    <li>Designed controlled visual stimuli leveraging perceptually uniform color spaces.</li>
+    <li>Conducted quantitative analysis of psychometric and behavioral data.</li>
+    <li>Iteratively refined experimental design to isolate perceptual effects.</li>
+  </ul>
+  
+  <!-- Add links here if applicable, e.g., GitHub repo, Live Demo -->
+  <!-- 
+  <p style="font-size: 1.1em;">
+    <a href="[Link to GitHub Repo]" style="color: #7cc5ff;">View Code on GitHub</a> | 
+    <a href="[Link to Live Demo]" style="color: #7cc5ff;">Try Live Demo</a>
+  </p>
+  -->
+</div>
+
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
+  <div style="padding-top: 15px; color: #bbb;">
 _Can Value Change What We See (and Do)?_
 
 The primary goal of this project is to test Donald Hoffman's Interface Theory (ITP); a secondary objective is developing our skills in experimental design, stimulus creation, stimulus presentation, and psychophysics research.
@@ -180,5 +206,8 @@ Project highlights & skills we gained:
     Your browser does not support the video tag.
   </video>
 </div>
+
+</div>
+</details>
 
 --- 
