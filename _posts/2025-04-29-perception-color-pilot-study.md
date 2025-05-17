@@ -2,7 +2,7 @@
 layout: post
 title: "Perception Color Experiment: Testing Hoffman's Interface Theory of Perception (ITP)"
 date: 2025-04-29 11:00:00 -0400
-categories: research psychology psychophysics web development data-analysis firebase react lcn-lab hobby
+categories: research psychology psychophysics web development data-analysis firebase react lcn-lab
 thumbnail: /media/pc-combined_experiment_and_trial_flow.png
 ---
 
