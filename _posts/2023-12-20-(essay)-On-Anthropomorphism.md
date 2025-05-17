@@ -19,10 +19,12 @@ thumbnail: /media/li01.png
 </div>
 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
-<summary style="cursor: pointer; font-weight: bold; color: #adbac7; margin-bottom: 10px;">Read Full Essay Details...</summary>
+<summary style="cursor: pointer; font-weight: bold; color: #adbac7; margin-bottom: 10px;">Read Full Essay ...</summary>
 <div markdown="1">
 
 ---
+
+On Anthropomorphism
 
 ## Introduction
 
