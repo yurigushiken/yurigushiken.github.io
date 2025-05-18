@@ -3,7 +3,7 @@ layout: post
 title:  "Crafting a Joke in Autogen"
 date:   2024-06-15 01:05:54 -0400
 categories: autogen update learning-projects
-thumbnail:
+thumbnail: /media/joke-mark-sam-2.jpg
 subtitle: "Using a multi-agent workflow to write a joke."
 ---
 
