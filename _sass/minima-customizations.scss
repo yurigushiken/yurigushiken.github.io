@@ -223,6 +223,8 @@ ul, ol {
   gap: 20px; /* Space between columns, and also rows if they wrap (though we aim for one row on desktop) */
   width: 100%; /* Take full width of its container */
   box-sizing: border-box;
+  margin-top: 0; /* ADDED: Remove default top margin */
+  padding-top: 0; /* ADDED: Remove default top padding */
   // margin-left: -10px; // Not typically needed with grid gap
   // margin-right: -10px; // Not typically needed with grid gap
 }
@@ -239,11 +241,13 @@ ul, ol {
   font-family: "Roboto Mono", monospace;
   font-size: 2.6em;
   margin-bottom: 1em;
+  margin-top: 0; /* ADDED: Remove default top margin */
   text-align: center;
   min-height: 6.5em; // Accommodate two lines of text
   display: flex; 
   align-items: flex-end; // Changed from center to flex-end
   justify-content: center; 
+  padding-top: 0; /* ADDED: Remove default top padding */
 }
 
 /* Responsive adjustments: stack columns on smaller screens */
