@@ -4,12 +4,12 @@ title:  "Google Earth + Unreal + Cesium"
 date:   2023-08-28 00:00:00 -0400
 categories: unreal cesium hobby instruction
 thumbnail: https://img.youtube.com/vi/rUSjQzCFMEQ/0.jpg
-subtitle: "A demonstration of creating 3D map-based video tours using Unreal Engine."
+subtitle: "A demonstration of creating 3D map-based video tours using Unreal Engine and YouTube video."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">A demonstration of creating 3D map-based video tours using Unreal Engine.</p>
+  <p style="font-size: 1.1em; color: #ccc;">A demonstration of creating 3D map-based video tours using Unreal Engine and YouTube video.</p>
   
   <h3 style="color: #eee;">What I did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
