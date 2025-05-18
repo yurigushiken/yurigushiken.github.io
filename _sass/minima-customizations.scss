@@ -241,9 +241,9 @@ ul, ol {
   margin-bottom: 1em;
   text-align: center;
   min-height: 6.5em; // Accommodate two lines of text
-  display: flex; // Added for vertical centering of text
-  align-items: center; // Vertically center text within the heading
-  justify-content: center; // Horizontally center text (redundant with text-align: center but good for flex context)
+  display: flex; 
+  align-items: flex-end; // Changed from center to flex-end
+  justify-content: center; 
 }
 
 /* Responsive adjustments: stack columns on smaller screens */
