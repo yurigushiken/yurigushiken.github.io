@@ -4,7 +4,7 @@ title:  "Starting a Student-Focused Podcast During the Pandemic"
 date:   2021-06-06 00:00:00 -0400
 categories: podcast hobby
 thumbnail: /media/yvt1.jpg
-subtitle: "Co-founding and producing a podcast for students during the pandemic."
+subtitle: "Starting a podcast."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
