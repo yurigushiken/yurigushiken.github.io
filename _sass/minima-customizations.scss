@@ -184,6 +184,7 @@ hr {
 .intro-cv-link {
   font-size: 0.95em;
   margin-top: 0.75em; /* Space above the CV link */
+  margin-bottom: 0; /* ADDED: Remove bottom margin to reduce gap */
 }
 
 .intro-cv-link a {
