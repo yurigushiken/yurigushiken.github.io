@@ -91,8 +91,16 @@ Model: GPT-4o Tokens: ~20,000 Cost: $0.10
 
 The prompts for the comedians were modeled after Mark Normand's comedic style with a four page multiple shot prompt.
 
-![Image of Mark Normand](/media/mark-normand.jpeg)
-*Image source: [https://improv.com/irvine/comic/mark+normand/](https://improv.com/irvine/comic/mark+normand/)*
+<div style="display: flex; justify-content: space-around; align-items: flex-start; margin-top: 1em; margin-bottom: 1em;">
+  <div style="text-align: center; flex: 1; padding: 0 10px;">
+    <img src="/media/mark-normand-2.jpeg" alt="Mark Normand" style="height: 200px; width: auto; max-width: 100%; object-fit: cover; border: 1px solid #555; border-radius: 5px;">
+    <p style="font-size: 0.9em; margin-top: 0.5em;"><em>Mark Normand, image source: <a href="https://improv.com/irvine/comic/mark+normand/" target="_blank" rel="noopener noreferrer">https://improv.com/irvine/comic/mark+normand/</a></em></p>
+  </div>
+  <div style="text-align: center; flex: 1; padding: 0 10px;">
+    <img src="/media/sam-morril-2.jpg" alt="Sam Morril" style="height: 200px; width: auto; max-width: 100%; object-fit: cover; border: 1px solid #555; border-radius: 5px;">
+    <p style="font-size: 0.9em; margin-top: 0.5em;"><em>Sam Morril, image source: <a href="https://www.nydailynews.com/2023/11/02/new-york-comedy-festival-sam-morril-caroline-hirsch/" target="_blank" rel="noopener noreferrer">https://www.nydailynews.com/2023/11/02/new-york-comedy-festival-sam-morril-caroline-hirsch/</a></em></p>
+  </div>
+</div>
 
   </div>
 </details>
