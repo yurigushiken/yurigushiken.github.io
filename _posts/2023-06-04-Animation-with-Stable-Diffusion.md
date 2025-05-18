@@ -47,5 +47,6 @@ subtitle: "Creating a multi-step, 600-frame animation from an original video."
     - [![Video 2](https://img.youtube.com/vi/GRWyqcmMf7s/0.jpg)](https://www.youtube.com/watch?v=GRWyqcmMf7s)
     - [![Video 3](https://img.youtube.com/vi/2jEi8ANKR-s/0.jpg)](https://www.youtube.com/watch?v=2jEi8ANKR-s)
     - [![Video 4](https://img.youtube.com/vi/QKtD--jjotY/0.jpg)](https://www.youtube.com/watch?v=QKtD--jjotY)
+
   </div>
 </details>
