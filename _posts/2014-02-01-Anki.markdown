@@ -42,6 +42,12 @@ I am self-taught at the Thai language. I used a spaced-repetition flashcard prog
 ![Anki Answer Example 2](/media/Screenshot_20250517_212443_AnkiDroid.jpg)
 *Thai language translation that conveys close meaning and sentiment, modified IPA transcription.*
 
+![Anki Prompt Example 3](/media/Screenshot_20250517_212503_AnkiDroid.jpg)
+*(Front side) "Suddenly I felt very sleepy"*
+
+![Anki Answer Example 3](/media/Screenshot_20250517_212506_AnkiDroid.jpg)
+*Thai language translation, one of many ways to convey "suddenly", with modified IPA transcription.*
+
 ![Keeping My Mandarin Alive book cover](/media/lee-kwan-yew-book.jpg)
 *Keeping My Mandarin Alive by Lee Kuan Yew*
 <p>&nbsp;</p>
