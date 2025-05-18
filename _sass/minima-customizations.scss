@@ -240,6 +240,10 @@ ul, ol {
   font-size: 2.6em;
   margin-bottom: 1em;
   text-align: center;
+  min-height: 6.5em; // Accommodate two lines of text
+  display: flex; // Added for vertical centering of text
+  align-items: center; // Vertically center text within the heading
+  justify-content: center; // Horizontally center text (redundant with text-align: center but good for flex context)
 }
 
 /* Responsive adjustments: stack columns on smaller screens */
