@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "Auto Mechanics"
+title:  "First Career"
 date:   2006-02-02 00:00:00 -0400
 categories: mechanics hobby
 thumbnail: /media/pontiac1.jpg
-subtitle: "A look at early mechanical projects and Honda certification."
+subtitle: "Early experiences as a self-taught auto mechanic and Honda certified technician."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">Rebuilt Pontiac Straight 6 engine.</p>
+  <p style="font-size: 1.1em; color: #ccc;">Auto mechanic and restorer.</p>
   
   <h3 style="color: #eee;">What I did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
-    <li>Self-taught auto mechanic.</li>
+    <li>Self-taught auto mechanic/technician.</li>
     <li>Rebuilt two Pontiac engines and parts.</li>
     <li>Partially restored three vehicles.</li>
     <li>Skills led to Honda technician certification.</li>

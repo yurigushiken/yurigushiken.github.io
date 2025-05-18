@@ -9,7 +9,7 @@ subtitle: "A journey into self-taught Thai language acquisition using Anki."
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">Adopted spaced-repetition and flashcards study method for Thai Language</p>
+  <p style="font-size: 1.1em; color: #ccc;">Adopted spaced-repetition and flashcards study method</p>
   
   <h3 style="color: #eee;">What I did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
