@@ -9,13 +9,13 @@ subtitle: "A journey into self-taught Thai language acquisition using Anki."
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">Thai Language study and intermediate speaking/listening/reading/writing status.</p>
+  <p style="font-size: 1.1em; color: #ccc;">Adopted spaced-repetition and flashcards study method for Thai Language</p>
   
   <h3 style="color: #eee;">What I did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
-    <li>Thai Language Intermediate in 4 skills + touch typing.</li>
+    <li>Speak/Listen/Read/Write + Touch Type Thai language to intermediate level</li>
+    <li>Pattern recognition, disciplined documentation</li>
     <li>Create over 2000 unique digital flashcards using Anki (spaced-repetition software).</li>
-    <li>Inspiration from Lee Kwan Yew's language learning experiences.</li>
   </ul>
 </div>
 
@@ -23,7 +23,13 @@ subtitle: "A journey into self-taught Thai language acquisition using Anki."
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Post Details...</summary>
   <div style="padding-top: 15px; color: #bbb;" markdown="1">
 
-I am self-taught at the Thai language. I used a spaced-repetition flashcard program called Anki to make over 2000 unique flashcards to help me. I was also inspired by former Singaporean Prime Minister and adult language learner Lee Kwan Yew and his book "Keeping My Mandarin Alive", who started learning Mandarin at the age of 32.
+I adopted spaced-repetition to study Thai Language using a flashcard program called Anki to make over 2000 unique flashcards of words and phrases with consideration for meaning and sentiment. 
+I asked my Thai teacher and Thai-speaking friends for ways to convey what I wanted in their own words, if they were in these situations. 
+
+This was an exercise in pattern recognition and disciplined documentation. Each time I was in a situation where I wanted to express something and I could not do it I would write it down and ask my Thai teacher. I would get the answer from her and make a flashcard for it. 
+I would use the flashcards to practice and I would be ready for the next time that situation occured. 
+
+When I began learning Thai language I was already twenty six years old, and I felt crushingly challenged when first starting to learn. I saw Lee Kwan Yew in an interview discuss the awkward positiong he was in as a Singaporean political leader of Chinese ancestry but not speaking Mandarin. He began learning in his 30s, and I think his is a inspiring story in adult learning.
 
 <p style="text-align: center; font-size: 1.2em; font-weight: bold;">ANKI Flashcards</p>
 
