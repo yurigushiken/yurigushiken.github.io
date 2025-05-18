@@ -221,7 +221,8 @@ ul, ol {
 .home-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
-  gap: 20px; /* Space between columns, and also rows if they wrap (though we aim for one row on desktop) */
+  row-gap: 0; /* TEST: Remove row gap to see if it affects space above columns */
+  column-gap: 20px; /* Maintain column gap */
   width: 100%; /* Take full width of its container */
   box-sizing: border-box;
   margin-top: 0; /* ADDED: Remove default top margin */
