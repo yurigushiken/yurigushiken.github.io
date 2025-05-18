@@ -33,24 +33,27 @@ When I began learning Thai language I was already twenty six years old, and I fe
 
 <p style="text-align: center; font-size: 1.2em; font-weight: bold;">ANKI Flashcards</p>
 
-<p style="text-align: center; font-size: 1.1em; font-weight: bold; color: #FFD1DC;">Example Card 1</p>
+<p style="text-align: center; font-size: 1.1em; font-weight: bold; color: #FFD1DC;">Example Card 1 (Front Side)</p>
 ![Anki Prompt Example](/media/Screenshot_20250517_212418_AnkiDroid.jpg)
-<p style="text-align: center; color: #FFD1DC;"><em>(Front side) Occasionally-used phrase that conveys meaning and sentiment: "In a very long time, maybe never."</em></p>
+<p style="text-align: center; color: #FFD1DC;"><em>Occasionally-used phrase that conveys meaning and sentiment: "In a very long time, maybe never."</em></p>
 
+<p style="text-align: center; font-size: 1.1em; font-weight: bold; color: #FFD1DC;">Example Card 1 (Back Side)</p>
 ![Anki Answer Example](/media/Screenshot_20250517_212425_AnkiDroid.jpg)
 <p style="text-align: center; color: #FFD1DC;"><em>(Back side) Thai language translation that conveys close meaning and sentiment, modified IPA transcription.</em></p>
 
-<p style="text-align: center; font-size: 1.1em; font-weight: bold; color: #B0E0E6;">Example Card 2</p>
+<p style="text-align: center; font-size: 1.1em; font-weight: bold; color: #B0E0E6;">Example Card 2 (Front Side)</p>
 ![Anki Prompt Example 2](/media/Screenshot_20250517_212439_AnkiDroid.jpg)
-<p style="text-align: center; color: #B0E0E6;"><em>(Front side) "That's right! (I get it now)"</em></p>
+<p style="text-align: center; color: #B0E0E6;"><em>"That's right! (I get it now)"</em></p>
 
+<p style="text-align: center; font-size: 1.1em; font-weight: bold; color: #B0E0E6;">Example Card 2 (Back Side)</p>
 ![Anki Answer Example 2](/media/Screenshot_20250517_212443_AnkiDroid.jpg)
 <p style="text-align: center; color: #B0E0E6;"><em>(Back side) Thai language translation that conveys close meaning and sentiment, modified IPA transcription.</em></p>
 
-<p style="text-align: center; font-size: 1.1em; font-weight: bold; color: #98FB98;">Example Card 3</p>
+<p style="text-align: center; font-size: 1.1em; font-weight: bold; color: #98FB98;">Example Card 3 (Front Side)</p>
 ![Anki Prompt Example 3](/media/Screenshot_20250517_212503_AnkiDroid.jpg)
-<p style="text-align: center; color: #98FB98;"><em>(Front side) "Suddenly I felt very sleepy"</em></p>
+<p style="text-align: center; color: #98FB98;"><em>"Suddenly I felt very sleepy"</em></p>
 
+<p style="text-align: center; font-size: 1.1em; font-weight: bold; color: #98FB98;">Example Card 3 (Back Side)</p>
 ![Anki Answer Example 3](/media/Screenshot_20250517_212506_AnkiDroid.jpg)
 <p style="text-align: center; color: #98FB98;"><em>(Back side) Thai language translation, one of many ways to convey "suddenly", with modified IPA transcription.</em></p>
 
