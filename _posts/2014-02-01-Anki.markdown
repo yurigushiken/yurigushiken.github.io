@@ -39,6 +39,9 @@ I am self-taught at the Thai language. I used a spaced-repetition flashcard prog
 ![Anki Prompt Example 2](/media/Screenshot_20250517_212439_AnkiDroid.jpg)
 *(Front side) "That's right! (I get it now)"*
 
+![Anki Answer Example 2](/media/Screenshot_20250517_212443_AnkiDroid.jpg)
+*Thai language translation that conveys close meaning and sentiment, modified IPA transcription.*
+
 ![Keeping My Mandarin Alive book cover](/media/lee-kwan-yew-book.jpg)
 *Keeping My Mandarin Alive by Lee Kuan Yew*
 <p>&nbsp;</p>
