@@ -27,9 +27,6 @@ I am self-taught at the Thai language. I used a spaced-repetition flashcard prog
 
 <p style="text-align: center; font-size: 1.2em; font-weight: bold;">ANKI Flashcards</p>
 
-![Anki Deck Overview](/media/anki2.png)
-*Created over 2000 custom flashcards with nouns and phrases using Anki.*
-
 ![Anki Prompt Example](/media/Screenshot_20250517_212418_AnkiDroid.jpg)
 *(Front side) Occasionally-used phrase that conveys meaning and sentiment: "In a very long time, maybe never."*
 
@@ -50,6 +47,9 @@ I am self-taught at the Thai language. I used a spaced-repetition flashcard prog
 
 ![Keeping My Mandarin Alive book cover](/media/lee-kwan-yew-book.jpg)
 *Keeping My Mandarin Alive by Lee Kuan Yew*
+
+![Anki Deck Overview](/media/anki2.png)
+*Created over 2000 custom flashcards with nouns and phrases using Anki.*
 <p>&nbsp;</p>
 
   </div>
