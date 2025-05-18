@@ -4,12 +4,12 @@ title: "Columbia AI Summit poster contribution"
 date: 2025-03-04 14:00:00 -0400
 categories: academic research lcn-lab
 thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/poster-eye-track-ml.jpg
-subtitle: "A poster I presented at the Columbia AI Summit."
+subtitle: "Poster presentation at Columbia AI Summit."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">A poster presented at the Columbia AI Summit, detailing <a href="https://yurigushiken.github.io/academic/research/lcn-lab/2025/03/04/Columbia-AI-Summit-poster-contribution.html" style="color: #7cc5ff;">Eye-Track-ML: our machine learning pipeline designed to automate the frame-by-frame coding of extensive eye-tracking video data.</a></p>
+  <p style="font-size: 1.1em; color: #ccc;">Poster presentation at Columbia AI Summit. <a href="https://yurigushiken.github.io/academic/research/lcn-lab/2025/03/04/Columbia-AI-Summit-poster-contribution.html" style="color: #7cc5ff;">Eye-Track-ML: our machine learning pipeline designed to automate the frame-by-frame coding of extensive eye-tracking video data.</a></p>
   
   <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
