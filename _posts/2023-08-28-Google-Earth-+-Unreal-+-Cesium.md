@@ -35,7 +35,7 @@ Cesium and Unreal 5 are easy to use and learn.
 
 <h3 style="text-align: center;">Video Tour of TC Housing Options</h3>
 
-<div style="text-align: center;">
+<div style="text-align: center;" markdown="1">
 ![Video Tour of TC Housing Options](https://img.youtube.com/vi/rUSjQzCFMEQ/0.jpg)
 </div>
 
