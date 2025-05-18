@@ -53,7 +53,7 @@ This demo brings together many technologies: SillyTavern, XTTS API server, Silly
 - OpenRouter.ai: [https://openrouter.ai/](https://openrouter.ai/)
 - SerpaAPI: [https://serpapi.com/](https://serpapi.com/)
 
-Please see and hear my demonstration video:
+Please see and hear my demonstration video at the top
 
   </div>
 </details>
