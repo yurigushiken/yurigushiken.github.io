@@ -294,26 +294,22 @@ ul, ol {
   align-items: flex-start; // Align top of thumbnail with top of title block
 }
 
-.post-thumbnail-container {
-  width: 230px;           /* New: Fixed width */
-  height: 230px;          /* New: Fixed height (making it square) */
-  margin-bottom: 1em;     /* Keep: Space below thumbnail */
-  /* text-align: center; */  /* Centering the image content is handled by object-position (default center) */
-  overflow: hidden;       /* New: Ensure nothing spills out */
-  margin-left: auto;      /* New: Center the container itself if the li is wider */
-  margin-right: auto;     /* New: Center the container itself if the li is wider */
-  flex-shrink: 0;         /* New: Prevent container from shrinking in flex context of li */
+.thumbnail-container { /* RENAMED from .post-thumbnail-container */
+  width: 230px;
+  height: 230px;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-right: 1em; /* Space between thumbnail and text block */
 }
 
 .post-thumbnail {
-  width: 100%;            /* MODIFIED: Fill container */
-  height: 100%;           /* MODIFIED: Fill container */
-  object-fit: cover;      /* Keep: CRITICAL for square crop */
-  object-position: center;/* Explicitly center the image content */
-  border-radius: 5px;     /* Keep */
-  border: 1px solid #444;  /* Keep */
-  display: block;         /* New: Good practice for images to avoid extra space below */
-  /* Remove: max-width from img, fixed px width/height from img, aspect-ratio from img */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #444;
 }
 
 .post-thumbnail-placeholder {
