@@ -38,6 +38,7 @@ I have read the following papers to write papers for MSTU-4005 Cognition and Com
 - [Theory of Mind May Have Spontaneously Emerged in Large Language Models](https://arxiv.org/abs/2302.02083)
 - [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556)
 - [Will We Run Out of Data? An Analysis of the Limits of Scaling Datasets in Machine Learning](https://arxiv.org/abs/2211.04325)
+<p>&nbsp;</p>
 
   </div>
 </details>
