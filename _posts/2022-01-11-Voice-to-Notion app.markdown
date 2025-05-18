@@ -13,11 +13,11 @@ subtitle: "Python application"
   
   <h3 style="color: #eee;">What I did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
-    <li>Developed a Python app to automate voice memo transcription and note creation in Notion.</li>
-    <li>Integrated OpenAI API (WhisperAI for transcription, GPT-3 for summaries).</li>
-    <li>Google Cloud Services for continuous operation and file monitoring.</li>
+    <li>Python app to automate voice memo transcription and note creation in Notion.</li>
+    <li>Early experience developing with multiple APIs</li>
+    <li>OpenAI API (WhisperAI for transcription, GPT-3 for summaries).</li>
+    <li>Google Cloud Services for continuous operation.</li>
     <li>Notion API for note input.</li>
-    <li>App fulfills a personal need for a specific voice-to-note workflow not available in existing software market.</li>
   </ul>
 </div>
 
