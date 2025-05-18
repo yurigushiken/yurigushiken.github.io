@@ -143,8 +143,8 @@ hr {
   display: flex;
   align-items: center; /* Vertically aligns the center of the image with the center of the text block */
   margin-top: 1em;    /* Optional space above this section */
-  margin-bottom: 2.5em; /* Space between this section and the columns below */
-  padding-bottom: 1.5em; /* Optional space before a potential border */
+  margin-bottom: 1em; /* Space between this section and the columns below - REDUCED from 2.5em */
+  padding-bottom: 0.5em; /* Optional space before a potential border - REDUCED from 1.5em */
   // border-bottom: 1px solid #333; /* Optional subtle separator line */
 }
 
