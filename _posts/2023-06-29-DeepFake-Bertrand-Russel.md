@@ -47,6 +47,7 @@ These software were developed in the last few months (June, 2023).
 
 - [ElevenLabs](https://beta.elevenlabs.io/)
 - [Lalamu](https://lalamu.studio/)
+<p>&nbsp;</p>
 
   </div>
 </details>
