@@ -19,6 +19,11 @@ subtitle: "Adopted spaced-repetition and flashcards study method."
   </ul>
 </div>
 
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+  <img src="/media/Screenshot_20250517_212425_AnkiDroid.jpg" alt="Example Anki flashcard" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" />
+  <p style="text-align: center;"><em>example flashcard.</em></p>
+</div>
+
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Post Details...</summary>
   <div style="padding-top: 15px; color: #bbb;" markdown="1">
