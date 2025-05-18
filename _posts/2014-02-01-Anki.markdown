@@ -4,10 +4,44 @@ title:  "Learning Thai with Anki"
 date:   2014-02-01 00:00:00 -0400
 categories: language learning hobby
 thumbnail: /media/anki2.png
-subtitle: ""
+subtitle: "A journey into self-taught Thai language acquisition using Anki."
 ---
 
+<div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
+  <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
+  <p style="font-size: 1.1em; color: #ccc;">Thai Language study and intermediate speaking/listening/reading/writing status.</p>
+  
+  <h3 style="color: #eee;">What I did:</h3>
+  <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
+    <li>Thai Language Intermediate in 4 skills + touch typing.</li>
+    <li>Create over 2000 unique digital flashcards using Anki (spaced-repetition software).</li>
+    <li>Inspiration from Lee Kwan Yew's language learning experiences.</li>
+  </ul>
+</div>
+
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Post Details...</summary>
+  <div style="padding-top: 15px; color: #bbb;" markdown="1">
+
 I am self-taught at the Thai language. I used a spaced-repetition flashcard program called Anki to make over 2000 unique flashcards to help me. I was also inspired by former Singaporean Prime Minister and adult language learner Lee Kwan Yew and his book "Keeping My Mandarin Alive", who started learning Mandarin at the age of 32.
+
+<p style="text-align: center; font-size: 1.2em; font-weight: bold;">ANKI Flashcards</p>
+
+*Created over 2000 custom flashcards with nouns and phrases using Anki.*
+![Anki Deck Overview](/media/anki2.png)
+
+*Prompt (Front side) Occasionally-used phrase that conveys meaning and sentiment: "In a very long time, maybe never."*
+![Anki Prompt Example](/media/Screenshot_20250517_212418_AnkiDroid.jpg)
+
+*Thai language translation that conveys close meaning and sentiment, modified IPA transcription.*
+![Anki Answer Example](/media/Screenshot_20250517_212425_AnkiDroid.jpg)
+
+*Keeping My Mandarin Alive by Lee Kuan Yew*
+![Keeping My Mandarin Alive book cover](/media/lee-kwan-yew-book.jpg)
+<p>&nbsp;</p>
+
+  </div>
+</details>
 
 <!-- ![Anki Flashcards 1](/media/anki1.png) -->
 ![Anki Flashcards 2](/media/anki2.png)
