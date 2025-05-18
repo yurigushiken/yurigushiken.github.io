@@ -27,13 +27,13 @@ subtitle: "A look at early mechanical projects and Honda certification."
 I am a self-taught mechanic and Honda certified technician. I rebuilt two Pontiac engines and partially restored three vehicles. My first career as a Honda mechanic after high school was launched from these projects.
 
 ![Pontiac Engine 1](/media/pontiac1.jpg)
-*Dismanteling Pontiac straight 6*
+<p style="text-align: center;"><em>Dismanteling Pontiac straight 6</em></p>
 
 ![Pontiac Engine 2](/media/pontiac2.jpg)
-*Rebuilt and restored engine*
+<p style="text-align: center;"><em>Rebuilt and restored engine</em></p>
 
 ![Pontiac Engine 3](/media/pontiac3.jpg)
-*Installing rebuilt engine*
+<p style="text-align: center;"><em>Installing rebuilt engine</em></p>
 <p>&nbsp;</p>
 
   </div>
