@@ -295,19 +295,25 @@ ul, ol {
 }
 
 .post-thumbnail-container {
-  width: 100%; /* Take full width of the li */
-  margin-bottom: 1em; /* Space between thumbnail and title/meta */
-  text-align: center; /* Center the image within the container */
+  width: 230px;           /* New: Fixed width */
+  height: 230px;          /* New: Fixed height (making it square) */
+  margin-bottom: 1em;     /* Keep: Space below thumbnail */
+  /* text-align: center; */  /* Centering the image content is handled by object-position (default center) */
+  overflow: hidden;       /* New: Ensure nothing spills out */
+  margin-left: auto;      /* New: Center the container itself if the li is wider */
+  margin-right: auto;     /* New: Center the container itself if the li is wider */
+  flex-shrink: 0;         /* New: Prevent container from shrinking in flex context of li */
 }
 
 .post-thumbnail {
-  max-width: 100%;       // Keep: ensures responsiveness if column is very narrow
-  width: 220px;          // New: Set a fixed width
-  height: 220px;         // New: Set a fixed height (equal to width for square)
-  aspect-ratio: 1 / 1;   // New: Enforce square aspect ratio
-  object-fit: cover;     // Keep: Ensure image covers the square, cropping if needed
-  border-radius: 5px;    // Keep
-  border: 1px solid #444; // Keep
+  width: 100%;            /* MODIFIED: Fill container */
+  height: 100%;           /* MODIFIED: Fill container */
+  object-fit: cover;      /* Keep: CRITICAL for square crop */
+  object-position: center;/* Explicitly center the image content */
+  border-radius: 5px;     /* Keep */
+  border: 1px solid #444;  /* Keep */
+  display: block;         /* New: Good practice for images to avoid extra space below */
+  /* Remove: max-width from img, fixed px width/height from img, aspect-ratio from img */
 }
 
 .post-thumbnail-placeholder {
