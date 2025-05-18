@@ -4,7 +4,7 @@ title:  "First Career"
 date:   2006-02-02 00:00:00 -0400
 categories: mechanics hobby
 thumbnail: /media/pontiac1.jpg
-subtitle: "Early experiences as a self-taught auto mechanic and Honda certified technician."
+subtitle: "Auto mechanic and restorer."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
