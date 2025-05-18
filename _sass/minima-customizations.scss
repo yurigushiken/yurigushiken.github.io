@@ -301,12 +301,13 @@ ul, ol {
 }
 
 .post-thumbnail {
-  max-width: 100%;
-  height: auto; /* Maintain aspect ratio */
-  max-height: 300px; /* MODIFIED - Was 200px */
-  border-radius: 5px;
-  object-fit: cover; /* Cover the area, may crop */
-  border: 1px solid #444;
+  max-width: 100%;       // Keep: ensures responsiveness if column is very narrow
+  width: 220px;          // New: Set a fixed width
+  height: 220px;         // New: Set a fixed height (equal to width for square)
+  aspect-ratio: 1 / 1;   // New: Enforce square aspect ratio
+  object-fit: cover;     // Keep: Ensure image covers the square, cropping if needed
+  border-radius: 5px;    // Keep
+  border: 1px solid #444; // Keep
 }
 
 .post-thumbnail-placeholder {
