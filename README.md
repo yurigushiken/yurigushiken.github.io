@@ -199,6 +199,98 @@ The site uses GitHub Pages for deployment. When changes are pushed to the main b
 - Keep the repository clean by removing temporary files
 - Test the site after making significant changes
 
+## Troubleshooting Common Rendering Issues
+
+If you encounter display problems in your posts, especially with content inside expandable `<details>` sections or with Markdown elements not appearing as expected, these troubleshooting steps may help. These often relate to how Jekyll's Markdown processor (Kramdown) interacts with embedded HTML and Markdown syntax.
+
+### 1. Incorrect Backgrounds or Text Styles in `<details>` Sections
+
+*   **Symptom:**
+    *   The content area within an expanded `<details>` block has an unexpected white or light background instead of the theme's dark background.
+    *   Text color is wrong (e.g., dark text on a dark background).
+*   **Diagnosis (Using Browser Developer Tools - F12):**
+    1.  On the live page, expand the `<details>` section.
+    2.  Right-click the problematic content and select "Inspect" or "Inspect Element".
+    3.  Check if your content (e.g., paragraphs, lists) is incorrectly wrapped inside HTML elements like `<div class="highlight">`, `<pre class="highlight">`, and `<code>`. This indicates the syntax highlighter (Rouge) treated your normal text as a code block.
+*   **Likely Cause & Solution:**
+    *   **Leading Whitespace:** The most common cause for the "treated as code block" issue is leading whitespace (spaces or tabs) on the *very first line of content* inside a `<div markdown="1">` tag.
+    *   **Fix:** Edit the post's Markdown file. Locate the `<div markdown="1">` (usually within your `<details>` block). Ensure the first line of your actual content immediately following this opening `div` tag has **NO leading spaces or tabs**.
+        ```html
+        <!-- Example within <details> -->
+        <details style="background-color: #282c34; ...">
+          <summary style="color: #7cc5ff; ...">Read Full Post Details...</summary>
+          <div style="color: #bbb;" markdown="1">
+        <!-- INCORRECT: Leading spaces here will cause issues -->
+        <!--    This text starts with spaces and will be treated as code. -->
+
+        <!-- CORRECT: No leading spaces -->
+        This text starts correctly and will be treated as normal Markdown.
+        ...
+          </div>
+        </details>
+        ```
+    *   **Verify Styles:** Double-check that your `<details>` tag itself has the intended `background-color` (e.g., `#282c34`) and the primary content `div markdown="1">` within it has the correct `color` for text (e.g., `#bbb`). Ensure your `<summary>` tag is also styled correctly (e.g., `style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;"`).
+
+### 2. Markdown Headings (`### My Heading`) Not Rendering
+
+*   **Symptom:** You see the literal characters `### My Heading` on the page instead of a styled heading.
+*   **Causes & Solutions:**
+    1.  **Leading Whitespace:** Remove any spaces or tabs *before* the `###` characters.
+    2.  **Missing Blank Line:** Ensure there is at least one completely empty line *before* the heading line.
+        ```markdown
+        <!-- Correct Heading Formatting -->
+        Some preceding paragraph.
+
+        ### This is a Correctly Formatted Heading
+        Text following the heading.
+
+        <!-- Incorrect: Leading spaces before ### -->
+           ### This heading has leading spaces.
+
+        <!-- Incorrect: No blank line before ### -->
+        Some preceding paragraph.
+        ### This heading is missing a blank line above it.
+        ```
+
+### 3. Stray HTML Tags (e.g., `</div>`, `</details>`) Visible as Text
+
+*   **Symptom:** Closing HTML tags appear as plain text at the end of an expandable `<details>` section.
+*   **Likely Cause:** This can happen if a `<div markdown="1">` block ends with certain Markdown elements (like a list) without a subsequent standard block-level HTML element for the parser to "land" on.
+*   **Solution:** Add a "buffer" paragraph, like `<p>&nbsp;</p>` (a non-breaking space), just before the final closing `</div>` of the main content `div markdown="1">`.
+    ```html
+    <!-- Inside your <details> block -->
+    <div markdown="1">
+      ...
+      - Last item in a list
+      - Another list item
+
+    <p>&nbsp;</p>  <!-- Add this line -->
+    </div> <!-- This is the closing div for markdown="1" -->
+    </details>
+    ```
+
+### 4. Markdown Images (`![alt text](URL)`) Appearing as Plain Text
+
+*   **Symptom:** Instead of an image, you see the Markdown image syntax like `![My Image](image.jpg)` as text.
+*   **Causes & Solutions:**
+    1.  **Missing `markdown="1"` on Wrapper:** If the image Markdown is inside an HTML `<div>` (e.g., for centering), that specific `div` *also* needs the `markdown="1"` attribute, even if a parent `div` already has it.
+    2.  **Missing Blank Lines:** Ensure there are empty blank lines *before and after* the Markdown image line itself, and also *before and after* its wrapping `div` if one is used.
+        ```markdown
+        <!-- Correct Image Rendering -->
+        <div markdown="1"> <!-- Main content div with markdown="1" -->
+          Some text before the image.
+
+          <div style="text-align: center;" markdown="1"> <!-- Image's own wrapper div also needs markdown="1" -->
+
+          ![Alt text for my image](/media/image.jpg)
+
+          </div>
+
+          Some text after the image.
+          <p>&nbsp;</p> <!-- Good practice for the end of the main markdown="1" block -->
+        </div>
+        ```
+
 ## License
 
 All rights reserved. The content of this website is not licensed for public use.
