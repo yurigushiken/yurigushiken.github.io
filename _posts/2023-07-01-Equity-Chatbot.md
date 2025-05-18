@@ -24,20 +24,25 @@ subtitle: "A personalized AI chatbot built for a class project that responds to 
 </div>
 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
-  <summary style="cursor: pointer; font-weight: bold; color: #eee; margin-bottom: 10px;">Read Full Post Details...</summary>
-  <div style="padding-top: 10px; border-top: 1px solid #444;" markdown="1">
+  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Post Details...</summary>
+  <div style="padding-top: 15px; color: #bbb;" markdown="1">
 
 AI performance is enhanced with personalization. I built a chatbot that can respond to queries based on data I provided. The data used were a class syllabus and assigned readings in PDF and text file formats. The bot successfully answered queries based on the data in the files.
 
 The following video is an excerpt from my presentation for my Culminating Project for "C&T 4199 – Teaching and Learning in the Digital Age" during the Summer A term, 2023, at Teachers College:
 
+
 <div style="text-align: center;">
+
 ![Equality Chatbot Presentation](https://img.youtube.com/vi/0U-H8kgfj4U/0.jpg)
+
 </div>
+
 
 This is a GPT-3.5 turbo powered chatbot, using the Open AI API.
 
 In the presentation I suggest that although the chatbot works, it does not fulfill my list of minimum criteria for deploying a chatbot to students use.
+<p>&nbsp;</p>
 
   </div>
 </details>
