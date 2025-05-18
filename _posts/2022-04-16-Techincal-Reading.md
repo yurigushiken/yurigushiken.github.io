@@ -18,14 +18,15 @@ subtitle: "I read a stack of technical papers."
   </ul>
 </div>
 
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+  <summary style="cursor: pointer; font-weight: bold; color: #eee; margin-bottom: 10px;">Read Full Post Details...</summary>
+  <div style="padding-top: 10px; border-top: 1px solid #444;" markdown="1">
+
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="/media/technicalreading.png" alt="Technical Reading" style="max-width: 40%; height: auto; margin: 5px; border: 1px solid #555; padding: 5px; background-color: #333a45;">
 </div>
 
-<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
-  <summary style="cursor: pointer; font-weight: bold; color: #eee; margin-bottom: 10px;">Read Full Post Details...</summary>
-  <div style="padding-top: 10px; border-top: 1px solid #444;">
-    I have read the following papers to write papers for MSTU-4005 Cognition and Computers and MSTU-4028 Technology and Culture:
+I have read the following papers to write papers for MSTU-4005 Cognition and Computers and MSTU-4028 Technology and Culture:
     
     - [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774)
     - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
