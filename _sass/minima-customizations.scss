@@ -221,35 +221,38 @@ ul, ol {
 .home-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
-  row-gap: 0; /* TEST: Remove row gap to see if it affects space above columns */
-  column-gap: 20px; /* Maintain column gap */
-  width: 100%; /* Take full width of its container */
+  row-gap: 0; 
+  column-gap: 20px; 
+  width: 100%; 
   box-sizing: border-box;
-  margin-top: 0; /* ADDED: Remove default top margin */
-  padding-top: 0; /* ADDED: Remove default top padding */
-  // margin-left: -10px; // Not typically needed with grid gap
-  // margin-right: -10px; // Not typically needed with grid gap
+  margin-top: 0; 
+  padding-top: 0; 
+  display: flow-root; /* ADDED: To contain child margins and prevent collapse */
 }
 
 .home-column {
   /* Flex properties removed, Grid handles sizing */
-  /* min-width: 260px; */ /* Not strictly needed with 1fr, but can be a fallback if grid isn't supported - though unlikely */
-  padding: 10px; /* Inner padding for content within each column */
+  /* min-width: 260px; */ 
+  padding: 10px; 
   box-sizing: border-box;
-  /* margin-bottom: 20px; */ /* Gap property on grid container handles spacing */
+  /* margin-bottom: 20px; */ 
 }
 
 .column-heading {
   font-family: "Roboto Mono", monospace;
   font-size: 2.6em;
-  margin-bottom: 1em;
-  margin-top: 0; /* ADDED: Remove default top margin */
+  line-height: 1.2; 
+  margin-top: 0; /* ENSURED: No top margin */
+  margin-bottom: 1em; /* ENSURED: Space below heading */
   text-align: center;
-  min-height: 6.5em; // Accommodate two lines of text
-  display: flex; 
-  align-items: flex-end; // Changed from center to flex-end
-  justify-content: center; 
-  padding-top: 0; /* ADDED: Remove default top padding */
+  
+  min-height: 6.25rem; /* CHANGED: Approx 100px (for 2 lines, based on 16px root em) */
+
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-end; 
+  align-items: center; 
+  padding-top: 0; 
 }
 
 /* Responsive adjustments: stack columns on smaller screens */
