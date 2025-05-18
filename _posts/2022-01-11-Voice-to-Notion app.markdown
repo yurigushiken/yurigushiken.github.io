@@ -23,11 +23,25 @@ subtitle: "Python application"
 
 GitHub repository for the Voice to Notion app [here](https://github.com/yurigushiken/voice-to-notion).
 
-<p>Video demonstration:</p>
-<a href="https://www.youtube.com/watch?v=-nVTJpQAbs0" target="_blank">
-  <img src="https://img.youtube.com/vi/-nVTJpQAbs0/0.jpg" alt="Watch the video" style="width: 560px; height: 315px;">
-</a>
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-nVTJpQAbs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <p>Video demonstration (click image to watch on YouTube):</p>
+  <a href="https://www.youtube.com/watch?v=-nVTJpQAbs0" target="_blank">
+    <img src="https://img.youtube.com/vi/-nVTJpQAbs0/0.jpg" alt="Watch the video" style="width: 560px; height: 315px;">
+  </a>
+</div>
+
+<details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
+  <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Post Details...</summary>
+  <div style="padding-top: 15px; color: #bbb;" markdown="1">
 
 I created a Voice-to-Notion app with Python that transcribes voice files and inputs them into Notion, a note-taking app. It uses the OpenAI API for WhisperAI and GPT-3 for transcription and summary generation, as well as Google Cloud Services and Notion APIs. The app runs on Google Cloud continuously, waiting for new voice files to enter a folder. The reason for creating this app was that the applications on the market did not do exactly what I wanted and needed.
+<p>&nbsp;</p>
+
+  </div>
+</details>
 
 
