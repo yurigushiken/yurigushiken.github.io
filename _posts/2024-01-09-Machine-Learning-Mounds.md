@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Machine Learning Mound Mapping"
+title: "Exploring Machine Learning in Archaeology"
 date: 2024-01-09 20:17:03 +0000
-categories: blog-posts current-projects experimentation hobby
+categories: blog-posts current-projects experimentation learning-projects
 thumbnail: /media/Screenshot-2024-01-09-035219.png
 subtitle: "A project to map terrestrial anomalies (called 'mounds') across the USA using machine learning."
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Silly Tavern Demo"
+title: "AI Characters with SillyTavern"
 date: 2024-03-19 00:00:00 -0400
-categories: technology research hobby
+categories: technology research learning-projects
 thumbnail: https://img.youtube.com/vi/LTZUoXLnzCA/0.jpg
 subtitle: "A technology demonstration of a persona and voice clone system."
 ---

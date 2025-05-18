@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "(final project) Pose Prompter"
+title: "(Final Project) Pose Prompter: A Tool for Artists"
 date: 2023-12-16 00:00:00 -0400
-categories: coding design experimentation hobby
+categories: coding design experimentation learning-projects
 thumbnail: /media/YouCut_20231220_180838651_2.gif
 subtitle: "Submission for A&HA-4084 assignment. A system that takes poses as inputs to generate images at 3 FPS."
 ---

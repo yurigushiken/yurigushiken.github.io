@@ -2,7 +2,7 @@
 layout: post
 title:  "Google Earth + Unreal + Cesium"
 date:   2023-08-28 00:00:00 -0400
-categories: unreal cesium hobby instruction
+categories: unreal cesium learning-projects instruction
 thumbnail: https://img.youtube.com/vi/rUSjQzCFMEQ/0.jpg
 subtitle: "A demonstration of creating 3D map-based video tours using Unreal Engine and YouTube video."
 ---

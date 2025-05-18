@@ -2,7 +2,7 @@
 layout: post
 title:  "Starting a Student-Focused Podcast During the Pandemic"
 date:   2021-06-06 00:00:00 -0400
-categories: podcast hobby
+categories: podcast learning-projects
 thumbnail: /media/yvt1.jpg
 subtitle: "Starting a podcast."
 ---

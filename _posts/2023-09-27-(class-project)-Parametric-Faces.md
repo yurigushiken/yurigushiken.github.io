@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "(class project) Parametric Faces"
+title: "(Class Project) Parametric Faces: Digital Fabrication"
 date: 2023-09-26 00:00:00 -0400
-categories: coding design fabrication hobby
+categories: coding design fabrication learning-projects
 thumbnail: /media/Screenshot%202024-06-06%20204434.png
 subtitle: "A project submission for parametric design."
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Assignment: Multimodal Reflection"
+title: "Assignment Reflection on Multimodal Meaning-Making"
 date: 2024-07-22 01:05:54 -0400
-categories: Assignment hobby
+categories: Assignment learning-projects
 thumbnail: /media/Screenshot%202024-07-22%20205551.png
 subtitle: "My submission for multimodal reflection assignment for the course \"C&T 4001: Inclusive Instructional Approaches for Diverse Learners.\""
 ---

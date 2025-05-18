@@ -2,7 +2,7 @@
 layout: post
 title:  "Four-Step Animations"
 date:   2023-06-04 00:00:00 -0400
-categories: animation stable diffusion hobby
+categories: animation stable diffusion learning-projects
 thumbnail: https://img.youtube.com/vi/l9YuyThqXec/0.jpg
 subtitle: "Creating a multi-step, 600-frame animation from an original video."
 ---

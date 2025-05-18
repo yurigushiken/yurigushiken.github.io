@@ -2,7 +2,7 @@
 layout: post
 title:  "Voice to Notion Python App"
 date:   2022-01-11 00:00:00 -0400
-categories: python app hobby
+categories: python app learning-projects
 thumbnail: https://img.youtube.com/vi/-nVTJpQAbs0/0.jpg
 subtitle: "Python application"
 ---

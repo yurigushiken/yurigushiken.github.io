@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Demonstration of GPT Vision and DeepFace"
+title: "GPT-Vision and DeepFace Demo: Analyzing Visuals"
 date: 2023-11-12 00:00:00 -0400
-categories: coding design experimentation hobby
+categories: coding design experimentation learning-projects
 thumbnail: /media/Screenshot-2023-11-12-153402-2048x1346.png
 subtitle: "A tech demonstration of OpenAI's new GPT Vision API."
 ---

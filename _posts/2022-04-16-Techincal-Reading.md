@@ -2,7 +2,7 @@
 layout: post
 title:  "Technical Reading"
 date:   2023-04-13 00:00:00 -0400
-categories: technical reading ai hobby
+categories: technical reading ai learning-projects
 thumbnail: /media/technicalreading.png
 subtitle: "I read a stack of technical papers."
 ---

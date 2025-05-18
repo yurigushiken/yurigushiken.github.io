@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Bertrand Russell Quote (in French)"
+title: "DeepFake Bertrand Russell: AI Voice Cloning"
 date:   2023-06-29 00:00:00 -0400
-categories: voice ai hobby
+categories: voice ai learning-projects
 thumbnail: https://img.youtube.com/vi/HBasbV8Yyjo/0.jpg
 subtitle: "A technology demonstration showcasing AI voice cloning, translation, and lip-sync animation."
 ---

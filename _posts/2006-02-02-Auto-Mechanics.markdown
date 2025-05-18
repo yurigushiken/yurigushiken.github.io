@@ -2,7 +2,7 @@
 layout: post
 title:  "First Career"
 date:   2006-02-02 00:00:00 -0400
-categories: mechanics hobby
+categories: mechanics learning-projects
 thumbnail: /media/pontiac1.jpg
 subtitle: "Auto mechanic and restorer."
 ---

@@ -22,7 +22,7 @@ layout: default
 
   {%- assign lcn_posts = site.posts | where_exp: "post", "post.categories contains 'lcn-lab'" -%}
   {%- assign instruction_posts = site.posts | where_exp: "post", "post.categories contains 'instruction'" -%}
-  {%- assign hobby_posts = site.posts | where_exp: "post", "post.categories contains 'hobby'" -%}
+  {%- assign learning_projects_posts = site.posts | where_exp: "post", "post.categories contains 'learning-projects'" -%}
 
   {%- assign pastel_colors = "#FFDFD3,#D3FFDF,#D3DFFF,#FFF0D3,#FFD3FF,#D3FFFF" | split: ',' -%}
   {%- assign pastel_color_count = pastel_colors | size -%}
@@ -66,10 +66,10 @@ layout: default
 
     <!-- Hobby Column -->
     <div class="home-column">
-      <h2 class="column-heading">Hobby</h2>
-      {%- if hobby_posts.size > 0 -%}
+      <h2 class="column-heading">Learning Projects</h2>
+      {%- if learning_projects_posts.size > 0 -%}
         <ul class="post-list">
-          {%- for post in hobby_posts -%}
+          {%- for post in learning_projects_posts -%}
           {%- assign current_pastel_index = forloop.index0 | modulo: pastel_color_count -%}
           {%- assign placeholder_color = pastel_colors[current_pastel_index] -%}
           <li>

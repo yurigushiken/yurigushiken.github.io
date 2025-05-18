@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "(essay) On Anthropomoprhization"
+title: "(Essay) On Anthropomorphism: AI in the Digital Age"
 date: 2023-12-20 00:00:00 -0400
-categories: education cognition AI hobby
+categories: education cognition AI learning-projects
 thumbnail: /media/li01.png
 subtitle: "An essay arguing that anthropomorphizing AI systems produces better outputs."
 ---
