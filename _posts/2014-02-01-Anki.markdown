@@ -27,25 +27,24 @@ I am self-taught at the Thai language. I used a spaced-repetition flashcard prog
 
 <p style="text-align: center; font-size: 1.2em; font-weight: bold;">ANKI Flashcards</p>
 
-*Created over 2000 custom flashcards with nouns and phrases using Anki.*
 ![Anki Deck Overview](/media/anki2.png)
+*Created over 2000 custom flashcards with nouns and phrases using Anki.*
 
-*(Front side) Occasionally-used phrase that conveys meaning and sentiment: "In a very long time, maybe never."*
 ![Anki Prompt Example](/media/Screenshot_20250517_212418_AnkiDroid.jpg)
+*(Front side) Occasionally-used phrase that conveys meaning and sentiment: "In a very long time, maybe never."*
 
-*Thai language translation that conveys close meaning and sentiment, modified IPA transcription.*
 ![Anki Answer Example](/media/Screenshot_20250517_212425_AnkiDroid.jpg)
+*Thai language translation that conveys close meaning and sentiment, modified IPA transcription.*
 
-*(Front side) "That's right! (I get it now)"*
 ![Anki Prompt Example 2](/media/Screenshot_20250517_212439_AnkiDroid.jpg)
+*(Front side) "That's right! (I get it now)"*
 
-*Keeping My Mandarin Alive by Lee Kuan Yew*
 ![Keeping My Mandarin Alive book cover](/media/lee-kwan-yew-book.jpg)
+*Keeping My Mandarin Alive by Lee Kuan Yew*
 <p>&nbsp;</p>
 
   </div>
 </details>
 
 <!-- ![Anki Flashcards 1](/media/anki1.png) -->
-![Anki Flashcards 2](/media/anki2.png)
 
