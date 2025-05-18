@@ -33,11 +33,13 @@ I used the Cesium plugin in Unreal 5 to create a YouTube video tour of TC housin
 
 Cesium and Unreal 5 are easy to use and learn.
 
-### Video Tour of TC Housing Options
+<h3 style="text-align: center;">Video Tour of TC Housing Options</h3>
 
+<div style="text-align: center;">
 ![Video Tour of TC Housing Options](https://img.youtube.com/vi/rUSjQzCFMEQ/0.jpg)
+</div>
 
-### My Route Home with Game Mode
+<h3 style="text-align: center;">My Route Home with Game Mode</h3>
 
 <div style="text-align: center; margin-bottom: 20px;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GC2jL5zlh2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
