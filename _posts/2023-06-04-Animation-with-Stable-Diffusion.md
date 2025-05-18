@@ -28,7 +28,6 @@ subtitle: "Creating a multi-step, 600-frame animation from an original video."
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Post Details...</summary>
   <div style="padding-top: 15px; color: #bbb;" markdown="1">
-I made a six hundred frame animation from an original video. I isolated each frame with DaVinci Resolve, processed each frame through Stable Diffusion with an anime checkpoint, removed the background with Runway ML, generated a dynamic background with the Stable Diffusion Deforum function, and overlayed the isolated subject over the background with DaVinci Resolve.
 
 ### Software Used
 
