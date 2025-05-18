@@ -21,7 +21,7 @@ subtitle: "Adopted spaced-repetition and flashcards study method."
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
   <img src="/media/Screenshot_20250517_212425_AnkiDroid.jpg" alt="Example Anki flashcard" style="max-width: 400px; display: block; margin-left: auto; margin-right: auto;" />
-  <p style="text-align: center;"><em>example flashcard.</em></p>
+  <p style="text-align: center;"><em>(front side) "In a very long time, maybe never." (back side) Thai language translation that conveys close meaning and sentiment, modified IPA transcription.</em></p>
 </div>
 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
