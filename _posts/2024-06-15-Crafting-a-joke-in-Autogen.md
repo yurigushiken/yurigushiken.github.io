@@ -89,3 +89,11 @@ Reasons why it does not meet the standards:
 
 Model: GPT-4o Tokens: ~20,000 Cost: $0.10
 
+The prompts for the comedians were modeled after Mark Normand's comedic style with a four page multiple shot prompt.
+
+![Image of Mark Normand](/media/mark-normand.jpeg)
+*Image source: [https://improv.com/irvine/comic/mark+normand/](https://improv.com/irvine/comic/mark+normand/)*
+
+  </div>
+</details>
+
