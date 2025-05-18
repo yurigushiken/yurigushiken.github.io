@@ -31,7 +31,9 @@ AI performance is enhanced with personalization. I built a chatbot that can resp
 
 The following video is an excerpt from my presentation for my Culminating Project for "C&T 4199 – Teaching and Learning in the Digital Age" during the Summer A term, 2023, at Teachers College:
 
+<div style="text-align: center;">
 ![Equality Chatbot Presentation](https://img.youtube.com/vi/0U-H8kgfj4U/0.jpg)
+</div>
 
 This is a GPT-3.5 turbo powered chatbot, using the Open AI API.
 
