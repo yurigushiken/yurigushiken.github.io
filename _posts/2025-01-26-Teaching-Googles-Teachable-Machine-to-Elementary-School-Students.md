@@ -18,7 +18,7 @@ subtitle: "A 4th-grade lesson on machine learning using Google's Teachable Machi
     <li>Guide students to train a model on images of famous artists' works (Picasso, Van Gogh, etc.).</li>
     <li>Address NYS Computer Science and Digital Fluency Standards (4-6.IC.5, 4-6.CT.1, 4-6.CT.3).</li>
   </ul>
-  <p style="font-size:0.9em; color:#ccc; margin-top: 10px;">This Teachable Machine class was taught at Friends Seminary School in NYC on January 6, 7, 8, 9, and 17, 2025, and then a modified version on April 7 and 9 at Cooke School for Special Education (grades 11 & 12).</p>
+  <p style="font-size:0.9em; color:#ccc; margin-top: 10px;">We taught this class at Friends Seminary School in NYC on January 6, 7, 8, 9, and 17, 2025, and then a modified version on April 7 and 9 at Cooke School for Special Education (grades 11 & 12).</p>
 </div>
 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
