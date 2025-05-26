@@ -14,10 +14,10 @@ subtitle: "An oral assessment method to evaluate students' understanding of codi
   <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
     <li>Design an oral assessment and rubric for Grade 3 Turtle Art.</li>
-    <li>Conduct one-on-one assessments with students.</li>
+    <li>Conduct one-on-one assessments.</li>
     <li>Observe how students articulate their understanding of coding concepts.</li>
-    <li>Use the assessment process for in-the-moment teaching.</li>
-    <li>Analyze student performance data to identify learning patterns.</li>
+    <li>In-the-moment teaching.</li>
+    <li>Analyze student performance with R.</li>
     <li>Plan curriculum improvements using Understanding by Design (UBD).</li>
   </ul>
 </div>
@@ -126,6 +126,8 @@ subtitle: "An oral assessment method to evaluate students' understanding of codi
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
   <div style="padding-top: 15px; color: #bbb;" markdown="1">
+
+[This is our rubric and OA doc (shared viewable)](https://docs.google.com/spreadsheets/d/1GcAYkxnkTxCUf9_v1XMqc78btsHKBgSbjchVFk6FPCM/edit?gid=483402170#gid=483402170)
 
 My cooperating teacher and I ended our Grade 3 Turtle Art module with an oral assessment (OA). I designed a rubric to evaluate student responses for this assessment. Using OA, we uncovered how students understand coding concepts by letting them communicate through their thinking.
 
