@@ -3,7 +3,7 @@ layout: post
 title: "Perception Color Experiment: Testing Hoffman's Interface Theory of Perception (ITP)"
 date: 2025-04-29 11:00:00 -0400
 categories: research psychology psychophysics web development data-analysis firebase react lcn-lab
-thumbnail: /media/pc-combined_experiment_and_trial_flow.png
+thumbnail: /media/combined_experiment_and_trial_flow.png
 subtitle: "An IRB-pending web-based psychophysics experiment."
 ---
 
@@ -37,7 +37,7 @@ subtitle: "An IRB-pending web-based psychophysics experiment."
     <div class="swiper-slide">
       <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/pc-combined_experiment_and_trial_flow.png" alt="Experiment Flow Diagram" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          <img src="/media/combined_experiment_and_trial_flow.png" alt="Experiment Flow Diagram" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
         <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Experiment and Trial Flow</p>
       </div>
@@ -107,7 +107,7 @@ subtitle: "An IRB-pending web-based psychophysics experiment."
 <div thumbsSlider="" class="swiper perceptionSwiper" style="height: 100px; box-sizing: border-box; padding: 10px 0;">
   <div class="swiper-wrapper">
     <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
-      <img src="/media/pc-combined_experiment_and_trial_flow.png" style="width:100%; height: 100%; object-fit: cover;" />
+      <img src="/media/combined_experiment_and_trial_flow.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
     <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
       <img src="/media/pc-combined_grid.png" style="width:100%; height: 100%; object-fit: cover;" />
