@@ -9,7 +9,7 @@ subtitle: "A website displaying EEG analysis of numerical processing, featuring 
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">A website to showcase results and visualizations from our EEG Numbers study, specifically the Parallel Individuation (PI) and Approximate Number System (ANS).</p>
+  <p style="font-size: 1.1em; color: #ccc;">A website to showcase our analysis for the EEG Numbers Study.</p>
   
   <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
@@ -24,14 +24,6 @@ subtitle: "A website displaying EEG analysis of numerical processing, featuring 
 <!-- Top (Main) Swiper -->
 <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #333; margin-bottom: 10px; background-color: #383838;" class="swiper eegSwiper2">
   <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/eeg-imaging01.png" alt="EEG Topographic Map" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-        </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">EEG Topographic Map</p>
-      </div>
-    </div>
     <div class="swiper-slide">
       <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
@@ -73,7 +65,7 @@ subtitle: "A website displaying EEG analysis of numerical processing, featuring 
 <div thumbsSlider="" class="swiper eegSwiper" style="height: 100px; box-sizing: border-box; padding: 10px 0;">
   <div class="swiper-wrapper">
     <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
-      <img src="/media/eeg-imaging01.png" style="width:100%; height: 100%; object-fit: cover;" />
+      <img src="/media/eeg-imaging-06Screenshot 2025-07-07 185237.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
     <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
       <img src="/media/eeg_imaging02-group_n1_plot_landing_on_large_increasing_acc=1.png" style="width:100%; height: 100%; object-fit: cover;" />
