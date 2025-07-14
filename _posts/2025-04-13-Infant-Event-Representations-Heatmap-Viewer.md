@@ -4,7 +4,7 @@ title: "Analysis Tool: Infant Event Representations Heatmap Viewer"
 date: 2025-04-13 10:00:00 -0400
 categories: tools development research visualization lcn-lab
 thumbnail: /media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif
-subtitle: "A web-based data analysis tool (version 2)."
+subtitle: "A web-based data analysis tool (version 2) and website to host it."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
@@ -37,7 +37,7 @@ subtitle: "A web-based data analysis tool (version 2)."
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/2025-04-13 overlay-gif Recording 2025-04-13 200426_1.gif" alt="Infant Event Representations with Heatmap Overlay - Demo 1" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Desktop view</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Desktop view. This is a screenshot of the desktop view; we didn't provide the whole website in order to protect the privacy of our data.</p>
       </div>
     </div>
     <div class="swiper-slide">
