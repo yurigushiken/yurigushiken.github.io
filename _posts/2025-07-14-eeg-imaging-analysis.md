@@ -127,8 +127,8 @@ This project contains the data and analysis scripts for a study investigating th
 The raw data is processed into four primary datasets, each residing in its own directory, to facilitate different types of analysis:
 *   `eeg_all/`: Includes EEG data from all trials for all 24 subjects, regardless of whether their behavioral response was correct or incorrect. Useful for analyzing error-related brain activity.
 *   `eeg_acc=1/`: A filtered subset containing data only from trials where the participant responded correctly. This is the primary dataset for most analyses.
-*   `eeg_ds_all/`: A downsampled version of the `eeg_all` dataset, which reduces file size and significantly speeds up computational processing for exploratory analysis.
-*   `eeg_ds_acc=1/`: A downsampled version containing only correct trials, combining computational efficiency with data accuracy.
+*   `eeg_ds_all/`: Includes all trials. "DS" stands for "direction and size".
+*   `eeg_ds_acc=1/`: Includes only correct trials. "DS" stands for "direction and size".
 
 ### Data Processing Pipeline
 The analysis is designed as a series of scripts where the output of one serves as the input for the next.
