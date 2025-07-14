@@ -121,7 +121,7 @@ subtitle: "A website displaying EEG analysis of numerical processing, featuring 
 
 ### The Neurobehavioral Basis of Numerical Processing
 
-This project contains the data and analysis scripts for a study investigating the neurobehavioral basis of the Parallel Individuation (PI) and Approximate Number System (ANS). It analyzes EEG and behavioral data from 24 participants performing a numerical change detection task. The core scientific background is based on a foundational dissertation which details the theories, experimental design, and original findings.
+This project contains the data and analysis scripts for a study investigating the neurobehavioral basis of the Parallel Individuation (PI) and Approximate Number System (ANS). It analyzes EEG and behavioral data from 24 participants performing a numerical change detection task. The core scientific background is based on a foundational dissertation which details the theories, experimental design, and original findings (see the study by Jean Tang, <a href="https://www.proquest.com/docview/2812356028?parentSessionId=zW1BLJcwkBjWeCCtTIBQHAODqVYHyBZdWH7abINSoNM%3D&accountid=14258&sourcetype=Dissertations%20&%20Theses" style="color: #7cc5ff;">The Neurobehavioral Basis of the Parallel Individuation (PI) and Approximation Number System (ANS)</a>).
 
 ### Datasets Overview
 The raw data is processed into four primary datasets, each residing in its own directory, to facilitate different types of analysis:
