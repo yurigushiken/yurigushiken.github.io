@@ -17,7 +17,7 @@ subtitle: "A website displaying EEG analysis of numerical processing, featuring 
     <li>Developed a data processing pipeline in Python using MNE, Pandas, and NumPy.</li>
     <li>Generated neuroscientific visualizations: butterfly plots, topographic maps of brain activity, LORETA source estimations.</li>
     <li>Established a structured data processing workflow and output convention for reproducibility.</li>
-    <li>Built a <a href="https://yurigushiken.github.io/eeg-image-analysis/" style="color: #7cc5ff;">GitHub Pages website</a> to display our findings.</li>
+    <li>Built a <a href="https://yurigushiken.github.io/eeg-image-analysis/results.html" style="color: #7cc5ff;">GitHub Pages website</a> to display our findings.</li>
   </ul>
 </div>
 
