@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "EEG Numerical-Cognition Decoding: Multi-Architecture Deep Learning Pipeline"
+title: "Decoding EEG Data with Machine Learning"
 date: 2025-07-20 11:00:00 -0400
 categories: research machine-learning eeg neuroscience deep-learning lcn-lab
 thumbnail: /media/eeg_nn-20250730_221656_landing_digit_cnn_all_trials_dataset_t001-overall.png
-subtitle: "A unified deep learning framework for classifying cognitive variables from EEG data with multiple neural architectures."
+subtitle: "Using a unified deep learning framework to classify cognitive variables from EEG data."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
