@@ -99,7 +99,7 @@ Understanding how the brain processes numbers is a fundamental question in cogni
 
 ### Our Approach
 
-We built a comprehensive machine learning system that can analyze EEG data and classify what type of numerical processing a person is doing. The system supports multiple neural network architectures:
+We built a machine learning system that can analyze EEG data and classify what type of numerical processing a person is doing. We experimented with multiple neural network architectures:
 
 **Raw EEG Processing:**
 - **CNN (Convolutional Neural Networks)**: Direct processing of time-series EEG data
@@ -112,28 +112,28 @@ We built a comprehensive machine learning system that can analyze EEG data and c
 
 ### Experimental Tasks
 
-We tested our system on two main cognitive tasks:
+We tested our system on subjects' data on two main cognitive tasks:
 
 1. **Landing Digit Task**: Participants viewed dot arrays and had to process the quantity information
 2. **Decreasing Minus 1 Task**: Participants saw a prime number followed by a stimulus one number lower
 
 ### Key Findings
 
-Through systematic testing across different architectures, we found that **CNNs performed best** for our numerical cognition decoding tasks. The confusion matrices show that our models can distinguish between different numerical conditions above chance level, indicating that unique neural signatures exist for different types of numerical processing.
+The confusion matrices show that our models can distinguish between different numerical conditions above chance level, indicating that unique neural signatures exist for different types of numerical processing.
 
 ### Technical Innovation
 
-The project features a unified training pipeline with:
+We have a unified training pipeline with:
 - Leave-One-Subject-Out cross-validation for robust evaluation
 - Automated hyperparameter optimization using Optuna
 - Standardized reporting and visualization across all model types
-- GPU acceleration for efficient training
+- GPU acceleration (CUDA)
 
-This work demonstrates that EEG signals contain decodable information about numerical cognition processes, opening new possibilities for brain-computer interfaces and cognitive assessment tools.
+Our work demonstrates that EEG signals contain decodable information about numerical cognition processes.
 
 ### Future Directions
 
-The framework is designed to be extensible - new tasks, models, and analysis methods can be easily added to continue advancing our understanding of numerical cognition in the brain.
+The framework extensible, as we can add new tasks, models, and analysis methods.
 
   </div>
 </details>
