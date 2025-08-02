@@ -100,7 +100,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/eeg_nn-20250719_0357_02_train_decoder_numbers_pairs-overall_confusion_02_train_decoder_numbers_pairs - Copy.png" alt="Full Number Pairs Task" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Decoding performance on the full 'number pairs' task (24 conditions). With a chance level of ~4.1%, the model achieved a mean accuracy of 6.4%. The visible linearity along the diagonal suggests the model is capturing the relationship between number pairs from the EEG data.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Decoding performance on the full 'number pairs' task (24 conditions). With a chance level of ~4.1%, the model achieved a mean accuracy of 6.4%. Linearity along the diagonal suggests the model is capturing the relationship between number pairs from the EEG data.</p>
       </div>
     </div>
   </div>
