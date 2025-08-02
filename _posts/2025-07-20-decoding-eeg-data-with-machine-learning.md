@@ -36,7 +36,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/eeg_nn-20250725_025954_dec1_5class_cnn_t074.png" alt="Decreasing Minus 1 Task CNN Confusion Matrix" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Performance on the 'decreasing minus 1' task. The model successfully distinguished between conditions 21, 54, and 65 with correct plurality predictions, performing significantly better than the 16.67% chance level and showing that EEG signals contain decodable information about numerical change detection.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Performance on the 'decreasing minus 1' task. The model successfully distinguished between conditions 21, 54, and 65 with correct plurality predictions. Chance is 16.67%.</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -60,7 +60,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/eeg_nn-20250719_1445_02_train_decoder_direction_binary fold3_confusion_02_train_decoder_direction_binary - Copy.png" alt="Binary Direction Task" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">CNN performance on a binary task discriminating between increasing vs. decreasing number pairs. The model correctly identified decreasing pairs 74.6% of the time and increasing pairs 60.4% of the time, well above the 50% chance level.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">CNN performance on a binary task discriminating between increasing vs. decreasing number pairs. The model correctly identified decreasing pairs 74.6% of the time and increasing pairs 60.4% of the time. Chance is 50%.</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -76,7 +76,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/eeg_nn-20250719_0500_02_train_decoder_land1_binaryoverall_confusion_02_train_decoder_land1_binary - Copy.png" alt="Binary Landing on 1 Task" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Binary classification for the 'landing on 1' task. The model correctly identified when the stimulus was *not* 1 (73.0% accuracy) and when it *was* 1 (64.4% accuracy), both significantly exceeding the 50% chance baseline.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Binary classification for the 'landing on 1' task. The model correctly identified when the stimulus was *not* 1 (73.0% accuracy) and when it *was* 1 (64.4% accuracy). Chance is 50%.</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -92,7 +92,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/eeg_nn-20250719_0357_02_train_decoder_dec1_5class-overall_confusion_02_train_decoder_dec1_5class - Copy.png" alt="5-Class Decreasing Task (Run 2)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">A separate run of the 'decreasing by 1' (5-class) task. The model achieved a plurality of correct classifications for trials landing on 1 (27.7%), 3 (22.2%), 4 (31.2%), and 5 (33.3%), demonstrating decodable signals well above the 20% chance level.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">A separate run of the 'decreasing by 1' (5-class) task. The model achieved a plurality of correct classifications for trials landing on 1 (27.7%), 3 (22.2%), 4 (31.2%), and 5 (33.3%). Chance is 20%.</p>
       </div>
     </div>
     <div class="swiper-slide">
