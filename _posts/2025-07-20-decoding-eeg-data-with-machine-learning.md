@@ -103,6 +103,22 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
         <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Decoding performance on the full 'number pairs' task (24 conditions). With chance level of ~4.1%, model achieved mean accuracy of 6.4%. Linearity along diagonal suggests model is capturing relationship between number pairs from EEG data.</p>
       </div>
     </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/eeg_nn-20250801_1351_landing_digit_dual_stream_trial-42-fold21_curves - Copy.png" alt="Landing Digit Training Curves" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+        </div>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Task: landing_digit. Training and validation curves for fold 21 of a dual_stream trial. Chance is 16.67</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/eeg_nn-20250801_1351_landing_digit_dual_stream_trial-42-fold21_confusion - Copy.png" alt="Landing Digit Confusion Matrix" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+        </div>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Task: landing_digit. Leave-one-subject-out fold 21 confusion matrix of a dual_stream trial. Chance is 16.67.</p>
+      </div>
+    </div>
   </div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
@@ -140,6 +156,12 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
     </div>
     <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
       <img src="/media/eeg_nn-20250719_0357_02_train_decoder_numbers_pairs-overall_confusion_02_train_decoder_numbers_pairs - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
+      <img src="/media/eeg_nn-20250801_1351_landing_digit_dual_stream_trial-42-fold21_curves - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
+      <img src="/media/eeg_nn-20250801_1351_landing_digit_dual_stream_trial-42-fold21_confusion - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
   </div>
 </div>
