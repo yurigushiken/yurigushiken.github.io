@@ -26,33 +26,49 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
     <div class="swiper-slide">
       <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/eeg_nn-20250730_221656_landing_digit_cnn_all_trials_dataset_t001-overall.png" alt="Landing Digit Task CNN Confusion Matrix" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          <img src="/media/eeg_nn-20250719_1445_02_train_decoder_direction_binary fold3_confusion_02_train_decoder_direction_binary - Copy.png" alt="Binary Direction Task" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Confusion matrix for "landing_digit" task using CNN model with all trials data. Shows unique neural signals for different conditions - the model can predict the number of dots in the stimulus for some conditions, demonstrating that distinct brain patterns exist for different numerical cognition processes.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">CNN performance on a binary task discriminating between increasing vs. decreasing number pairs. The model correctly identified decreasing pairs 74.6% of the time and increasing pairs 60.4% of the time, well above the 50% chance level.</p>
       </div>
     </div>
     <div class="swiper-slide">
       <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/eeg_nn-20250725_025954_dec1_5class_cnn_t074.png" alt="Decreasing Minus 1 Task CNN Confusion Matrix" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          <img src="/media/eeg_nn-20250719_0332_02_train_decoder_dec1_5class overall_confusion_02_train_decoder_dec1_5class - Copy.png" alt="5-Class Decreasing Task" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Confusion matrix for "decreasing minus 1" task - where participants saw a prime number then a stimulus one number lower. The model could distinguish between conditions 65, 54, 43, 32, 21, demonstrating that EEG signals contain decodable information about numerical change detection processes.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">CNN confusion matrix for the 'decreasing by 1' task (5 classes). With a 20% chance rate, the model achieved a plurality of correct predictions for trials landing on 1 (31.4%), 3 (24.3%), 4 (22.4%), and a high accuracy for landing on 5 (60.4%).</p>
       </div>
     </div>
     <div class="swiper-slide">
       <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/eeg_nn 20250801_1351_landing_digit_dual_stream_unknown overall_confusion - Copy.png" alt="Dual Stream Confusion Matrix 1" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          <img src="/media/eeg_nn-20250719_0500_02_train_decoder_land1_binaryoverall_confusion_02_train_decoder_land1_binary - Copy.png" alt="Binary Landing on 1 Task" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Full LOSO confusion matrix for the landing_digit task using our dual_stream model.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Binary classification for the 'landing on 1' task. The model correctly identified when the stimulus was *not* 1 (73.0% accuracy) and when it *was* 1 (64.4% accuracy), both significantly exceeding the 50% chance baseline.</p>
       </div>
     </div>
     <div class="swiper-slide">
       <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/eeg_nn 20250801_1544_landing_digit_dual_stream_unknown overall_confusion - Copy.png" alt="Dual Stream Confusion Matrix 2" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          <img src="/media/eeg_nn-20250719_0556_02_train_decoder_inc1_5class-overall_confusion_02_train_decoder_inc1_5class - Copy.png" alt="5-Class Increasing Task" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Full LOSO confusion matrix for the landing_digit task using our dual_stream model.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">CNN performance on the 'increasing by 1' task (5 classes). The model correctly identified 'land 3' (32.1%), 'land 4' (25.7%), 'land 5' (43.6%), and 'land 6' (32.3%) above the 20% chance level.</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/eeg_nn-20250719_0357_02_train_decoder_dec1_5class-overall_confusion_02_train_decoder_dec1_5class - Copy.png" alt="5-Class Decreasing Task (Run 2)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+        </div>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">A separate run of the 'decreasing by 1' (5-class) task. The model achieved a plurality of correct classifications for trials landing on 1 (27.7%), 3 (22.2%), 4 (31.2%), and 5 (33.3%), demonstrating decodable signals well above the 20% chance level.</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/eeg_nn-20250719_0357_02_train_decoder_numbers_pairs-overall_confusion_02_train_decoder_numbers_pairs - Copy.png" alt="Full Number Pairs Task" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+        </div>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Decoding performance on the full 'number pairs' task (24 conditions). With a chance level of ~4.1%, the model achieved a mean accuracy of 6.4%. The visible linearity along the diagonal suggests the model is capturing the relationship between number pairs from the EEG data.</p>
       </div>
     </div>
   </div>
@@ -63,17 +79,35 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
 <!-- Bottom (Thumbs) Swiper -->
 <div thumbsSlider="" class="swiper eegNNSwiper" style="height: 100px; box-sizing: border-box; padding: 10px 0;">
   <div class="swiper-wrapper">
-    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+    <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
       <img src="/media/eeg_nn-20250730_221656_landing_digit_cnn_all_trials_dataset_t001-overall.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+    <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
       <img src="/media/eeg_nn-20250725_025954_dec1_5class_cnn_t074.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+    <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
       <img src="/media/eeg_nn 20250801_1351_landing_digit_dual_stream_unknown overall_confusion - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+    <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
       <img src="/media/eeg_nn 20250801_1544_landing_digit_dual_stream_unknown overall_confusion - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
+      <img src="/media/eeg_nn-20250719_1445_02_train_decoder_direction_binary fold3_confusion_02_train_decoder_direction_binary - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
+      <img src="/media/eeg_nn-20250719_0332_02_train_decoder_dec1_5class overall_confusion_02_train_decoder_dec1_5class - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
+      <img src="/media/eeg_nn-20250719_0500_02_train_decoder_land1_binaryoverall_confusion_02_train_decoder_land1_binary - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
+      <img src="/media/eeg_nn-20250719_0556_02_train_decoder_inc1_5class-overall_confusion_02_train_decoder_inc1_5class - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
+      <img src="/media/eeg_nn-20250719_0357_02_train_decoder_dec1_5class-overall_confusion_02_train_decoder_dec1_5class - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 10%; height: 100%; opacity: 0.4;">
+      <img src="/media/eeg_nn-20250719_0357_02_train_decoder_numbers_pairs-overall_confusion_02_train_decoder_numbers_pairs - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
   </div>
 </div>
@@ -82,11 +116,11 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
   document.addEventListener('DOMContentLoaded', function () {
     var swiperThumbs = new Swiper(".eegNNSwiper", {
       spaceBetween: 10,
-      slidesPerView: 4,
+      slidesPerView: 6,
       freeMode: true,
       watchSlidesProgress: true,
       clickable: true,
-      centeredSlides: true,
+      centeredSlides: false,
     });
     var swiperMain = new Swiper(".eegNNSwiper2", {
       spaceBetween: 10,
