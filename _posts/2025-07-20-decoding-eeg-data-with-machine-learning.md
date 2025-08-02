@@ -39,6 +39,22 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
         <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Confusion matrix for "decreasing minus 1" task - where participants saw a prime number then a stimulus one number lower. The model could distinguish between conditions 65, 54, 43, 32, 21, demonstrating that EEG signals contain decodable information about numerical change detection processes.</p>
       </div>
     </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/eeg_nn 20250801_1351_landing_digit_dual_stream_unknown overall_confusion - Copy.png" alt="Dual Stream Confusion Matrix 1" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+        </div>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Full LOSO confusion matrix for the landing_digit task using our dual_stream model.</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/eeg_nn 20250801_1544_landing_digit_dual_stream_unknown overall_confusion - Copy.png" alt="Dual Stream Confusion Matrix 2" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+        </div>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Full LOSO confusion matrix for the landing_digit task using our dual_stream model.</p>
+      </div>
+    </div>
   </div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
@@ -47,11 +63,17 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
 <!-- Bottom (Thumbs) Swiper -->
 <div thumbsSlider="" class="swiper eegNNSwiper" style="height: 100px; box-sizing: border-box; padding: 10px 0;">
   <div class="swiper-wrapper">
-    <div class="swiper-slide" style="width: 50%; height: 100%; opacity: 0.4;">
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
       <img src="/media/eeg_nn-20250730_221656_landing_digit_cnn_all_trials_dataset_t001-overall.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="width: 50%; height: 100%; opacity: 0.4;">
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
       <img src="/media/eeg_nn-20250725_025954_dec1_5class_cnn_t074.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/eeg_nn 20250801_1351_landing_digit_dual_stream_unknown overall_confusion - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
+      <img src="/media/eeg_nn 20250801_1544_landing_digit_dual_stream_unknown overall_confusion - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
   </div>
 </div>
@@ -60,7 +82,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
   document.addEventListener('DOMContentLoaded', function () {
     var swiperThumbs = new Swiper(".eegNNSwiper", {
       spaceBetween: 10,
-      slidesPerView: 2,
+      slidesPerView: 4,
       freeMode: true,
       watchSlidesProgress: true,
       clickable: true,
