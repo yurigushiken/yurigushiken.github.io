@@ -15,7 +15,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
     <li>Built a configurable training pipeline supporting multiple neural network architectures (CNN, Hybrid CNN-Transformer, Dual-Stream, EEGNet variants, and T-TIME)</li>
     <li>Created automated hyperparameter optimization using Optuna with comprehensive search spaces</li>
-    <li>Decoded brain data to suggest distinct neural signals for different experimental conditions </li>
+    <li>Decoded brain data, results suggest distinct neural signals for different experimental conditions </li>
     <li><a href="https://github.com/yurigushiken/numbers_eeg_nn_project" style="color: #7cc5ff;">View project on GitHub</a></li>
   </ul>
 </div>
