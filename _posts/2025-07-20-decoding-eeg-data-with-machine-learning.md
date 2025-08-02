@@ -117,7 +117,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
 
 ### The Challenge of Decoding Numerical Cognition
 
-Understanding how the brain processes numbers is a fundamental question in cognitive neuroscience. This project tackles the challenge of decoding different numerical cognition states directly from EEG brain signals using modern machine learning approaches.
+This project tackles the challenge of decoding different numerical cognition states directly from EEG brain signals using modern machine learning approaches.
 
 ### Our Approach
 
