@@ -28,7 +28,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/eeg_nn-20250730_221656_landing_digit_cnn_all_trials_dataset_t001-overall.png" alt="Landing Digit Task CNN Confusion Matrix" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Confusion matrix for "landing_digit" task using CNN model with all trials data. Shows unique neural signals for different conditions - the model can predict the number of dots in the stimulus for some conditions, demonstrating that distinct brain patterns exist for different numerical cognition processes.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Results for the 'landing_digit' task (6-class). The model correctly predicted a plurality of trials for landing digits 1, 3, 4, 5, and 6, well above the 16.67% chance level. This suggests that distinct brain patterns for these conditions are present in the EEG data.</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -36,7 +36,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/eeg_nn-20250725_025954_dec1_5class_cnn_t074.png" alt="Decreasing Minus 1 Task CNN Confusion Matrix" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Confusion matrix for "decreasing minus 1" task - where participants saw a prime number then a stimulus one number lower. The model could distinguish between conditions 65, 54, 43, 32, 21, demonstrating that EEG signals contain decodable information about numerical change detection processes.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Performance on the 'decreasing minus 1' task. The model successfully distinguished between conditions 21, 54, and 65 with correct plurality predictions, performing significantly better than the 16.67% chance level and showing that EEG signals contain decodable information about numerical change detection.</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -44,7 +44,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/eeg_nn 20250801_1351_landing_digit_dual_stream_unknown overall_confusion - Copy.png" alt="Dual Stream Confusion Matrix 1" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Full LOSO confusion matrix for the landing_digit task using our dual_stream model.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Full Leave-one-subject-out (LOSO) results for the 'landing_digit' task using the dual_stream model. This run achieved an overall accuracy of 27.2%, well above the 16.67% chance level.</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -52,7 +52,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/eeg_nn 20250801_1544_landing_digit_dual_stream_unknown overall_confusion - Copy.png" alt="Dual Stream Confusion Matrix 2" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Full LOSO confusion matrix for the landing_digit task using our dual_stream model.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Full LOSO results for another run of the 'landing_digit' task with the dual_stream model. This run achieved 26.1% accuracy (chance is 16.67%) and correctly predicted a plurality for landing digits 1, 3, and 5.</p>
       </div>
     </div>
     <div class="swiper-slide">
