@@ -181,13 +181,13 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
   <div style="padding-top: 15px; color: #bbb;" markdown="1">
 
-### The Challenge of Decoding Numerical Cognition
+### Decoding brain data
 
-This project tackles the challenge of decoding different numerical cognition states directly from EEG brain signals using modern machine learning approaches.
+WE attempt to decode EEG brain signals using machine learning. The data is from projects at the Language and Cognitive Neuroscience Lab, Teachers College, Columbia University (Tang, 2022)
 
-### Our Approach
+### Approach
 
-We built a machine learning system that can analyze EEG data and classify what type of numerical processing a person is doing. We experimented with multiple neural network architectures:
+We built a machine learning system that can analyze EEG data and classify the numerical processing a subject. We experimented with multiple neural network architectures:
 
 **Raw EEG Processing:**
 - **CNN (Convolutional Neural Networks)**: Direct processing of time-series EEG data
@@ -198,18 +198,19 @@ We built a machine learning system that can analyze EEG data and classify what t
 **Advanced Adaptation:**
 - **T-TIME (Test-Time Adaptation)**: Allows models to adapt to individual subjects in real-time
 
-### Experimental Tasks
+### Experimental "Tasks"
 
-We tested our system on subjects' data on two main cognitive tasks:
+We tested our system on subjects' data. The following are our "tasks":
 
-1. **Landing Digit Task**: Participants viewed dot arrays and had to process the quantity information
-2. **Decreasing Minus 1 Task**: Participants saw a prime number followed by a stimulus one number lower
+1. **Landing Digit Task**: When participants were primed with any number and the stimulus number of dots is 1, 2, 3, 4, 5, or 6
+2. **Decreasing Minus 1 Task**: When participants were primed with a number followed by a stimulus one number lower
+3. **Increasing or Decreasing**: When participants were primed with a number number followed by a lower or higher number
 
-### Key Findings
+### Findings so far
 
 The confusion matrices show that our models can distinguish between different numerical conditions above chance level, indicating that unique neural signatures exist for different types of numerical processing.
 
-### Technical Innovation
+### Technical 
 
 We have a unified training pipeline with:
 - Leave-One-Subject-Out cross-validation for robust evaluation
@@ -217,11 +218,9 @@ We have a unified training pipeline with:
 - Standardized reporting and visualization across all model types
 - GPU acceleration (CUDA)
 
-Our work demonstrates that EEG signals contain decodable information about numerical cognition processes.
+### Future 
 
-### Future Directions
-
-The framework extensible, as we can add new tasks, models, and analysis methods.
+We will make "tasks" for ratio, odd/even parity, and more. The framework extensible, as we can add new tasks, models, and analysis methods.
 
   </div>
 </details>
