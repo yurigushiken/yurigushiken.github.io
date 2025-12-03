@@ -17,103 +17,16 @@ subtitle: "A website displaying EEG analysis of numerical processing, featuring 
     <li>Developed a data processing pipeline in Python using MNE, Pandas, and NumPy.</li>
     <li>Generated visualizations: butterfly plots, topographic maps of brain activity, LORETA source estimations.</li>
     <li>Established a data processing workflow and output convention for reproducibility.</li>
-    <li>Built a <a href="https://yurigushiken.github.io/eeg-image-analysis/results.html" style="color: #7cc5ff;">GitHub Pages website</a> to display our findings.</li>
+    <li>Built an internal GitHub Pages website to display our findings.</li>
+    <li><a href="https://github.com/yurigushiken/eeg-image-analysis-v2" style="color: #7cc5ff;">View project on GitHub</a></li>
   </ul>
 </div>
 
-<!-- Top (Main) Swiper -->
-<div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #333; margin-bottom: 10px; background-color: #383838;" class="swiper eegSwiper2">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/eeg_imaging02-group_n1_plot_landing_on_large_increasing_acc=1.png" alt="N1 Component - Landing on Large (Increasing)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-        </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">N1 Component - Landing on Large (Increasing)</p>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/eeg_imaging03-group_p1_plot_landing_on_large_increasing_acc=1.png" alt="P1 Component - Landing on Large (Increasing)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-        </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">P1 Component - Landing on Large (Increasing)</p>
-      </div>
-    </div>
-     <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/eeg_imaging04-group_n1_plot_landing_on_small_decreasing_acc=1.png" alt="N1 Component - Landing on Small (Decreasing)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-        </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">N1 Component - Landing on Small (Decreasing)</p>
-      </div>
-    </div>
-     <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/eeg_imaging05-group_p1_plot_landing_on_small_decreasing_acc=1.png" alt="P1 Component - Landing on Small (Decreasing)" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-        </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">P1 Component - Landing on Small (Decreasing)</p>
-      </div>
-    </div>
-  </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
+<!-- Screenshot -->
+<div style="margin-bottom: 20px; text-align: center;">
+  <img src="/media/eeg_image_analysis_website.png" alt="Internal GitHub Pages website" style="max-width: 100%; height: auto; border: 1px solid #444; border-radius: 6px;">
+  <p style="margin-top: 10px; font-size: 0.95em; color: #bbb;">Internal GitHub Pages website</p>
 </div>
-
-<!-- Bottom (Thumbs) Swiper -->
-<div thumbsSlider="" class="swiper eegSwiper" style="height: 100px; box-sizing: border-box; padding: 10px 0;">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
-      <img src="/media/eeg-imaging-06Screenshot 2025-07-07 185237.png" style="width:100%; height: 100%; object-fit: cover;" />
-    </div>
-    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
-      <img src="/media/eeg_imaging02-group_n1_plot_landing_on_large_increasing_acc=1.png" style="width:100%; height: 100%; object-fit: cover;" />
-    </div>
-    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
-      <img src="/media/eeg_imaging03-group_p1_plot_landing_on_large_increasing_acc=1.png" style="width:100%; height: 100%; object-fit: cover;" />
-    </div>
-    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
-      <img src="/media/eeg_imaging04-group_n1_plot_landing_on_small_decreasing_acc=1.png" style="width:100%; height: 100%; object-fit: cover;" />
-    </div>
-    <div class="swiper-slide" style="width: 25%; height: 100%; opacity: 0.4;">
-      <img src="/media/eeg_imaging05-group_p1_plot_landing_on_small_decreasing_acc=1.png" style="width:100%; height: 100%; object-fit: cover;" />
-    </div>
-  </div>
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var swiperThumbs = new Swiper(".eegSwiper", {
-      spaceBetween: 10,
-      slidesPerView: 4,
-      freeMode: true,
-      watchSlidesProgress: true,
-      clickable: true,
-      centeredSlides: true,
-    });
-    var swiperMain = new Swiper(".eegSwiper2", {
-      spaceBetween: 10,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      thumbs: {
-        swiper: swiperThumbs,
-      },
-      loop: true,
-      keyboard: {
-        enabled: true,
-      },
-    });
-  });
-</script>
-
-<style>
-  .swiper-slide-thumb-active {
-    opacity: 1 !important;
-  }
-</style>
 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>

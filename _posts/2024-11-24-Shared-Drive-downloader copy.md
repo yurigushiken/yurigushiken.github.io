@@ -26,7 +26,7 @@ subtitle: "Lab Tool: Automated backup for LCN Lab Shared Drive."
 
 ![Google Drive Backup Script in Action](https://raw.githubusercontent.com/yurigushiken/google-shared-drive-exporter/refs/heads/main/images/YouCut_20241115_174925804_1.gif)
 
-While working at the [Language and Cognitive Lab](https://www.tc.columbia.edu/lcl/) at Teachers College, I discovered a significant gap in Google Workspace: there's no native way to backup Shared Drives. No export option, no Takeout support. Manual downloads fail with large files, special characters in names, and Windows path length limits.
+While working at the [Language and Cognitive Lab](https://www.tc.columbia.edu/lcl/) at Teachers College, I discovered a gap in Google Workspace: there's no native way to backup Shared Drives. No export option, no Takeout support. Manual downloads fail with large files, special characters in names, and Windows path length limits.
 
 I developed a [Python script](https://github.com/yurigushiken/google-shared-drive-exporter) to address these limitations. The tool:
 - Sanitizes file names and paths
