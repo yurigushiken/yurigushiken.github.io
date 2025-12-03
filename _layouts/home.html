@@ -19,28 +19,28 @@ layout: default
     <div class="swiper introSwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="{{ '/media/cover-01.jpg' | relative_url }}" alt="Image 1" class="intro-carousel-image">
-          <p class="intro-carousel-caption">Image 1</p>
+          <img src="{{ '/media/cover-01.jpg' | relative_url }}" alt="Presenting Eye-Track ML at Columbia Data Science Day (April 2025)" class="intro-carousel-image">
+          <p class="intro-carousel-caption">Presenting Eye-Track ML at Columbia Data Science Day (April 2025)</p>
         </div>
         <div class="swiper-slide">
-          <img src="{{ '/media/cover-02.jpg' | relative_url }}" alt="Image 2" class="intro-carousel-image">
-          <p class="intro-carousel-caption">Image 2</p>
+          <img src="{{ '/media/cover-4.jpg' | relative_url }}" alt="Meeting Susan Carey at the LCN Lab (April 2025)" class="intro-carousel-image">
+          <p class="intro-carousel-caption">Meeting Susan Carey at the Language and Cognitive Neuroscience (LCN) Lab. (April 2025)</p>
         </div>
         <div class="swiper-slide">
-          <img src="{{ '/media/cover-03.png' | relative_url }}" alt="Image 3" class="intro-carousel-image">
-          <p class="intro-carousel-caption">Image 3</p>
+          <img src="{{ '/media/cover-02.jpg' | relative_url }}" alt="Teaching at Friends Seminary School, NYC (January 2025)" class="intro-carousel-image">
+          <p class="intro-carousel-caption">Teaching at Friends Seminary School, New York City. (January 2025)</p>
         </div>
         <div class="swiper-slide">
-          <img src="{{ '/media/cover-4.jpg' | relative_url }}" alt="Image 4" class="intro-carousel-image">
-          <p class="intro-carousel-caption">Image 4</p>
+          <img src="{{ '/media/cover-03.png' | relative_url }}" alt="Class project: Pose Prompter (December 2023)" class="intro-carousel-image">
+          <p class="intro-carousel-caption">Class project: Pose Prompter. Teachers College. (December 2023)</p>
         </div>
         <div class="swiper-slide">
-          <img src="{{ '/media/cover5.jpg' | relative_url }}" alt="Image 5" class="intro-carousel-image">
-          <p class="intro-carousel-caption">Image 5</p>
+          <img src="{{ '/media/cover5.jpg' | relative_url }}" alt="Presenting poster, CNS 2025 (March 2025)" class="intro-carousel-image">
+          <p class="intro-carousel-caption">Presenting poster, CNS 2025 (March 2025)</p>
         </div>
         <div class="swiper-slide">
-          <img src="{{ '/media/cover6.jpg' | relative_url }}" alt="Image 6" class="intro-carousel-image">
-          <p class="intro-carousel-caption">Image 6</p>
+          <img src="{{ '/media/cover6.jpg' | relative_url }}" alt="Presenting poster, EPA (March 2025)" class="intro-carousel-image">
+          <p class="intro-carousel-caption">Presenting poster, EPA (March 2025)</p>
         </div>
       </div>
       <div class="swiper-button-next"></div>
@@ -55,6 +55,10 @@ layout: default
     new Swiper('.introSwiper', {
       loop: true,
       spaceBetween: 10,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: true
+      },
       pagination: {
         el: '.introSwiper .swiper-pagination',
         clickable: true,
