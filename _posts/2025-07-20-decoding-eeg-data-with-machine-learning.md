@@ -3,7 +3,7 @@ layout: post
 title: "Decoding EEG Data with Machine Learning"
 date: 2025-07-20 11:00:00 -0400
 categories: research machine-learning eeg neuroscience deep-learning lcn-lab
-thumbnail: /media/eeg_nn-20250730_221656_landing_digit_cnn_all_trials_dataset_t001-overall.png
+thumbnail: /media/step1_landing_on_2_3_space_light_aug_step1B_0_496-20251010_094949_landing_on_2_3_eeg_step1_t026-overall confusion.png
 subtitle: "Using a unified deep learning framework to classify cognitive variables from EEG data."
 ---
 
