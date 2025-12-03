@@ -26,17 +26,25 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
     <div class="swiper-slide">
       <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/eeg_nn-20250719_1445_02_train_decoder_direction_binary fold3_confusion_02_train_decoder_direction_binary - Copy.png" alt="Binary Direction Task" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-20251010_094949_landing_on_2_3_eeg_step1_t026-overall confusion.png" alt="Landing on 2 vs. 3 Confusion Matrix" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">CNN performance on a binary task discriminating between increasing vs. decreasing number pairs. The model correctly identified decreasing pairs 74.6% of the time and increasing pairs 60.4% of the time. Chance is 50%.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Two-class confusion matrix for the landing 2 vs. landing 3 task. Ensemble accuracy reached 55.6% with balanced F1 scores for both classes.</p>
       </div>
     </div>
     <div class="swiper-slide">
       <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/eeg_nn-20250719_0500_02_train_decoder_land1_binaryoverall_confusion_02_train_decoder_land1_binary - Copy.png" alt="Binary Landing on 1 Task" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-importances-step1_landing_on_2_3_space_light_aug_step1B_0_496.png" alt="Hyperparameter Importances" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Binary classification for the 'landing on 1' task. The model correctly identified when the stimulus was *not* 1 (73.0% accuracy) and when it *was* 1 (64.4% accuracy). Chance is 50%.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Optuna hyperparameter importances. Time masking probability dominated the search, followed by early stopping and time-mask fraction.</p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-history-step1_landing_on_2_3_space_light_aug_step1B_0_496.png" alt="Optuna Optimization History" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+        </div>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Optimization history for the landing 2 vs. 3 search. The best trial plateaued at an objective value of ~98 after ~10 evaluations.</p>
       </div>
     </div>
   </div>
@@ -47,11 +55,14 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
 <!-- Bottom (Thumbs) Swiper -->
 <div thumbsSlider="" class="swiper eegNNSwiper" style="height: 100px; box-sizing: border-box; padding: 10px 0;">
   <div class="swiper-wrapper">
-    <div class="swiper-slide" style="width: 50%; height: 100%; opacity: 0.4;">
-      <img src="/media/eeg_nn-20250719_1445_02_train_decoder_direction_binary fold3_confusion_02_train_decoder_direction_binary - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
+    <div class="swiper-slide" style="width: 33%; height: 100%; opacity: 0.4;">
+      <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-20251010_094949_landing_on_2_3_eeg_step1_t026-overall confusion.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="width: 50%; height: 100%; opacity: 0.4;">
-      <img src="/media/eeg_nn-20250719_0500_02_train_decoder_land1_binaryoverall_confusion_02_train_decoder_land1_binary - Copy.png" style="width:100%; height: 100%; object-fit: cover;" />
+    <div class="swiper-slide" style="width: 33%; height: 100%; opacity: 0.4;">
+      <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-importances-step1_landing_on_2_3_space_light_aug_step1B_0_496.png" style="width:100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="swiper-slide" style="width: 33%; height: 100%; opacity: 0.4;">
+      <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-history-step1_landing_on_2_3_space_light_aug_step1B_0_496.png" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
   </div>
 </div>
@@ -60,7 +71,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
   document.addEventListener('DOMContentLoaded', function () {
     var swiperThumbs = new Swiper(".eegNNSwiper", {
       spaceBetween: 10,
-      slidesPerView: 2,
+      slidesPerView: 3,
       freeMode: true,
       watchSlidesProgress: true,
       clickable: true,
