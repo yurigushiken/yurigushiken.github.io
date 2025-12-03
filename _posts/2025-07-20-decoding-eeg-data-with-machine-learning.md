@@ -104,46 +104,35 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
   <div style="padding-top: 15px; color: #bbb;" markdown="1">
 
-### Decoding brain data
+### Scientific Motivation
 
-WE attempt to decode EEG brain signals using machine learning. The data is from projects at the Language and Cognitive Neuroscience Lab, Teachers College, Columbia University (Tang, 2022)
+Numerical cognition research proposes two core systems: **Parallel Individuation (PI)** for precise tracking of 1–3 items and the **Approximate Number System (ANS)** for ratio-based estimation of larger sets. We explore whether single-trial EEG can reveal that transition boundary and identify which numerosities have distinct neural signatures.
 
-### Approach
+### Dataset & Study Background
 
-We built a machine learning system that can analyze EEG data and classify the numerical processing a subject. We experimented with multiple neural network architectures:
+We re-analyze a 128-channel EEG dataset (N=24, 6,480 trials) collected at Teachers College, Columbia University. Participants performed an oddball task (1–6 dots) detecting numerical changes. Earlier ERP work (Tang-Lonardo, 2023) showed N1 amplitudes scale with small numbers while later components mirrored reaction times. We test whether those effects are decodable.
 
-**Raw EEG Processing:**
-- **CNN (Convolutional Neural Networks)**: Direct processing of time-series EEG data
-- **EEGNet variants**: Specialized architectures designed for EEG, including models with squeeze-and-excitation blocks
-- **Hybrid CNN-Transformer**: Combines convolutional processing with attention mechanisms
-- **Dual-Stream**: Processes both raw time-series and frequency-domain representations
+### Pipeline Overview
 
-**Advanced Adaptation:**
-- **T-TIME (Test-Time Adaptation)**: Allows models to adapt to individual subjects in real-time
+- Leak-free Leave-One-Subject-Out evaluation with staged Optuna searches and composite objectives.  
+- Multiple decoding targets: cardinality ranges (PI vs ANS), specific landing digits, and change/no-change contrasts.  
+- Standardized artifacts: confusion matrices, hyperparameter histories, and channel/time attributions to interpret model decisions.
 
-### Experimental "Tasks"
+### Findings
 
-We tested our system on subjects' data. The following are our "tasks":
+- **PI range (1–3)**: A three-way classifier reaches ~40% accuracy (chance 33%), with “1” consistently the easiest digit to decode.  
+- **Binary contrasts (e.g., landing on 2 vs 3)**: Achieve ~55–56% accuracy, demonstrating separable neural patterns even for adjacent small numerosities.  
+- Hyperparameter importance studies highlight temporal masking as critical for generalization across subjects.
 
-1. **Landing Digit Task**: When participants were primed with any number and the stimulus number of dots is 1, 2, 3, 4, 5, or 6
-2. **Decreasing Minus 1 Task**: When participants were primed with a number followed by a stimulus one number lower
-3. **Increasing or Decreasing**: When participants were primed with a number number followed by a lower or higher number
+### Why It Matters
 
-### Findings so far
+Above-chance decoding indicates that EEG contains information about both numerical ranges and individual landing digits. Mapping when performance breaks down helps us infer how the brain transitions from object tracking (PI) to approximate magnitude encoding (ANS)—knowledge that informs theories of early mathematical learning.
 
-The confusion matrices show that our models can distinguish between different numerical conditions above chance level, indicating that unique neural signatures exist for different types of numerical processing.
+### Next Steps
 
-### Technical 
-
-We have a unified training pipeline with:
-- Leave-One-Subject-Out cross-validation for robust evaluation
-- Automated hyperparameter optimization using Optuna
-- Standardized reporting and visualization across all model types
-- GPU acceleration (CUDA)
-
-### Future 
-
-We will make "tasks" for ratio, odd/even parity, and more. The framework extensible, as we can add new tasks, models, and analysis methods.
+- Extend tasks to ratio judgments, parity, and combined cardinality + landing digit decoding.  
+- Continue explainability studies to link successful classifications with specific cortical regions.  
+- Publish polished figures and run logs in the GitHub repo.
 
   </div>
 </details>
