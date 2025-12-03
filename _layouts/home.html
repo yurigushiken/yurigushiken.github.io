@@ -15,10 +15,48 @@ layout: default
     <p class="intro-subtitle">Work from <a href="https://www.tc.columbia.edu/lcl/" target="_blank">The Language and Cognitive Neuroscience Lab</a> (LCN Lab) (Teachers College), Instruction and Design, and Learning Projects.</p>
     <p class="intro-cv-link"><a href="{{ '/about/' | relative_url }}">About Yuri / CV</a></p>
   </div>
-  <div class="intro-headshot-container">
-    <img src="{{ '/media/cover-01.jpg' | relative_url }}" alt="Yuri Gushiken presenting recent work" class="intro-headshot">
+  <div class="intro-carousel-container">
+    <div class="swiper introSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="{{ '/media/cover-01.jpg' | relative_url }}" alt="Image 1" class="intro-carousel-image">
+          <p class="intro-carousel-caption">Image 1</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="{{ '/media/cover-02.jpg' | relative_url }}" alt="Image 2" class="intro-carousel-image">
+          <p class="intro-carousel-caption">Image 2</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="{{ '/media/cover-03.png' | relative_url }}" alt="Image 3" class="intro-carousel-image">
+          <p class="intro-carousel-caption">Image 3</p>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.introSwiper', {
+      loop: true,
+      spaceBetween: 10,
+      pagination: {
+        el: '.introSwiper .swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.introSwiper .swiper-button-next',
+        prevEl: '.introSwiper .swiper-button-prev',
+      },
+      keyboard: {
+        enabled: true,
+      },
+    });
+  });
+</script>
 
   {%- assign lcn_posts = site.posts | where_exp: "post", "post.categories contains 'lcn-lab'" -%}
   {%- assign instruction_posts = site.posts | where_exp: "post", "post.categories contains 'instruction'" -%}

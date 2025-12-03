@@ -148,17 +148,52 @@ hr {
   padding-bottom: 0;
 }
 
-.intro-headshot-container {
+.intro-carousel-container {
   width: 100%;
 }
 
-.intro-headshot {
-  display: block;
+.introSwiper {
+  width: 100%;
+  background-color: #1f1f1f;
+  border: 2px solid #4a4a4a;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.introSwiper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.intro-carousel-image {
   width: 100%;
   height: auto;
-  max-height: none;
+  max-height: 420px;
   object-fit: contain;
-  border: 2px solid #4a4a4a;
+}
+
+.intro-carousel-caption {
+  margin-top: 10px;
+  font-size: 0.95em;
+  color: #bbb;
+}
+
+.introSwiper .swiper-button-next,
+.introSwiper .swiper-button-prev {
+  color: #fff;
+}
+
+.introSwiper .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 0.4;
+}
+
+.introSwiper .swiper-pagination-bullet-active {
+  opacity: 1;
 }
 
 .intro-text {
