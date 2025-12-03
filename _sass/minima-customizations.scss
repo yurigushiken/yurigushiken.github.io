@@ -153,10 +153,11 @@ hr {
 }
 
 .intro-headshot {
+  display: block;
   width: 100%;
   height: auto;
-  max-height: 520px;
-  object-fit: cover;
+  max-height: none;
+  object-fit: contain;
   border: 2px solid #4a4a4a;
 }
 
