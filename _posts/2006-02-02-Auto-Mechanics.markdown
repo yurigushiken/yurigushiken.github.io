@@ -25,16 +25,16 @@ subtitle: "Auto mechanic and restorer."
 <div class="image-carousel">
   <div class="carousel-slides">
     <div class="carousel-slide">
-      <img src="/media/pontiac1.jpg" alt="Dismanteling Pontiac straight 6" />
-      <p><em>Dismanteling Pontiac straight 6</em></p>
+      <img src="/media/pontiac1.jpg" alt="Dismanteling Pontiac straight 6 (2006)" />
+      <p><em>Dismanteling Pontiac straight 6 (2006)</em></p>
     </div>
     <div class="carousel-slide">
-       <img src="/media/pontiac2.jpg" alt="Rebuilt and restored engine" />
-       <p><em>Rebuilt and restored engine</em></p>
+       <img src="/media/pontiac2.jpg" alt="Rebuilt and restored engine (2006)" />
+       <p><em>Rebuilt and restored engine (2006)</em></p>
     </div>
     <div class="carousel-slide">
-       <img src="/media/pontiac3.jpg" alt="Installing rebuilt engine" />
-       <p><em>Installing rebuilt engine</em></p>
+       <img src="/media/pontiac3.jpg" alt="Installing rebuilt engine (2006)" />
+       <p><em>Installing rebuilt engine (2006)</em></p>
     </div>
   </div>
   <button class="carousel-button prev">&#10094;</button>

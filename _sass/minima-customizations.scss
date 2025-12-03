@@ -141,28 +141,27 @@ hr {
 /* Homepage Intro Section Styles */
 .intro-section {
   display: flex;
-  align-items: center; /* Vertically aligns the center of the image with the center of the text block */
-  margin-top: 1em;    /* Optional space above this section */
-  margin-bottom: 0em; /* CHANGED - Was 0.25em */
-  padding-bottom: 0em; /* CHANGED - Was 0.25em */
-  // border-bottom: 1px solid #333; /* Optional subtle separator line */
+  flex-direction: column;
+  gap: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .intro-headshot-container {
-  flex-shrink: 0; /* Prevents the image container from shrinking */
-  margin-right: 25px; /* Space between the headshot and the text */
+  width: 100%;
 }
 
 .intro-headshot {
-  width: auto;        /* Ensure width adjusts to maintain aspect ratio */
-  height: 150px;       /* Keep the desired height */
-  object-fit: contain; /* Ensures the entire image fits within the dimensions, letterboxing if aspect ratios differ (though width:auto should prevent this) */
-  /* border-radius: 50%; */  /* Keep commented out for square/rectangular */
-  border: 2px solid #4a4a4a; /* Optional subtle border around the headshot */
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: cover;
+  border: 2px solid #4a4a4a;
 }
 
 .intro-text {
-  flex-grow: 1; /* Allows the text block to take up the remaining space */
+  flex-grow: 1;
 }
 
 .intro-title {
@@ -194,17 +193,6 @@ hr {
 
 /* Responsive adjustments for the intro section */
 @media screen and (max-width: 768px) { /* Adjust breakpoint if needed */
-  .intro-section {
-    flex-direction: column; /* Stack image on top of text */
-    align-items: flex-start; /* Align items to the start (left) when stacked */
-    text-align: left;     /* Align text to the left when stacked */
-  }
-
-  .intro-headshot-container {
-    margin-right: 0; /* Remove right margin when stacked */
-    margin-bottom: 1em; /* Add space below image when stacked */
-  }
-  
   .intro-title {
     font-size: 2.2em; /* Increased from 1.8em for mobile */
   }
