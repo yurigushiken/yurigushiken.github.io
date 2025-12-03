@@ -13,10 +13,11 @@ subtitle: "Infant eye-tracking analysis of give/show events."
   
   <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
-    <li>Collected eye-tracking data from 7-11-month-old infants and adults viewing "Give" and "Show" events.</li>
+    <li>Analyzed eye-tracking data from 7-11-month-old infants and adults viewing "Give" and "Show" events.</li>
     <li>Quantified gaze-transition strategies (Toy <-> Body, Face <-> Toy, Face <-> Face) to capture the developmental shift from tracking motion paths to linking social agents with objects.</li>
     <li>Validated that the shift disappears in inverted (upside-down) controls, indicating semantic rather than low-level visual drivers.</li>
     <li><a href="https://github.com/yurigushiken/ier_analysis" style="color: #7cc5ff;">View project on GitHub</a></li>
+    <li><a href="https://docs.google.com/document/d/1z3gO30xdPWrcsX5qYWvljeWNdxxwHL-vcqHfk6ucMcI/edit?tab=t.0" style="color: #7cc5ff;">Read our VSS abstract</a></li>
   </ul>
 </div>
 
