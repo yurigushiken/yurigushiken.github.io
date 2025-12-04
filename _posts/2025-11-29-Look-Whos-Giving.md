@@ -16,7 +16,7 @@ subtitle: "Infant eye-tracking analysis of give/show events."
     <li>Analyzed eye-tracking data from 7-11-month-old infants and adults viewing "Give" and "Show" events.</li>
     <li>Quantified gaze-transition strategies (Toy <-> Body, Face <-> Toy, Face <-> Face) to capture the developmental shift from tracking motion paths to linking social agents with objects.</li>
     <li>Validated that the shift disappears in inverted (upside-down) controls, indicating semantic rather than low-level visual drivers.</li>
-    <li><a href="https://github.com/yurigushiken/ier_analysis" style="color: #7cc5ff;">View project on GitHub</a></li>
+    <li><a href="https://github.com/yurigushiken/ier_analysis-2" style="color: #7cc5ff;">View project on GitHub</a></li>
     <li><a href="https://docs.google.com/document/d/1z3gO30xdPWrcsX5qYWvljeWNdxxwHL-vcqHfk6ucMcI/edit?tab=t.0" style="color: #7cc5ff;">Read our VSS abstract</a></li>
   </ul>
 </div>
@@ -27,25 +27,21 @@ subtitle: "Infant eye-tracking analysis of give/show events."
     <div class="swiper-slide">
       <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/infant_eye-tracking_v2.jpg" alt="Eye-tracking setup for give/show tasks" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          <img src="/media/infant_event-representations-v2-gif.gif" alt="Adult subject gaze pattern" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Eye-tracking calibration for 7-11-month-old participants.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">
+          Adult subject gaze pattern. (processed with <a href="https://yurigushiken.github.io/automation/tools/lcn-lab/2025/01/04/Coding-Machine.html" style="color: #7cc5ff;" target="_blank">Eye-Track RL project</a>)
+        </p>
       </div>
     </div>
     <div class="swiper-slide">
       <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/infant_event-representations-v2-gif.gif" alt="Event representation heatmaps" style="max-width: 100%; max-height: 90%; object-fit: contain;">
+          <img src="/media/infant_event-representations-original-video-gif.gif" alt="Infant event representations original" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Aggregated gaze heatmaps highlighting argument roles.</p>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/infant_eye-tracking_datasheet.png" alt="Scan path analysis sheet" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-        </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Transition matrices quantifying Toy <-> Body vs. Face <-> Toy strategies.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">
+          Infant Event Representations Original. <a href="https://www.youtube.com/watch?v=M90Rbu8EGZc&feature=youtu.be" style="color: #7cc5ff;" target="_blank">YouTube video</a>
+        </p>
       </div>
     </div>
   </div>
@@ -56,14 +52,11 @@ subtitle: "Infant eye-tracking analysis of give/show events."
 <!-- Bottom (Thumbs) Swiper -->
 <div thumbsSlider="" class="swiper givingSwiperThumbs" style="height: 100px; box-sizing: border-box; padding: 10px 0;">
   <div class="swiper-wrapper">
-    <div class="swiper-slide" style="width: 33%; height: 100%; opacity: 0.4;">
-      <img src="/media/infant_eye-tracking_v2.jpg" style="width:100%; height: 100%; object-fit: cover;" />
-    </div>
-    <div class="swiper-slide" style="width: 33%; height: 100%; opacity: 0.4;">
+    <div class="swiper-slide" style="width: 50%; height: 100%; opacity: 0.4;">
       <img src="/media/infant_event-representations-v2-gif.gif" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
-    <div class="swiper-slide" style="width: 33%; height: 100%; opacity: 0.4;">
-      <img src="/media/infant_eye-tracking_datasheet.png" style="width:100%; height: 100%; object-fit: cover;" />
+    <div class="swiper-slide" style="width: 50%; height: 100%; opacity: 0.4;">
+      <img src="/media/infant_event-representations-original-video-gif.gif" style="width:100%; height: 100%; object-fit: cover;" />
     </div>
   </div>
 </div>
@@ -72,7 +65,7 @@ subtitle: "Infant eye-tracking analysis of give/show events."
   document.addEventListener('DOMContentLoaded', function () {
     var givingThumbs = new Swiper(".givingSwiperThumbs", {
       spaceBetween: 10,
-      slidesPerView: 3,
+      slidesPerView: 2,
       freeMode: true,
       watchSlidesProgress: true,
       clickable: true,

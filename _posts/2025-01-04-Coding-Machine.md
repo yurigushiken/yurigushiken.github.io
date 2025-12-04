@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Coding Machine for coding Eye-tracking AOIs"
+title: "Eye-Track ML: Coding Machine for coding Eye-tracking AOIs"
 date: 2025-01-04 12:00:00 -0400
 categories: Automation Tools lcn-lab
 thumbnail: https://raw.githubusercontent.com/yurigushiken/yurigushiken.github.io/main/media/infant_event-representations-original-video-gif.gif
-subtitle: "Methods: An ML and rule-based workflow to automate frame-by-frame coding of eye-tracking video data."
+subtitle: "Methods: Eye-Track ML automates frame-by-frame coding of eye-tracking video data."
 ---
 
 <div style="padding: 15px; border: 1px solid #555; border-radius: 5px; margin-bottom: 20px; background-color: #333a45;">
   <h3 style="margin-top: 0; color: #eee;">What it is:</h3>
-  <p style="font-size: 1.1em; color: #ccc;">An ML and rule-based workflow to automate frame-by-frame coding of eye-tracking video data (see subsequent poster: <a href="https://yurigushiken.github.io/academic/research/lcn-lab/2025/03/04/Columbia-AI-Summit-poster-contribution.html" style="color: #7cc5ff;">Columbia AI Summit Poster</a>)</p>
+  <p style="font-size: 1.1em; color: #ccc;">Eye-Track ML is a machine learning and rule-based workflow to automate frame-by-frame coding of eye-tracking video data (see subsequent poster: <a href="https://yurigushiken.github.io/academic/research/lcn-lab/2025/03/04/Columbia-AI-Summit-poster-contribution.html" style="color: #7cc5ff;">Columbia AI Summit Poster</a>)</p>
   
   <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
