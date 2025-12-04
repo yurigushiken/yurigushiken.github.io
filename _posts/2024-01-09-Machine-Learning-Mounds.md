@@ -15,7 +15,7 @@ subtitle: "A project to map terrestrial anomalies (called 'mounds') across the U
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
     <li>Develop an interactive web application to visualize mound data.</li>
     <li>Continuously expand mound mapping coverage, with updates for areas like Arkansas and plans for the entire USA.</li>
-    <li>Identified 1.2 million mounds in Arkansas</li>
+    <li>Mapped extensive mound distributions across Arkansas</li>
   </ul>
 </div>
 

@@ -28,7 +28,7 @@ subtitle: "Using a unified deep learning framework to classify cognitive variabl
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-20251010_094949_landing_on_2_3_eeg_step1_t026-overall confusion.png" alt="Landing on 2 vs. 3 Confusion Matrix" style="max-width: 100%; max-height: 90%; object-fit: contain;">
         </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Two-class confusion matrix for the landing 2 vs. landing 3 task. Ensemble accuracy reached 55.6% with balanced F1 scores for both classes.</p>
+        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Two-class confusion matrix for the landing 2 vs. landing 3 task. Ensemble accuracy performed above chance level with balanced performance for both classes.</p>
       </div>
     </div>
     <div class="swiper-slide">
@@ -120,8 +120,8 @@ We re-analyze a 128-channel EEG dataset (N=24, 6,480 trials) collected at Teache
 
 ### Findings
 
-- **PI range (1–3)**: A three-way classifier reaches ~40% accuracy (chance 33%), with “1” consistently the easiest digit to decode.  
-- **Binary contrasts (e.g., landing on 2 vs 3)**: Achieve ~55–56% accuracy, demonstrating separable neural patterns even for adjacent small numerosities.  
+- **PI range (1–3)**: A three-way classifier performs above baseline chance levels, with "1" consistently the easiest digit to decode.
+- **Binary contrasts (e.g., landing on 2 vs 3)**: Achieve above-chance classification, demonstrating separable neural patterns even for adjacent small numerosities.  
 - Hyperparameter importance studies highlight temporal masking as critical for generalization across subjects.
 
 ### Why It Matters
