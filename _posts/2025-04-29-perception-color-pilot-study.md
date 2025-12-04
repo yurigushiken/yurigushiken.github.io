@@ -18,7 +18,6 @@ subtitle: "An IRB-pending web-based psychophysics experiment."
     <li>Develop a web-based experiment using React, JavaScript, and Firebase.</li>
     <li>Design controlled visual stimuli leveraging perceptually uniform color spaces.</li>
     <li>Conduct quantitative analysis of psychometric and behavioral data.</li>
-    <li>Submit application to IRB (update: Pending -May 2025).</li>
   </ul>
   
   <!-- Add links here if applicable, e.g., GitHub repo, Live Demo -->
@@ -172,11 +171,10 @@ subtitle: "An IRB-pending web-based psychophysics experiment."
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
   <div style="padding-top: 15px; color: #bbb;" markdown="1">
-_Can Value Change What We See (and Do)?_
 
-The primary goal of this project is to test Donald Hoffman's Interface Theory (ITP); a secondary objective is developing our skills in experimental design, stimulus creation, stimulus presentation, and psychophysics research.
+Donald Hoffman's Interface Theory of Perception (ITP) posits that sensory systems evolved to track fitness payoffs rather than objective truth, suggesting that perception is dynamically tuned by utility rather than fixed properties. We test this hypothesis using a psychophysical adaptive staircase to determine if differential reward values can induce a measurable shift in the Point of Subjective Equivalence (PSE) during color categorization.
 
-Hoffman's Interface Theory of Perception (ITP) proposes that our senses didn't evolve to show us objective reality, but rather a 'user interface' tuned to fitness payoffs – things relevant to survival and reproduction. This theory predicts that perception isn't fixed; for example, the perceived boundary between colors might shift depending on the 'value' we learn to associate with them. Our experiment investigates this directly, using point rewards to see if we can induce such a shift in color categorization.
+The objective of this project began as a test of Dr. Donald Hoffman's Interface Theory of Perception (ITP). I think there is a logical error in the experiment design, so the objective of this project now is developing my skills in experimental design, stimulus creation, stimulus presentation, and psychophysics research.
 
 A challenge in perception research is separating genuine perceptual changes from conscious strategies. We're currently iterating on our design to better isolate the perceptual effects we're interested in.
 
