@@ -16,89 +16,10 @@ subtitle: "Mapping the neural geometry of numerosity using deep learning Represe
     <li>Trained compact CNN (EEGNeX) decoders on every numerosity pair (1-6) to measure brain representational distances.</li>
     <li>Generated Representational Dissimilarity Matrices (RDMs) that reveal the PI-to-ANS transition and divisibility effects.</li>
     <li>Controlled for visual confounds (pixel area) via RSA-style partial correlations and deterministic LOSO splits.</li>
+    <li>Enforced nested, subject-aware CV (outer LOSO, inner GroupKFold) so Optuna, early stopping, and refits stay leak-free while outer folds ensemble or refit cleanly.</li>
     <li><a href="https://github.com/yurigushiken/numbers_eeg_nn_project" style="color: #7cc5ff;">View project on GitHub</a></li>
   </ul>
 </div>
-
-<!-- Top (Main) Swiper -->
-<div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #333; margin-bottom: 10px; background-color: #383838;" class="swiper eegNNSwiper2">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-20251010_094949_landing_on_2_3_eeg_step1_t026-overall confusion.png" alt="Landing on 2 vs. 3 Confusion Matrix" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-        </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Two-class confusion matrix for the landing 2 vs. landing 3 task. Ensemble accuracy performed above chance level with balanced performance for both classes.</p>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-importances-step1_landing_on_2_3_space_light_aug_step1B_0_496.png" alt="Hyperparameter Importances" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-        </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Optuna hyperparameter importances. Time masking probability dominated the search, followed by early stopping and time-mask fraction.</p>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div style="text-align: center; border: 1px solid #ddd; padding: 10px; height: 400px; display: flex; flex-direction: column; justify-content: space-between;">
-        <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-          <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-history-step1_landing_on_2_3_space_light_aug_step1B_0_496.png" alt="Optuna Optimization History" style="max-width: 100%; max-height: 90%; object-fit: contain;">
-        </div>
-        <p style="text-align: center; font-size: 0.9em; margin-top: 10px; flex-shrink: 0;">Optimization history for the landing 2 vs. 3 search. The best trial plateaued at an objective value of ~98 after ~10 evaluations.</p>
-      </div>
-    </div>
-  </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-</div>
-
-<!-- Bottom (Thumbs) Swiper -->
-<div thumbsSlider="" class="swiper eegNNSwiper" style="height: 100px; box-sizing: border-box; padding: 10px 0;">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide" style="width: 33%; height: 100%; opacity: 0.4;">
-      <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-20251010_094949_landing_on_2_3_eeg_step1_t026-overall confusion.png" style="width:100%; height: 100%; object-fit: cover;" />
-    </div>
-    <div class="swiper-slide" style="width: 33%; height: 100%; opacity: 0.4;">
-      <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-importances-step1_landing_on_2_3_space_light_aug_step1B_0_496.png" style="width:100%; height: 100%; object-fit: cover;" />
-    </div>
-    <div class="swiper-slide" style="width: 33%; height: 100%; opacity: 0.4;">
-      <img src="/media/step1_landing_on_2_3_space_light_aug_step1B_0_496-history-step1_landing_on_2_3_space_light_aug_step1B_0_496.png" style="width:100%; height: 100%; object-fit: cover;" />
-    </div>
-  </div>
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var swiperThumbs = new Swiper(".eegNNSwiper", {
-      spaceBetween: 10,
-      slidesPerView: 3,
-      freeMode: true,
-      watchSlidesProgress: true,
-      clickable: true,
-      centeredSlides: false,
-    });
-    var swiperMain = new Swiper(".eegNNSwiper2", {
-      spaceBetween: 10,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      thumbs: {
-        swiper: swiperThumbs,
-      },
-      loop: true,
-      keyboard: {
-        enabled: true,
-      },
-    });
-  });
-</script>
-
-<style>
-  .swiper-slide-thumb-active {
-    opacity: 1 !important;
-  }
-</style>
 
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
