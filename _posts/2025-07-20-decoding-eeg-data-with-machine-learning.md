@@ -16,7 +16,7 @@ subtitle: "Mapping the neural geometry of numerosity using deep learning Represe
     <li>Trained compact CNN (EEGNeX) decoders on every numerosity pair (1-6) to measure brain representational distances.</li>
     <li>Generated Representational Dissimilarity Matrices (RDMs) that reveal the PI-to-ANS transition and divisibility effects.</li>
     <li>Controlled for visual confounds (pixel area) via RSA-style partial correlations and deterministic LOSO splits.</li>
-    <li>Enforced nested, subject-aware CV (outer LOSO, inner GroupKFold) so Optuna, early stopping, and refits stay leak-free while outer folds ensemble or refit cleanly.</li>
+    <li>Nested, subject-aware CV (outer LOSO, inner GroupKFold) so Optuna, early stopping, and refits stay leak-free. outer folds ensemble.</li>
     <li><a href="https://github.com/yurigushiken/numbers_eeg_nn_project" style="color: #7cc5ff;">View project on GitHub</a></li>
   </ul>
 </div>
