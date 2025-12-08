@@ -38,26 +38,24 @@ Cognitive neuroscience proposes two distinct systems for processing quantities:
 1. **Parallel Individuation (PI):** Processes small numbers via rapid, precise "object files."
 2. **Approximate Number System (ANS):** Processes larger numbers via magnitude estimation, where precision follows Weber's law.
 
-### The Geometric Debate
+### This project asks
 
-While the existence of these systems is established, the precise neural geometry of the transition remains debated. Does the brain switch systems abruptly? Are small numbers represented as distinct "slots," or do they form a categorical cluster?
-
-**This project asks:** Can we use Convolutional Neural Networks (CNNs) to map the representational state space of numerosity?
+Can we use Convolutional Neural Networks (CNNs) to map the representational state space of numerosity?
 
 Specifically:
-- **The Boundary:** Can we decode the exact transition between the precision of PI and the approximation of ANS?
+- **The Boundary:** Can we reveal patterns that suggest a clean divide between 'small' and 'large' numbers?
 - **The Structure:** Is there a unique representational geometry within the small-number range?
-- **Grouping:** Does the brain utilize grouping mechanisms to represent composite numbers?
+- **Grouping:** Does the brain use grouping mechanisms to represent composite numbers?
 
 ## Study Background
 
-This project analyzes data from a numerical oddball task (N=24 adults, 6,480 trials). Participants viewed dot arrays while EEG was recorded. Unlike traditional ERP analyses that average signals across electrodes, we apply **Deep Learning RSA** to decode fine-grained spatiotemporal patterns from raw, single-trial data.
+This project analyzes data from a numerical oddball task (N=24 adults, 6,480 trials). Participants viewed dot arrays while EEG was recorded. We apply **Deep Learning RSA** to decode fine-grained spatiotemporal patterns from raw, single-trial data.
 
 ## What This Pipeline Does
 
-This repository implements a rigorous pipeline that uses a compact CNN (**EEGNeX**) as a distance metric for Representational Similarity Analysis.
+This repository implements a pipeline that uses a compact CNN (**EEGNeX**) as a distance metric for Representational Similarity Analysis.
 
-Instead of standard correlation-based RSA, we:
+Representational Similarity Analysis (RSA):
 1. Train neural networks to distinguish every possible pair of numerosities.
 2. Use **decoding accuracy** as the measure of representational dissimilarity.
 3. Construct a **Representational Dissimilarity Matrix (RDM)** to visualize the neural geometry.
@@ -70,16 +68,16 @@ Instead of standard correlation-based RSA, we:
 By projecting our Deep Learning RDM into 2D space (Multidimensional Scaling), we uncovered a non-linear architecture of number processing in the adult brain.
 
 **1. System Distinctness & Boundary:**  
-We identified a representational boundary that delineates the limit of the object-tracking system. We confirm the existence of two distinct neural codes for small versus large quantities, with a clear transition between them.
+...
 
 **2. Structure Within Object Tracking:**  
-The subitizing range is not composed of uniformly distinct slots. Instead, numerosities 2-4 form a similarity cluster, with numerosity 1 remaining uniquely decodable.
+The subitizing range is not composed of uniformly distinct slots. Numerosities 2-4 form a similarity cluster.
 
 **3. The Divisibility Effect:**  
-Classification accuracy is higher for prime pairs (e.g., 3 vs 5) than for factor-multiple pairs (e.g., 3 vs 6), revealing a previously unreported grouping heuristic in the neural state space. Numerosity 5 behaves as a hinge between systems and is more separable from small numbers than numerosity 6.
+High confusion between numerosities 5 and 6. 
 
 ### Robustness to Visual Confounds
-We performed a rigorous control analysis to ensure these results were not driven by low-level visual features.
+We performed a control analysis to ensure these results were not driven by low-level visual features.
 
 ## Supported Workflows
 
