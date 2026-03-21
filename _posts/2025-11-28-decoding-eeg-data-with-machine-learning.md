@@ -19,6 +19,11 @@ subtitle: "Using single-trial EEG and RSA to study numerosity representations."
   </ul>
 </div>
 
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/media/Screenshot%202025-12-07%20052932.png" alt="Archived preview of EEG numerosity RSA figures" style="max-width: 100%; width: 420px; height: auto; border: 1px solid #444;" />
+  <p style="font-size: 0.9em; color: #bbb; margin-top: 8px;"><em>Archived preview of the MDS and RDM figure files currently available in this project.</em></p>
+</div>
+
 <details style="margin-bottom: 20px; background-color: #282c34; padding: 15px; border-radius: 5px; border: 1px solid #444;">
   <summary style="cursor: pointer; font-weight: bold; color: #7cc5ff; font-size: 1.2em;">Read Full Project Details...</summary>
   <div style="padding-top: 15px; color: #bbb;" markdown="1">
