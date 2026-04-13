@@ -13,7 +13,7 @@ subtitle: "Poster presentation of Eye-Track-ML, an automated eye-tracking video 
   
   <h3 style="color: #eee;">What we did:</h3>
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
-    <li>Present "Eye-Track-ML" poster — an automated eye-tracking video coding pipeline — at Columbia Data Science Day 2025.</li>
+    <li>Present "Eye-Track-ML" poster, an automated eye-tracking video coding pipeline, at Columbia Data Science Day 2025.</li>
     <li>Demonstrate a machine learning pipeline using YOLOv11 and SAM2.1 to automate frame-by-frame coding of eye-tracking videos.</li>
   </ul>
 </div>
