@@ -15,7 +15,7 @@ subtitle: "Using a multi-agent workflow to write a joke."
   <ul style="font-size: 1.1em; list-style-type: disc; padding-left: 20px; color: #ccc;">
     <li>Use Microsoft's open-source software - Autogen Studio 2.0</li>
     <li>Set up a three-agent system: two "comedian" agents and one "Joke-Director" agent.</li>
-    <li>Wrangle chaotic multi-agent interactions through meticulous environment setup and prompt design</li>
+    <li>Wrangle chaotic multi-agent interactions with overly-complex environment setup and prompt design</li>
   </ul>
 </div>
 
