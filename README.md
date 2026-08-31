@@ -194,7 +194,6 @@ The site uses GitHub Pages for deployment. When changes are pushed to the main b
 
 ## Maintenance Tips
 
-- Update CV in `/media` directory as needed
 - Regularly check for broken links
 - Keep the repository clean by removing temporary files
 - Test the site after making significant changes

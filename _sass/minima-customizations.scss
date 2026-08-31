@@ -216,13 +216,13 @@ hr {
   line-height: 1.5;
 }
 
-.intro-cv-link {
+.intro-about-link {
   font-size: 0.95em;
-  margin-top: 0.75em; /* Space above the CV link */
+  margin-top: 0.75em; /* Space above the About link */
   margin-bottom: 0; /* ADDED: Remove bottom margin to reduce gap */
 }
 
-.intro-cv-link a {
+.intro-about-link a {
   text-decoration: underline; /* Standard link underline */
   /* color: #4da6ff; */ /* Uses default link color from theme, or uncomment to customize */
 }
