@@ -6,7 +6,7 @@ permalink: /about/
 
 # About
 
-My name is Yuri. I am a Ph.D. student in Education specializing in Learning Sciences at the University of Delaware.
+My name is Yuri. I am a Ph.D. student in Linguistics in the Department of Linguistics and Cognitive Science at the University of Delaware.
 
 ![Self Image](/media/self01.png)
 
